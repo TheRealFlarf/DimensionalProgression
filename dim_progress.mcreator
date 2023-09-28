@@ -1,0 +1,89 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "Overworld",
+            "children": []
+          },
+          {
+            "name": "Nether",
+            "children": []
+          },
+          {
+            "name": "End",
+            "children": []
+          },
+          {
+            "name": "Compatability",
+            "children": [
+              {
+                "name": "Aether",
+                "children": []
+              },
+              {
+                "name": "Everbright",
+                "children": []
+              },
+              {
+                "name": "Everdawn",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Reiverion",
+            "children": []
+          },
+          {
+            "name": "Neratia",
+            "children": []
+          },
+          {
+            "name": "Pergalon",
+            "children": []
+          },
+          {
+            "name": "Limbo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "External",
+        "children": []
+      },
+      {
+        "name": "Gameplay",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dim_progress",
+    "modName": "Dimensional Progression",
+    "version": "1.0.0",
+    "author": "flarf, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.therealflarf.dimprogress",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
