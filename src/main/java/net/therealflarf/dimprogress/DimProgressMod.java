@@ -16,6 +16,7 @@ package net.therealflarf.dimprogress;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.therealflarf.dimprogress.init.DimProgressModTabs;
 import net.therealflarf.dimprogress.init.DimProgressModItems;
 import net.therealflarf.dimprogress.init.DimProgressModFeatures;
 import net.therealflarf.dimprogress.init.DimProgressModBlocks;
@@ -55,6 +56,7 @@ public class DimProgressMod {
 
 		DimProgressModItems.REGISTRY.register(bus);
 
+		DimProgressModTabs.REGISTRY.register(bus);
 		DimProgressModFeatures.REGISTRY.register(bus);
 
 	}

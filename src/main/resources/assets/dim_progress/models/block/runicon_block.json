@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/runicon_block",
+    "particle": "dim_progress:block/runicon_block"
+  },
+  "render_type": "solid"
+}

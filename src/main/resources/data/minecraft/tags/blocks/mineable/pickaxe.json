@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "dim_progress:deepslate_runicon_ore"
+    "dim_progress:deepslate_runicon_ore",
+    "dim_progress:runicon_block",
+    "dim_progress:runic_stone_ring",
+    "dim_progress:runic_stone_pillar",
+    "dim_progress:runic_stone_portal_core",
+    "dim_progress:crystal_glass"
   ]
 }

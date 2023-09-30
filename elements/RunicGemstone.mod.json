@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "runicon_shard",
+    "texture": "runic_gemstone",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Runicon Shard",
-    "rarity": "COMMON",
+    "name": "Runic Gemstone",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:DPMisc"
     },
@@ -27,7 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

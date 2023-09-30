@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "dim_progress:runicon_shard"
+    },
+    "2": {
+      "item": "minecraft:stone"
+    },
+    "3": {
+      "item": "minecraft:stone"
+    },
+    "4": {
+      "item": "dim_progress:runic_gemstone"
+    },
+    "5": {
+      "item": "minecraft:stone"
+    },
+    "6": {
+      "item": "minecraft:stone"
+    },
+    "7": {
+      "item": "dim_progress:runicon_shard"
+    },
+    "8": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "dim_progress:runic_stone_pillar",
+    "count": 16
+  }
+}

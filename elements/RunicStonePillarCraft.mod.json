@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:RuniconShard"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:RuniconShard"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:RuniconShard"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RunicStonePillar"
+    },
+    "name": "runic_stone_pillar_craft",
+    "namespace": "mod"
+  }
+}

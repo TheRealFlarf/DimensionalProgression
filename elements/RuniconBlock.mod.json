@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "deepslate_runicon_ore",
+    "texture": "runicon_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -12,7 +12,7 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,21 +33,21 @@
         "subtract": false
       }
     ],
-    "name": "Deepslate Runicon Ore",
+    "name": "Block of Runicon",
     "specialInfo": [],
-    "hardness": 4.5,
-    "resistance": 3.0,
+    "hardness": 5.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:DPNatural"
+      "value": "CUSTOM:DPBuilding"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "DEEPSLATE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 8,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "isBonemealable": false,
@@ -117,22 +117,26 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Blocks.TUFF"
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#5"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 2,
-    "frequencyOnChunk": 8,
-    "minGenerateHeight": -64,
-    "maxGenerateHeight": -27
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

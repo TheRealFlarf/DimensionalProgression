@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dim_progress:block/runic_stone_pillar_end",
+    "up": "dim_progress:block/runic_stone_pillar_end",
+    "north": "dim_progress:block/runic_stone_pillar",
+    "east": "dim_progress:block/runic_stone_pillar",
+    "south": "dim_progress:block/runic_stone_pillar",
+    "west": "dim_progress:block/runic_stone_pillar",
+    "particle": "dim_progress:block/runic_stone_pillar_end"
+  },
+  "render_type": "solid"
+}

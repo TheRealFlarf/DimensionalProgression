@@ -35,14 +35,376 @@
         ]
       },
       "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RuniconBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runicon_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/runicon_block.json",
+          "src/main/resources/assets/dim_progress/models/item/runicon_block.json",
+          "src/main/resources/assets/dim_progress/models/block/runicon_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RuniconBlockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "DeepslateRuniconOreDrops",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_runicon_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/deepslate_runicon_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RuniconBlockCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runicon_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runicon_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "DPMisc",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_misc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gameplay/CTabs"
+    },
+    {
+      "name": "DPNatural",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_natural",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gameplay/CTabs"
+    },
+    {
+      "name": "DPBuilding",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_building",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gameplay/CTabs"
+    },
+    {
+      "name": "DPTools",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_tools",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gameplay/CTabs"
+    },
+    {
+      "name": "RunicGemstone",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_gemstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/RunicGemstoneItem.java",
+          "src/main/resources/assets/dim_progress/models/item/runic_gemstone.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicGemstoneCraft",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_gemstone_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_gemstone_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStoneRing",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/runic_stone_ring.json",
+          "src/main/resources/assets/dim_progress/blockstates/runic_stone_ring.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicStoneRingBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/runic_stone_ring.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStonePillar",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/RunicStonePillarBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/runic_stone_pillar.json",
+          "src/main/resources/assets/dim_progress/models/block/runic_stone_pillar.json",
+          "src/main/resources/assets/dim_progress/models/item/runic_stone_pillar.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicRings",
+      "type": "tag",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_rings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/blocks/runic_rings.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "RunicPillars",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_pillars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/blocks/runic_pillars.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "RunicPortalCores",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_portal_cores",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/blocks/runic_portal_cores.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "RunicStonePortalCore",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_portal_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/runic_stone_portal_core.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicStonePortalCoreBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/runic_stone_portal_core.json",
+          "src/main/resources/assets/dim_progress/models/block/runic_stone_portal_core.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStoneRingCraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_ring_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_stone_ring_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStonePillarCraft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_pillar_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_stone_pillar_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStoneRingCraftExtra",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_ring_craft_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_stone_ring_craft_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStonePillarExtra",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_pillar_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_stone_pillar_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicStonePortalCoreCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_stone_portal_core_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_stone_portal_core_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "CrystalGlass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/crystal_glass.json",
+          "src/main/resources/assets/dim_progress/blockstates/crystal_glass.json",
+          "src/main/resources/assets/dim_progress/models/item/crystal_glass.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrystalGlassBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "CrystalGlassSmelt",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_glass_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/crystal_glass_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "UpwardRunicPortal",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upward_runic_portal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/UpwardRunicPortalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gameplay/Multiblocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
+      "item.dim_progress.runic_gemstone": "Runic Gemstone",
+      "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
+      "item_group.dim_progress.dp_natural": "DP: Natural",
+      "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
+      "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
+      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
       "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
-      "item.dim_progress.runicon_shard": "Runicon Shard"
+      "block.dim_progress.runicon_block": "Block of Runicon",
+      "item.dim_progress.runicon_shard": "Runicon Shard",
+      "block.dim_progress.crystal_glass": "Crystal Glass",
+      "item_group.dim_progress.dp_building": "DP: Building"
     }
   },
   "foldersRoot": {
@@ -104,7 +466,16 @@
       },
       {
         "name": "Gameplay",
-        "children": []
+        "children": [
+          {
+            "name": "CTabs",
+            "children": []
+          },
+          {
+            "name": "Multiblocks",
+            "children": []
+          }
+        ]
       }
     ]
   },

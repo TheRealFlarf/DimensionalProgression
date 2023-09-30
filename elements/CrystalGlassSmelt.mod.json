@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.7,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RuniconShard"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrystalGlass"
+    },
+    "name": "crystal_glass_smelt",
+    "namespace": "mod"
+  }
+}
