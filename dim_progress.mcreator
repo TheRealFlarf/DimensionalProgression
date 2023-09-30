@@ -1,9 +1,49 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DeepslateRuniconOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_runicon_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/deepslate_runicon_ore.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DeepslateRuniconOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/deepslate_runicon_ore.json",
+          "src/main/resources/assets/dim_progress/models/block/deepslate_runicon_ore.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/ores/DeepslateRuniconOreFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/deepslate_runicon_ore.json",
+          "src/main/resources/assets/dim_progress/blockstates/deepslate_runicon_ore.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/deepslate_runicon_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RuniconShard",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runicon_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/RuniconShardItem.java",
+          "src/main/resources/assets/dim_progress/models/item/runicon_shard.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
+      "item.dim_progress.runicon_shard": "Runicon Shard"
+    }
   },
   "foldersRoot": {
     "name": "~",

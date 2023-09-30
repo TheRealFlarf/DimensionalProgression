@@ -16,6 +16,10 @@ package net.therealflarf.dimprogress;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.therealflarf.dimprogress.init.DimProgressModItems;
+import net.therealflarf.dimprogress.init.DimProgressModFeatures;
+import net.therealflarf.dimprogress.init.DimProgressModBlocks;
+
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
@@ -46,6 +50,12 @@ public class DimProgressMod {
 	public DimProgressMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DimProgressModBlocks.REGISTRY.register(bus);
+
+		DimProgressModItems.REGISTRY.register(bus);
+
+		DimProgressModFeatures.REGISTRY.register(bus);
 
 	}
 
