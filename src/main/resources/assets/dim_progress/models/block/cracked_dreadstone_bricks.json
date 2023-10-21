@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/cracked_dreadstone_bricks",
+    "particle": "dim_progress:block/cracked_dreadstone_bricks"
+  },
+  "render_type": "solid"
+}

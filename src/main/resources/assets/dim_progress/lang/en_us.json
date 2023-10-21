@@ -1,14 +1,21 @@
 {
+  "subtitles.portal_frame_activate": "Runic Portal Activates",
   "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
+  "block.dim_progress.dreadstone": "Dreadstone",
+  "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
   "item.dim_progress.runic_gemstone": "Runic Gemstone",
+  "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
+  "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
   "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
   "item_group.dim_progress.dp_natural": "DP: Natural",
   "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
   "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
+  "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
   "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
   "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
   "block.dim_progress.runicon_block": "Block of Runicon",
   "item.dim_progress.runicon_shard": "Runicon Shard",
   "block.dim_progress.crystal_glass": "Crystal Glass",
-  "item_group.dim_progress.dp_building": "DP: Building"
+  "item_group.dim_progress.dp_building": "DP: Building",
+  "item.dim_progress.nether_portal_charge": "Nether Portal Charge"
 }

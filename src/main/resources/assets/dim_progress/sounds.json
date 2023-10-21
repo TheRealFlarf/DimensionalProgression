@@ -1,0 +1,11 @@
+{
+  "portal_frame_activate": {
+    "subtitle": "subtitles.portal_frame_activate",
+    "sounds": [
+      {
+        "name": "dim_progress:portal_frame_activate",
+        "stream": false
+      }
+    ]
+  }
+}

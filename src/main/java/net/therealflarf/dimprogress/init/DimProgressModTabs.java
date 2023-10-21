@@ -10,6 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
@@ -27,6 +28,7 @@ public class DimProgressModTabs {
 	public static final RegistryObject<CreativeModeTab> DP_NATURAL = REGISTRY.register("dp_natural",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_natural")).icon(() -> new ItemStack(Blocks.GRASS_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(DimProgressModBlocks.DEEPSLATE_RUNICON_ORE.get().asItem());
+				tabData.accept(DimProgressModBlocks.DREADSTONE.get().asItem());
 			})
 
 					.build());
@@ -37,6 +39,16 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.RUNIC_STONE_PILLAR.get().asItem());
 				tabData.accept(DimProgressModBlocks.RUNIC_STONE_PORTAL_CORE.get().asItem());
 				tabData.accept(DimProgressModBlocks.CRYSTAL_GLASS.get().asItem());
+				tabData.accept(DimProgressModBlocks.DREADSTONE_BRICKS.get().asItem());
+				tabData.accept(DimProgressModBlocks.DREADSTONE_BRICK_STAIRS.get().asItem());
+				tabData.accept(DimProgressModBlocks.DREADSTONE_BRICK_SLAB.get().asItem());
+				tabData.accept(DimProgressModBlocks.CRACKED_DREADSTONE_BRICKS.get().asItem());
+			})
+
+					.build());
+	public static final RegistryObject<CreativeModeTab> DP_TOOLS = REGISTRY.register("dp_tools",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_tools")).icon(() -> new ItemStack(Items.DIAMOND_AXE)).displayItems((parameters, tabData) -> {
+				tabData.accept(DimProgressModItems.NETHER_PORTAL_CHARGE.get());
 			})
 
 					.build());

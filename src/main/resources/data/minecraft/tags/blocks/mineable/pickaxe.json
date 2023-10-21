@@ -6,6 +6,11 @@
     "dim_progress:runic_stone_ring",
     "dim_progress:runic_stone_pillar",
     "dim_progress:runic_stone_portal_core",
-    "dim_progress:crystal_glass"
+    "dim_progress:crystal_glass",
+    "dim_progress:dreadstone",
+    "dim_progress:dreadstone_bricks",
+    "dim_progress:dreadstone_brick_stairs",
+    "dim_progress:dreadstone_brick_slab",
+    "dim_progress:cracked_dreadstone_bricks"
   ]
 }

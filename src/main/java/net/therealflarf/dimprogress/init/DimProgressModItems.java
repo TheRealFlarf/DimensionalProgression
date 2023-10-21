@@ -6,6 +6,7 @@ package net.therealflarf.dimprogress.init;
 
 import net.therealflarf.dimprogress.item.RuniconShardItem;
 import net.therealflarf.dimprogress.item.RunicGemstoneItem;
+import net.therealflarf.dimprogress.item.NetherPortalChargeItem;
 import net.therealflarf.dimprogress.DimProgressMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -26,6 +27,12 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> RUNIC_STONE_PILLAR = block(DimProgressModBlocks.RUNIC_STONE_PILLAR);
 	public static final RegistryObject<Item> RUNIC_STONE_PORTAL_CORE = block(DimProgressModBlocks.RUNIC_STONE_PORTAL_CORE);
 	public static final RegistryObject<Item> CRYSTAL_GLASS = block(DimProgressModBlocks.CRYSTAL_GLASS);
+	public static final RegistryObject<Item> NETHER_PORTAL_CHARGE = REGISTRY.register("nether_portal_charge", () -> new NetherPortalChargeItem());
+	public static final RegistryObject<Item> DREADSTONE = block(DimProgressModBlocks.DREADSTONE);
+	public static final RegistryObject<Item> DREADSTONE_BRICKS = block(DimProgressModBlocks.DREADSTONE_BRICKS);
+	public static final RegistryObject<Item> DREADSTONE_BRICK_STAIRS = block(DimProgressModBlocks.DREADSTONE_BRICK_STAIRS);
+	public static final RegistryObject<Item> DREADSTONE_BRICK_SLAB = block(DimProgressModBlocks.DREADSTONE_BRICK_SLAB);
+	public static final RegistryObject<Item> CRACKED_DREADSTONE_BRICKS = block(DimProgressModBlocks.CRACKED_DREADSTONE_BRICKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

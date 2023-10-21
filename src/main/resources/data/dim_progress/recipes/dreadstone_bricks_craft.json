@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:dreadstone"
+    },
+    "1": {
+      "item": "dim_progress:dreadstone"
+    },
+    "2": {
+      "item": "dim_progress:dreadstone"
+    },
+    "3": {
+      "item": "dim_progress:dreadstone"
+    }
+  },
+  "result": {
+    "item": "dim_progress:dreadstone_bricks",
+    "count": 4
+  }
+}

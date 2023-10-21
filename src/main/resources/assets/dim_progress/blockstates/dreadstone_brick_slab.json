@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dim_progress:block/dreadstone_brick_slab"
+    },
+    "type=top": {
+      "model": "dim_progress:block/dreadstone_brick_slab_top"
+    },
+    "type=double": {
+      "model": "dim_progress:block/dreadstone_brick_slab_full"
+    }
+  }
+}

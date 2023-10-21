@@ -387,24 +387,200 @@
         ]
       },
       "path": "~/Gameplay/Multiblocks"
+    },
+    {
+      "name": "NetherPortalCharge",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_portal_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/NetherPortalChargeItem.java",
+          "src/main/resources/assets/dim_progress/models/item/nether_portal_charge.json"
+        ]
+      },
+      "path": "~/Dimensions/Nether"
+    },
+    {
+      "name": "Dreadstone",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/dreadstone.json",
+          "src/main/resources/assets/dim_progress/models/item/dreadstone.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneBricks",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_bricks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBricksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneBricksCraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadstone_bricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneBrickStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBrickStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_brick_stairs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneBrickSlab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab_full.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab_top.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBrickSlabBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadstone_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadstone_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrackedDreadstoneBricks",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_dreadstone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/CrackedDreadstoneBricksBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/cracked_dreadstone_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/cracked_dreadstone_bricks.json",
+          "src/main/resources/assets/dim_progress/blockstates/cracked_dreadstone_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrackedDreadstoneBricksSmelt",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_dreadstone_bricks_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cracked_dreadstone_bricks_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "portal_frame_activate",
+      "files": [
+        "portal_frame_activate"
+      ],
+      "category": "block",
+      "subtitle": "Runic Portal Activates"
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.portal_frame_activate": "Runic Portal Activates",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
+      "block.dim_progress.dreadstone": "Dreadstone",
+      "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
       "item.dim_progress.runic_gemstone": "Runic Gemstone",
+      "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
+      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
       "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
       "item_group.dim_progress.dp_natural": "DP: Natural",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
+      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
       "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
       "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
       "block.dim_progress.runicon_block": "Block of Runicon",
       "item.dim_progress.runicon_shard": "Runicon Shard",
       "block.dim_progress.crystal_glass": "Crystal Glass",
-      "item_group.dim_progress.dp_building": "DP: Building"
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "item.dim_progress.nether_portal_charge": "Nether Portal Charge"
     }
   },
   "foldersRoot": {

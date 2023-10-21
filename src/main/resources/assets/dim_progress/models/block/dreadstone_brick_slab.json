@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dim_progress:block/dreadstone_bricks",
+    "top": "dim_progress:block/dreadstone_bricks",
+    "side": "dim_progress:block/dreadstone_bricks"
+  },
+  "render_type": "solid"
+}
