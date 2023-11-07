@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dim_progress:block/cut_felsandstone_top",
+    "up": "dim_progress:block/cut_felsandstone_top",
+    "north": "dim_progress:block/cut_felsandstone",
+    "east": "dim_progress:block/cut_felsandstone",
+    "south": "dim_progress:block/cut_felsandstone",
+    "west": "dim_progress:block/cut_felsandstone",
+    "particle": "dim_progress:block/cut_felsandstone_top"
+  },
+  "render_type": "solid"
+}

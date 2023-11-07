@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dim_progress:cut_felsandstone_bricks"
+  },
+  "result": "dim_progress:cut_felsandstone_brick_stairs"
+}

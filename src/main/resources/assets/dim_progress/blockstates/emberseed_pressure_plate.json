@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dim_progress:block/emberseed_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dim_progress:block/emberseed_pressure_plate_down"
+    }
+  }
+}

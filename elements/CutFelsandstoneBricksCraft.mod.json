@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CutFelsandstone"
+      },
+      {
+        "value": "CUSTOM:CutFelsandstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CutFelsandstone"
+      },
+      {
+        "value": "CUSTOM:CutFelsandstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CutFelsandstoneBricks"
+    },
+    "name": "cut_felsandstone_bricks_craft",
+    "namespace": "mod"
+  }
+}

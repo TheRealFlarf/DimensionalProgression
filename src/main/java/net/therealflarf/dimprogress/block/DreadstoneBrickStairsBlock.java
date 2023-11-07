@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class DreadstoneBrickStairsBlock extends StairBlock {
 	public DreadstoneBrickStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 11f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 11f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

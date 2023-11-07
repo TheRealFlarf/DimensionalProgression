@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dim_progress:block/firebloom",
+    "particle": "dim_progress:block/firebloom"
+  },
+  "render_type": "cutout"
+}

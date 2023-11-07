@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:felsand"
+    },
+    "1": {
+      "item": "dim_progress:felsand"
+    },
+    "2": {
+      "item": "dim_progress:felsand"
+    },
+    "3": {
+      "item": "dim_progress:felsand"
+    }
+  },
+  "result": {
+    "item": "dim_progress:felsandstone",
+    "count": 1
+  }
+}

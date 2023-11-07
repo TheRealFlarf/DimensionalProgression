@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dim_progress:block/emberseed_log_end",
+    "up": "dim_progress:block/emberseed_log_end",
+    "north": "dim_progress:block/emberseed_log",
+    "east": "dim_progress:block/emberseed_log",
+    "south": "dim_progress:block/emberseed_log",
+    "west": "dim_progress:block/emberseed_log",
+    "particle": "dim_progress:block/emberseed_log_end"
+  },
+  "render_type": "solid"
+}

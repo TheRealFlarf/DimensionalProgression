@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/sunlit_silica_glass",
+    "particle": "dim_progress:block/sunlit_silica_glass"
+  },
+  "render_type": "translucent"
+}

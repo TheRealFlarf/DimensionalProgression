@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class DreadstoneBrickSlabBlock extends SlabBlock {
 	public DreadstoneBrickSlabBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 11f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 11f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

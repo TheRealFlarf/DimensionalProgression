@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "dim_progress:block/cut_felsandstone_bricks",
+    "top": "dim_progress:block/cut_felsandstone_bricks",
+    "side": "dim_progress:block/cut_felsandstone_bricks"
+  },
+  "render_type": "solid"
+}

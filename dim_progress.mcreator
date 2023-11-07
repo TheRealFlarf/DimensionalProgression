@@ -547,6 +547,988 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Crimsoil",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimsoil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/crimsoil.json",
+          "src/main/resources/assets/dim_progress/models/item/crimsoil.json",
+          "src/main/resources/assets/dim_progress/blockstates/crimsoil.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsoilBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonCrimsoilGrass",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_crimsoil_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/crimson_crimsoil_grass.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsonCrimsoilGrassBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/crimson_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/models/item/crimson_crimsoil_grass.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DeadCrimsoilGrass",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_crimsoil_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/dead_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/models/item/dead_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/models/block/dead_crimsoil_grass.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DeadCrimsoilGrassBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunburstZiolip",
+      "type": "plant",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunburst_ziolip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/sunburst_ziolip.json",
+          "src/main/java/net/therealflarf/dimprogress/block/SunburstZiolipBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/sunburst_ziolip.json",
+          "src/main/resources/assets/dim_progress/models/block/sunburst_ziolip.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagentaZiolip",
+      "type": "plant",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_ziolip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/magenta_ziolip.json",
+          "src/main/resources/assets/dim_progress/models/item/magenta_ziolip.json",
+          "src/main/resources/assets/dim_progress/blockstates/magenta_ziolip.json",
+          "src/main/java/net/therealflarf/dimprogress/block/MagentaZiolipBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PurpleZiolip",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_ziolip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/purple_ziolip.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PurpleZiolipBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/purple_ziolip.json",
+          "src/main/resources/assets/dim_progress/blockstates/purple_ziolip.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunburstZiolipDye",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunburst_ziolip_dye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/sunburst_ziolip_dye.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagentaZiolipDye",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_ziolip_dye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/magenta_ziolip_dye.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PurpleZiolipDye",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_ziolip_dye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/purple_ziolip_dye.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Firebloom",
+      "type": "plant",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/firebloom.json",
+          "src/main/resources/assets/dim_progress/models/item/firebloom.json",
+          "src/main/resources/assets/dim_progress/models/block/firebloom.json",
+          "src/main/java/net/therealflarf/dimprogress/block/FirebloomBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "FirebloomDye",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebloom_dye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/firebloom_dye.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedLog",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_log.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedLogBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_log.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_log.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedPlanks",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/emberseed_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedPlanksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_planks.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_stairs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedSlabBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedPlanksCraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedStairsCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedSlabCraft",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedFence",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedFenceBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_post.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_inventory.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_fence.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedFenceGate",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedFenceGateBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_open.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedFenceCraft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_fence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_fence_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedFenceGateCraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_fence_gate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_fence_gate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedPressurePlate",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/emberseed_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_pressure_plate_down.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_pressure_plate.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedPressurePlateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_pressure_plate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedButton",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/emberseed_button.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_button.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_button_inventory.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedButtonBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_button_pressed.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_button.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedButtonCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_button_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_button_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VPlanks",
+      "type": "tag",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "VLogs",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/logs.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "Felsand",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felsand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/felsand.json",
+          "src/main/resources/assets/dim_progress/blockstates/felsand.json",
+          "src/main/java/net/therealflarf/dimprogress/block/FelsandBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/felsand.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Felsandstone",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felsandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/felsandstone.json",
+          "src/main/java/net/therealflarf/dimprogress/block/FelsandstoneBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/felsandstone.json",
+          "src/main/resources/assets/dim_progress/models/block/felsandstone.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstone",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone.json",
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBricks",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_bricks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBricksBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_bricks.json",
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickStairs",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_brick_stairs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBrickStairsBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_stairs_outer.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickSlab",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBrickSlabBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "FelsandstoneCraft",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felsandstone_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/felsandstone_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneCraft",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneStonecut",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBricksCraft",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_bricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBricksStonecut",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_bricks_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_bricks_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBricksStonecut2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_bricks_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_bricks_stonecut_2.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickStairsStonecut",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickStairsStonecut2",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_stairs_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_stairs_stonecut_2.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickStairsStonecut3",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_stairs_stonecut_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_stairs_stonecut_3.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickSlabStonecut",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickSlabStonecut2",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_slab_stonecut_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_slab_stonecut_2.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CutFelsandstoneBrickSlabStonecut3",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_felsandstone_brick_slab_stonecut_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cut_felsandstone_brick_slab_stonecut_3.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilica",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/SunlitSilicaBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/sunlit_silica.json",
+          "src/main/resources/assets/dim_progress/blockstates/sunlit_silica.json",
+          "src/main/resources/assets/dim_progress/models/item/sunlit_silica.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilicaGlass",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/SunlitSilicaGlassBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/sunlit_silica_glass.json",
+          "src/main/resources/assets/dim_progress/models/item/sunlit_silica_glass.json",
+          "src/main/resources/assets/dim_progress/blockstates/sunlit_silica_glass.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilicaGlassCraft",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_glass_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/sunlit_silica_glass_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilicaGlassStonecut",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_glass_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/sunlit_silica_glass_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilicaGlassSmelt",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_glass_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/sunlit_silica_glass_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonSprigs",
+      "type": "plant",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_sprigs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/crimson_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/item/crimson_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/CrimsonSprigsFeature.java",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/crimson_sprigs_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsonSprigsBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/crimson_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DeadPergalonSprigs",
+      "type": "plant",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_pergalon_sprigs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/dead_pergalon_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DeadPergalonSprigsBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/dead_pergalon_sprigs.json",
+          "src/main/resources/assets/dim_progress/blockstates/dead_pergalon_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VDirt",
+      "type": "tag",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "VSand",
+      "type": "tag",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/sand.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "CrimsonPlains",
+      "type": "biome",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/crimson_plains.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Pergalon",
+      "type": "dimension",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/dimension/PergalonDimension.java",
+          "src/main/resources/assets/dim_progress/models/block/pergalon_portal_ew.json",
+          "src/main/resources/assets/dim_progress/models/block/pergalon_portal_ns.json",
+          "src/main/java/net/therealflarf/dimprogress/world/teleporter/PergalonPortalShape.java",
+          "src/main/resources/data/dim_progress/dimension_type/pergalon.json",
+          "src/main/resources/data/dim_progress/dimension/pergalon.json",
+          "src/main/java/net/therealflarf/dimprogress/world/teleporter/PergalonTeleporter.java",
+          "src/main/java/net/therealflarf/dimprogress/block/PergalonPortalBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/pergalon_portal.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonPortalCharge",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_portal_charge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/pergalon_portal_charge.json",
+          "src/main/java/net/therealflarf/dimprogress/item/PergalonPortalChargeItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Basic",
+      "type": "biome",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/basic.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "WorldgenTest",
+      "type": "dimension",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "worldgen_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/dimension/worldgen_test.json",
+          "src/main/java/net/therealflarf/dimprogress/block/WorldgenTestPortalBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/worldgen_test_portal.json",
+          "src/main/java/net/therealflarf/dimprogress/item/WorldgenTestItem.java",
+          "src/main/resources/assets/dim_progress/models/item/worldgen_test.json",
+          "src/main/java/net/therealflarf/dimprogress/world/teleporter/WorldgenTestPortalShape.java",
+          "src/main/resources/data/dim_progress/dimension_type/worldgen_test.json",
+          "src/main/resources/assets/dim_progress/models/block/worldgen_test_portal_ew.json",
+          "src/main/resources/assets/dim_progress/models/block/worldgen_test_portal_ns.json",
+          "src/main/java/net/therealflarf/dimprogress/world/dimension/WorldgenTestDimension.java",
+          "src/main/java/net/therealflarf/dimprogress/world/teleporter/WorldgenTestTeleporter.java"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
     }
   ],
   "variable_elements": [],
@@ -562,25 +1544,54 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.portal_frame_activate": "Runic Portal Activates",
-      "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
-      "block.dim_progress.dreadstone": "Dreadstone",
-      "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
+      "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
+      "block.dim_progress.emberseed_fence": "Emberseed Fence",
+      "block.dim_progress.sunlit_silica": "Sunlit Silica",
       "item.dim_progress.runic_gemstone": "Runic Gemstone",
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
-      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
       "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
+      "biome.dim_progress.crimson_plains": "Crimson Plains",
       "item_group.dim_progress.dp_natural": "DP: Natural",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
-      "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "block.dim_progress.emberseed_planks": "Emberseed Planks",
+      "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
+      "subtitles.portal_frame_activate": "Runic Portal Activates",
+      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
+      "biome.dim_progress.basic": "Basic",
+      "block.dim_progress.emberseed_slab": "Emberseed Slab",
+      "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
+      "block.dim_progress.firebloom": "Firebloom",
+      "block.dim_progress.emberseed_log": "Emberseed Log",
+      "block.dim_progress.crimsoil": "Crimsoil",
       "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
       "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
       "block.dim_progress.runicon_block": "Block of Runicon",
+      "block.dim_progress.felsandstone": "Felsandstone",
+      "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
+      "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
+      "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
+      "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
+      "block.dim_progress.felsand": "Felsand",
+      "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
+      "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
+      "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
+      "block.dim_progress.purple_ziolip": "Purple Ziolip",
       "item.dim_progress.runicon_shard": "Runicon Shard",
-      "block.dim_progress.crystal_glass": "Crystal Glass",
-      "item_group.dim_progress.dp_building": "DP: Building",
-      "item.dim_progress.nether_portal_charge": "Nether Portal Charge"
+      "block.dim_progress.emberseed_button": "Emberseed Button",
+      "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
+      "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
+      "block.dim_progress.dreadstone": "Dreadstone",
+      "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
+      "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
+      "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
+      "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",
+      "block.dim_progress.cut_felsandstone": "Cut Felsandstone",
+      "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
+      "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
+      "block.dim_progress.crystal_glass": "Crystal Glass"
     }
   },
   "foldersRoot": {

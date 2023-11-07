@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:sunlit_silica"
+    },
+    "1": {
+      "item": "dim_progress:sunlit_silica"
+    },
+    "2": {
+      "item": "dim_progress:sunlit_silica"
+    },
+    "3": {
+      "item": "dim_progress:sunlit_silica"
+    }
+  },
+  "result": {
+    "item": "dim_progress:sunlit_silica_glass",
+    "count": 4
+  }
+}

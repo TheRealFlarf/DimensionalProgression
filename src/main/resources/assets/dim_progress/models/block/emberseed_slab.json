@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dim_progress:block/emberseed_planks",
+    "top": "dim_progress:block/emberseed_planks",
+    "side": "dim_progress:block/emberseed_planks"
+  },
+  "render_type": "solid"
+}

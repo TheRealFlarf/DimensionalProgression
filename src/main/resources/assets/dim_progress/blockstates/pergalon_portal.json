@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dim_progress:block/pergalon_portal_ew"
+    },
+    "axis=x": {
+      "model": "dim_progress:block/pergalon_portal_ns"
+    }
+  }
+}

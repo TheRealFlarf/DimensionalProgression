@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dim_progress:block/emberseed_slab"
+    },
+    "type=top": {
+      "model": "dim_progress:block/emberseed_slab_top"
+    },
+    "type=double": {
+      "model": "dim_progress:block/emberseed_slab_full"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "dim_progress:emberseed_log",
+    "dim_progress:emberseed_planks",
+    "dim_progress:emberseed_stairs",
+    "dim_progress:emberseed_slab",
+    "dim_progress:emberseed_fence",
+    "dim_progress:emberseed_fence_gate",
+    "dim_progress:emberseed_pressure_plate",
+    "dim_progress:emberseed_button"
+  ]
+}

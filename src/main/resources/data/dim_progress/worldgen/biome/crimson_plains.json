@@ -1,0 +1,39 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.9,
+  "downfall": 0.8,
+  "effects": {
+    "ambient_sound": "ambient.nether_wastes.loop",
+    "foliage_color": -10223593,
+    "grass_color": -11468782,
+    "sky_color": -4127427,
+    "fog_color": -4127427,
+    "water_color": -13955486,
+    "water_fog_color": -13955486
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

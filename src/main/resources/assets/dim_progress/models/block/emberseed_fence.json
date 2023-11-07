@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "dim_progress:block/emberseed_planks",
+    "particle": "dim_progress:block/emberseed_planks"
+  },
+  "render_type": "solid"
+}

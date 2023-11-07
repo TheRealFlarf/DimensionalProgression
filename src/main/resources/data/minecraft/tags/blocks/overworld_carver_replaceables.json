@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dim_progress:dreadstone",
+    "dim_progress:crimson_crimsoil_grass",
+    "dim_progress:crimsoil",
+    "minecraft:stone"
+  ]
+}

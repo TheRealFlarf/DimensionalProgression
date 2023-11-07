@@ -1,0 +1,44 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Basic"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "END_ROD"
+    },
+    "portalLuminance": 8,
+    "portalSound": {
+      "value": ""
+    },
+    "enableIgniter": true,
+    "igniterName": "Worldgen Test Portal Igniter",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:DPTools"
+    },
+    "texture": "overworld_portal_charge",
+    "portalTexture": "0blank",
+    "enablePortal": true
+  }
+}

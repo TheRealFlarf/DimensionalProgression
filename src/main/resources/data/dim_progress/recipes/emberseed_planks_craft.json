@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dim_progress:emberseed_log"
+    }
+  ],
+  "result": {
+    "item": "dim_progress:emberseed_planks",
+    "count": 4
+  }
+}
