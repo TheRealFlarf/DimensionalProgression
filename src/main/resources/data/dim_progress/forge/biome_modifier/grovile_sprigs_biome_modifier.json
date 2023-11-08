@@ -1,6 +1,8 @@
 {
   "type": "forge:add_features",
-  "biomes": "dim_progress:nyctophobic_coppice",
+  "biomes": {
+    "type": "forge:any"
+  },
   "features": "dim_progress:grovile_sprigs",
   "step": "vegetal_decoration"
 }

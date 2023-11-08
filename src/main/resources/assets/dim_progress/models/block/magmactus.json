@@ -3,9 +3,9 @@
   "textures": {
     "all": "dim_progress:block/magmactus",
     "particle": "dim_progress:block/magmactus",
-    "0": "dim_progress:block/magmactus_top",
-    "1": "dim_progress:block/magmactus",
-    "2": "dim_progress:block/magmactus_bottom",
+    "0": "dim_progress:block/magmactus",
+    "1": "dim_progress:block/magmactus_bottom",
+    "2": "dim_progress:block/magmactus_top",
     "missing": "dim_progress:block/0blank"
   },
   "render_type": "solid"
