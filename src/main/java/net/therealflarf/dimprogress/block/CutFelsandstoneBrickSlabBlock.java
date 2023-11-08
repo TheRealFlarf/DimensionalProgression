@@ -19,12 +19,7 @@ import java.util.Collections;
 
 public class CutFelsandstoneBrickSlabBlock extends SlabBlock {
 	public CutFelsandstoneBrickSlabBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1.2f, 1.5f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
-	}
-
-	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1.2f, 1.5f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

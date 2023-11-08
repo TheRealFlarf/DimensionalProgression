@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class CutFelsandstoneBrickStairsBlock extends StairBlock {
 	public CutFelsandstoneBrickStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1.2f, 1.5f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1.2f, 1.5f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override
@@ -31,11 +30,6 @@ public class CutFelsandstoneBrickStairsBlock extends StairBlock {
 	@Override
 	public boolean isRandomlyTicking(BlockState state) {
 		return false;
-	}
-
-	@Override
-	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
 	}
 
 	@Override
