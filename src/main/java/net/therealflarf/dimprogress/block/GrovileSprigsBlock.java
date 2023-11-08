@@ -23,8 +23,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class CrimsonSprigsBlock extends FlowerBlock {
-	public CrimsonSprigsBlock() {
+public class GrovileSprigsBlock extends FlowerBlock {
+	public GrovileSprigsBlock() {
 		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
@@ -59,7 +59,7 @@ public class CrimsonSprigsBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(DimProgressModBlocks.CRIMSOIL.get()) || groundState.is(DimProgressModBlocks.CRIMSON_CRIMSOIL_GRASS.get());
+		return groundState.is(DimProgressModBlocks.CRIMSOIL.get()) || groundState.is(DimProgressModBlocks.GROVILE_CRIMSOIL_GRASS.get());
 	}
 
 	@Override

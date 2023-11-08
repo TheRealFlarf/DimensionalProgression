@@ -4,6 +4,9 @@
     "dim_progress:dreadstone",
     "dim_progress:crimson_crimsoil_grass",
     "dim_progress:crimsoil",
+    "dim_progress:felsand",
+    "dim_progress:dead_crimsoil_grass",
+    "dim_progress:grovile_crimsoil_grass",
     "minecraft:stone"
   ]
 }

@@ -5,6 +5,24 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:CrimsonPlains"
+      },
+      {
+        "value": "CUSTOM:BloodredBog"
+      },
+      {
+        "value": "CUSTOM:CragrockFields"
+      },
+      {
+        "value": "CUSTOM:EmberseedWoodlands"
+      },
+      {
+        "value": "CUSTOM:MagmaticDesert"
+      },
+      {
+        "value": "CUSTOM:NyctophobicCoppice"
+      },
+      {
+        "value": "CUSTOM:SunburstSavanna"
       }
     ],
     "worldGenType": "Normal world gen",
