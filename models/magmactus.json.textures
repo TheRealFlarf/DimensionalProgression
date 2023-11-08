@@ -2,9 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "magmactus_top",
-        "1": "magmactus",
-        "2": "magmactus_bottom",
+        "0": "magmactus",
+        "1": "magmactus_bottom",
+        "2": "magmactus_top",
         "missing": "0blank"
       },
       "name": "default"
