@@ -1,0 +1,12 @@
+{
+  "parent": "dim_progress:custom/magmactus",
+  "textures": {
+    "all": "dim_progress:block/magmactus",
+    "particle": "dim_progress:block/magmactus",
+    "0": "dim_progress:block/magmactus_top",
+    "1": "dim_progress:block/magmactus",
+    "2": "dim_progress:block/magmactus_bottom",
+    "missing": "dim_progress:block/0blank"
+  },
+  "render_type": "solid"
+}

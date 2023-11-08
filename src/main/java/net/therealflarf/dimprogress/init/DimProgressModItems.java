@@ -62,6 +62,11 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> DEAD_PERGALON_SPRIGS = block(DimProgressModBlocks.DEAD_PERGALON_SPRIGS);
 	public static final RegistryObject<Item> PERGALON_PORTAL_CHARGE = REGISTRY.register("pergalon_portal_charge", () -> new PergalonPortalChargeItem());
 	public static final RegistryObject<Item> WORLDGEN_TEST = REGISTRY.register("worldgen_test", () -> new WorldgenTestItem());
+	public static final RegistryObject<Item> GROVILE_CRIMSOIL_GRASS = block(DimProgressModBlocks.GROVILE_CRIMSOIL_GRASS);
+	public static final RegistryObject<Item> GROVILE_SPRIGS = block(DimProgressModBlocks.GROVILE_SPRIGS);
+	public static final RegistryObject<Item> NYCTECIUM = block(DimProgressModBlocks.NYCTECIUM);
+	public static final RegistryObject<Item> NYCTIC_SPRIGS = block(DimProgressModBlocks.NYCTIC_SPRIGS);
+	public static final RegistryObject<Item> MAGMACTUS = block(DimProgressModBlocks.MAGMACTUS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

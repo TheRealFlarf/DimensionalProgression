@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "crimson_sprigs",
+    "texture": "grovile_sprigs",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Crimson Sprigs",
+    "name": "Grovile Sprigs",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:DPNatural"
@@ -81,21 +81,21 @@
         "value": "CUSTOM:Crimsoil"
       },
       {
-        "value": "CUSTOM:CrimsonCrimsoilGrass"
+        "value": "CUSTOM:GrovileCrimsoilGrass"
       }
     ],
     "isBonemealable": false,
-    "frequencyOnChunks": 7,
+    "frequencyOnChunks": 9,
     "spawnWorldTypes": [
       "CUSTOM:Pergalon"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:CrimsonPlains"
+        "value": "CUSTOM:NyctophobicCoppice"
       }
     ],
     "generationType": "Grass",
-    "patchSize": 64,
+    "patchSize": 48,
     "generateAtAnyHeight": false
   }
 }

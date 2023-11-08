@@ -76,13 +76,29 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:Crimsoil"
+      },
+      {
+        "value": "CUSTOM:DeadCrimsoilGrass"
+      }
+    ],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "generationType": "Flower",
-    "patchSize": 64,
+    "frequencyOnChunks": 3,
+    "spawnWorldTypes": [
+      "CUSTOM:Pergalon"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MagmaticDesert"
+      },
+      {
+        "value": "CUSTOM:SunburstSavanna"
+      }
+    ],
+    "generationType": "Grass",
+    "patchSize": 45,
     "generateAtAnyHeight": false
   }
 }

@@ -42,6 +42,11 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.SUNLIT_SILICA.get().asItem());
 				tabData.accept(DimProgressModBlocks.CRIMSON_SPRIGS.get().asItem());
 				tabData.accept(DimProgressModBlocks.DEAD_PERGALON_SPRIGS.get().asItem());
+				tabData.accept(DimProgressModBlocks.GROVILE_CRIMSOIL_GRASS.get().asItem());
+				tabData.accept(DimProgressModBlocks.GROVILE_SPRIGS.get().asItem());
+				tabData.accept(DimProgressModBlocks.NYCTECIUM.get().asItem());
+				tabData.accept(DimProgressModBlocks.NYCTIC_SPRIGS.get().asItem());
+				tabData.accept(DimProgressModBlocks.MAGMACTUS.get().asItem());
 			})
 
 					.build());

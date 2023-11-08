@@ -14,7 +14,12 @@ import net.therealflarf.dimprogress.block.RunicStonePortalCoreBlock;
 import net.therealflarf.dimprogress.block.RunicStonePillarBlock;
 import net.therealflarf.dimprogress.block.PurpleZiolipBlock;
 import net.therealflarf.dimprogress.block.PergalonPortalBlock;
+import net.therealflarf.dimprogress.block.NycticSprigsBlock;
+import net.therealflarf.dimprogress.block.NycteciumBlock;
+import net.therealflarf.dimprogress.block.MagmactusBlock;
 import net.therealflarf.dimprogress.block.MagentaZiolipBlock;
+import net.therealflarf.dimprogress.block.GrovileSprigsBlock;
+import net.therealflarf.dimprogress.block.GrovileCrimsoilGrassBlock;
 import net.therealflarf.dimprogress.block.FirebloomBlock;
 import net.therealflarf.dimprogress.block.FelsandstoneBlock;
 import net.therealflarf.dimprogress.block.FelsandBlock;
@@ -90,4 +95,9 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> DEAD_PERGALON_SPRIGS = REGISTRY.register("dead_pergalon_sprigs", () -> new DeadPergalonSprigsBlock());
 	public static final RegistryObject<Block> PERGALON_PORTAL = REGISTRY.register("pergalon_portal", () -> new PergalonPortalBlock());
 	public static final RegistryObject<Block> WORLDGEN_TEST_PORTAL = REGISTRY.register("worldgen_test_portal", () -> new WorldgenTestPortalBlock());
+	public static final RegistryObject<Block> GROVILE_CRIMSOIL_GRASS = REGISTRY.register("grovile_crimsoil_grass", () -> new GrovileCrimsoilGrassBlock());
+	public static final RegistryObject<Block> GROVILE_SPRIGS = REGISTRY.register("grovile_sprigs", () -> new GrovileSprigsBlock());
+	public static final RegistryObject<Block> NYCTECIUM = REGISTRY.register("nyctecium", () -> new NycteciumBlock());
+	public static final RegistryObject<Block> NYCTIC_SPRIGS = REGISTRY.register("nyctic_sprigs", () -> new NycticSprigsBlock());
+	public static final RegistryObject<Block> MAGMACTUS = REGISTRY.register("magmactus", () -> new MagmactusBlock());
 }

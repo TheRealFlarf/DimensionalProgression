@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dim_progress:block/crimsoil",
+    "up": "dim_progress:block/grovile_grass_top",
+    "north": "dim_progress:block/grovile_crimsoil_grass_side",
+    "east": "dim_progress:block/grovile_crimsoil_grass_side",
+    "south": "dim_progress:block/grovile_crimsoil_grass_side",
+    "west": "dim_progress:block/grovile_crimsoil_grass_side",
+    "particle": "dim_progress:block/crimsoil"
+  },
+  "render_type": "solid"
+}

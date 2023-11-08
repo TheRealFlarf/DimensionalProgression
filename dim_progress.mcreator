@@ -1406,7 +1406,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/item/dead_pergalon_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/DeadPergalonSprigsFeature.java",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dead_pergalon_sprigs_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dead_pergalon_sprigs.json",
           "src/main/resources/assets/dim_progress/blockstates/dead_pergalon_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dead_pergalon_sprigs.json",
           "src/main/resources/assets/dim_progress/models/block/dead_pergalon_sprigs.json",
           "src/main/java/net/therealflarf/dimprogress/block/DeadPergalonSprigsBlock.java"
         ]
@@ -1529,6 +1533,207 @@
         ]
       },
       "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "MagmaticDesert",
+      "type": "biome",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/magmatic_desert.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CragrockFields",
+      "type": "biome",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cragrock_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/cragrock_fields.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "GrovileCrimsoilGrass",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grovile_crimsoil_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/GrovileCrimsoilGrassBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/grovile_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/models/item/grovile_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/blockstates/grovile_crimsoil_grass.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagmactusEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmactus_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/MagmactusEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunburstSavanna",
+      "type": "biome",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunburst_savanna",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/sunburst_savanna.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophobicCoppice",
+      "type": "biome",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/nyctophobic_coppice.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BloodredBog",
+      "type": "biome",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodred_bog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/bloodred_bog.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Nyctecium",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctecium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/NycteciumBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/nyctecium.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctecium.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctecium.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlands",
+      "type": "biome",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/emberseed_woodlands.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Magmactus",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmactus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/MagmactusBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/magmactus.json",
+          "src/main/resources/assets/dim_progress/blockstates/magmactus.json",
+          "src/main/resources/assets/dim_progress/models/block/magmactus.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "GrovileSprigs",
+      "type": "plant",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grovile_sprigs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/grovile_sprigs_biome_modifier.json",
+          "src/main/resources/assets/dim_progress/blockstates/grovile_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/GrovileSprigsFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/grovile_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/item/grovile_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/grovile_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/block/grovile_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/GrovileSprigsBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NycticSprigs",
+      "type": "plant",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctic_sprigs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctic_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctic_sprigs.json",
+          "src/main/resources/assets/dim_progress/blockstates/nyctic_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctic_sprigs.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctic_sprigs_biome_modifier.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/NycticSprigsFeature.java",
+          "src/main/java/net/therealflarf/dimprogress/block/NycticSprigsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/nyctic_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -1551,26 +1756,33 @@
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
       "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
       "biome.dim_progress.crimson_plains": "Crimson Plains",
+      "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
       "item_group.dim_progress.dp_natural": "DP: Natural",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
+      "block.dim_progress.magmactus": "Magmactus",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
-      "item_group.dim_progress.dp_building": "DP: Building",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "biome.dim_progress.cragrock_fields": "Cragrock Fields",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
       "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
       "biome.dim_progress.basic": "Basic",
+      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
       "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
       "block.dim_progress.firebloom": "Firebloom",
-      "block.dim_progress.crimsoil": "Crimsoil",
       "block.dim_progress.emberseed_log": "Emberseed Log",
+      "block.dim_progress.crimsoil": "Crimsoil",
       "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
+      "block.dim_progress.nyctic_sprigs": "Nyctic Sprigs",
       "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
       "block.dim_progress.runicon_block": "Block of Runicon",
       "block.dim_progress.felsandstone": "Felsandstone",
       "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
+      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
       "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
       "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
@@ -1581,6 +1793,7 @@
       "block.dim_progress.purple_ziolip": "Purple Ziolip",
       "item.dim_progress.runicon_shard": "Runicon Shard",
       "block.dim_progress.emberseed_button": "Emberseed Button",
+      "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
       "block.dim_progress.dreadstone": "Dreadstone",
@@ -1588,6 +1801,9 @@
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
       "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",
+      "biome.dim_progress.bloodred_bog": "Bloodred Bog",
+      "biome.dim_progress.nyctophobic_coppice": "Nyctophobic Coppice",
+      "block.dim_progress.nyctecium": "Nyctecium",
       "block.dim_progress.cut_felsandstone": "Cut Felsandstone",
       "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
       "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
@@ -1597,56 +1813,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Dimensions",
-        "children": [
-          {
-            "name": "Overworld",
-            "children": []
-          },
-          {
-            "name": "Nether",
-            "children": []
-          },
-          {
-            "name": "End",
-            "children": []
-          },
-          {
-            "name": "Compatability",
-            "children": [
-              {
-                "name": "Aether",
-                "children": []
-              },
-              {
-                "name": "Everbright",
-                "children": []
-              },
-              {
-                "name": "Everdawn",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Reiverion",
-            "children": []
-          },
-          {
-            "name": "Neratia",
-            "children": []
-          },
-          {
-            "name": "Pergalon",
-            "children": []
-          },
-          {
-            "name": "Limbo",
-            "children": []
-          }
-        ]
-      },
       {
         "name": "External",
         "children": []
@@ -1660,6 +1826,56 @@
           },
           {
             "name": "Multiblocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "Reiverion",
+            "children": []
+          },
+          {
+            "name": "Compatability",
+            "children": [
+              {
+                "name": "Everdawn",
+                "children": []
+              },
+              {
+                "name": "Everbright",
+                "children": []
+              },
+              {
+                "name": "Aether",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Limbo",
+            "children": []
+          },
+          {
+            "name": "Pergalon",
+            "children": []
+          },
+          {
+            "name": "Neratia",
+            "children": []
+          },
+          {
+            "name": "Nether",
+            "children": []
+          },
+          {
+            "name": "End",
+            "children": []
+          },
+          {
+            "name": "Overworld",
             "children": []
           }
         ]
