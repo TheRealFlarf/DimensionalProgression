@@ -10,6 +10,8 @@ import net.therealflarf.dimprogress.world.features.plants.FirebloomFeature;
 import net.therealflarf.dimprogress.world.features.plants.DeadPergalonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.plants.CrimsonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.ores.DeepslateRuniconOreFeature;
+import net.therealflarf.dimprogress.world.features.SunlitSilicaPrismSmallFeature;
+import net.therealflarf.dimprogress.world.features.SunlitSilicaPrismLargeFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmactusGeneratorFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmaPatchFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertLavaPatchesFeature;
@@ -38,4 +40,6 @@ public class DimProgressModFeatures {
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_FELSANDSTONE_PATCH = REGISTRY.register("magmatic_desert_felsandstone_patch", MagmaticDesertFelsandstonePatchFeature::new);
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_FIRE_PATCH = REGISTRY.register("magmatic_desert_fire_patch", MagmaticDesertFirePatchFeature::new);
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_MAGMA_PATCH = REGISTRY.register("magmatic_desert_magma_patch", MagmaticDesertMagmaPatchFeature::new);
+	public static final RegistryObject<Feature<?>> SUNLIT_SILICA_PRISM_LARGE = REGISTRY.register("sunlit_silica_prism_large", SunlitSilicaPrismLargeFeature::new);
+	public static final RegistryObject<Feature<?>> SUNLIT_SILICA_PRISM_SMALL = REGISTRY.register("sunlit_silica_prism_small", SunlitSilicaPrismSmallFeature::new);
 }

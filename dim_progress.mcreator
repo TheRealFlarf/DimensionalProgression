@@ -1899,6 +1899,303 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilicaPrismLarge",
+      "type": "structure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_prism_large",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/sunlit_silica_prism_large_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunlit_silica_prism_large.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunlit_silica_prism_large.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/SunlitSilicaPrismLargeFeature.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunlitSilicaPrismSmall",
+      "type": "structure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_prism_small",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/features/SunlitSilicaPrismSmallFeature.java",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/sunlit_silica_prism_small_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunlit_silica_prism_small.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunlit_silica_prism_small.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindLog",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/pyrind_log.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_log.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindLogBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_log.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindPlanks",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindPlanksBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_planks.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_planks.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindStairs",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/pyrind_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_stairs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindStairsBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindSlab",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_slab.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_slab_full.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindPlanksCraft",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindStairsCraft",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindSlabCraft",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindFence",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence_post.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence_inventory.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_fence.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindFenceBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindFenceGate",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence_gate_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence_gate_wall_open.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindFenceGateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_fence_gate_open.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_fence_gate.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_fence_gate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindFenceCraft",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_fence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_fence_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindFenceGateCraft",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_fence_gate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_fence_gate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindPressurePlate",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindPressurePlateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_pressure_plate_down.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_pressure_plate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindButton",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/pyrind_button.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_button.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_button.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_button_pressed.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindButtonBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_button_inventory.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindButtonCraft",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_button_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_button_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindLeaves",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/pyrind_leaves.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_leaves.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -1924,21 +2221,24 @@
       "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
       "item_group.dim_progress.dp_natural": "DP: Natural",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
-      "block.dim_progress.magmactus": "Magmactus",
-      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
+      "block.dim_progress.magmactus": "Magmactus",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
-      "biome.dim_progress.cragrock_fields": "Cragrock Fields",
-      "item_group.dim_progress.dp_building": "DP: Building",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "biome.dim_progress.cragrock_fields": "Cragrock Fields",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
+      "block.dim_progress.pyrind_planks": "Pyrind Planks",
       "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
+      "block.dim_progress.pyrind_button": "Pyrind Button",
       "biome.dim_progress.basic": "Basic",
       "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
       "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
       "block.dim_progress.firebloom": "Firebloom",
+      "block.dim_progress.pyrind_log": "Pyrind Log",
       "block.dim_progress.emberseed_log": "Emberseed Log",
       "block.dim_progress.crimsoil": "Crimsoil",
       "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
@@ -1946,17 +2246,23 @@
       "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
       "block.dim_progress.runicon_block": "Block of Runicon",
       "block.dim_progress.felsandstone": "Felsandstone",
+      "block.dim_progress.pyrind_slab": "Pyrind Slab",
+      "block.dim_progress.pyrind_fence": "Pyrind Fence",
       "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
       "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
       "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
+      "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
       "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
+      "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
       "block.dim_progress.felsand": "Felsand",
       "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
       "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
       "block.dim_progress.purple_ziolip": "Purple Ziolip",
       "item.dim_progress.runicon_shard": "Runicon Shard",
+      "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
+      "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
       "block.dim_progress.emberseed_button": "Emberseed Button",
       "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
       "block.dim_progress.crimson_mud": "Crimson Mud",

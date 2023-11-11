@@ -8,6 +8,14 @@
     "dim_progress:emberseed_fence",
     "dim_progress:emberseed_fence_gate",
     "dim_progress:emberseed_pressure_plate",
-    "dim_progress:emberseed_button"
+    "dim_progress:emberseed_button",
+    "dim_progress:pyrind_log",
+    "dim_progress:pyrind_planks",
+    "dim_progress:pyrind_stairs",
+    "dim_progress:pyrind_slab",
+    "dim_progress:pyrind_fence",
+    "dim_progress:pyrind_fence_gate",
+    "dim_progress:pyrind_pressure_plate",
+    "dim_progress:pyrind_button"
   ]
 }

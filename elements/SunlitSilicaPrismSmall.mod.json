@@ -1,0 +1,32 @@
+{
+  "_fv": 47,
+  "_type": "structure",
+  "definition": {
+    "structure": "sunlit_silica_prism_small",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 30000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Pergalon"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EmberseedWoodlands"
+      },
+      {
+        "value": "CUSTOM:MagmaticDesert"
+      },
+      {
+        "value": "CUSTOM:SunburstSavanna"
+      }
+    ],
+    "ignoreBlocks": "AIR"
+  }
+}

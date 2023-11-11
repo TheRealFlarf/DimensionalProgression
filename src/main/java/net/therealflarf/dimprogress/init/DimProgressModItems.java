@@ -69,6 +69,15 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> MAGMACTUS = block(DimProgressModBlocks.MAGMACTUS);
 	public static final RegistryObject<Item> CRIMSON_MUD = block(DimProgressModBlocks.CRIMSON_MUD);
 	public static final RegistryObject<Item> EMBERSEED_LEAVES = block(DimProgressModBlocks.EMBERSEED_LEAVES);
+	public static final RegistryObject<Item> PYRIND_LOG = block(DimProgressModBlocks.PYRIND_LOG);
+	public static final RegistryObject<Item> PYRIND_PLANKS = block(DimProgressModBlocks.PYRIND_PLANKS);
+	public static final RegistryObject<Item> PYRIND_STAIRS = block(DimProgressModBlocks.PYRIND_STAIRS);
+	public static final RegistryObject<Item> PYRIND_SLAB = block(DimProgressModBlocks.PYRIND_SLAB);
+	public static final RegistryObject<Item> PYRIND_FENCE = block(DimProgressModBlocks.PYRIND_FENCE);
+	public static final RegistryObject<Item> PYRIND_FENCE_GATE = block(DimProgressModBlocks.PYRIND_FENCE_GATE);
+	public static final RegistryObject<Item> PYRIND_PRESSURE_PLATE = block(DimProgressModBlocks.PYRIND_PRESSURE_PLATE);
+	public static final RegistryObject<Item> PYRIND_BUTTON = block(DimProgressModBlocks.PYRIND_BUTTON);
+	public static final RegistryObject<Item> PYRIND_LEAVES = block(DimProgressModBlocks.PYRIND_LEAVES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

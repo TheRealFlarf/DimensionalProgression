@@ -49,6 +49,8 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.MAGMACTUS.get().asItem());
 				tabData.accept(DimProgressModBlocks.CRIMSON_MUD.get().asItem());
 				tabData.accept(DimProgressModBlocks.EMBERSEED_LEAVES.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_LOG.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_LEAVES.get().asItem());
 			})
 
 					.build());
@@ -75,6 +77,13 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.CUT_FELSANDSTONE_BRICK_STAIRS.get().asItem());
 				tabData.accept(DimProgressModBlocks.CUT_FELSANDSTONE_BRICK_SLAB.get().asItem());
 				tabData.accept(DimProgressModBlocks.SUNLIT_SILICA_GLASS.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_PLANKS.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_STAIRS.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_SLAB.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_FENCE.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_FENCE_GATE.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_PRESSURE_PLATE.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_BUTTON.get().asItem());
 			})
 
 					.build());

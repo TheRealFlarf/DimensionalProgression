@@ -95,6 +95,9 @@
       },
       {
         "value": "CUSTOM:BloodredBog"
+      },
+      {
+        "value": "CUSTOM:EmberseedWoodlands"
       }
     ],
     "generationType": "Grass",

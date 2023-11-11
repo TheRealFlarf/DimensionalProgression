@@ -44,7 +44,7 @@
     },
     "destroyTool": "hoe",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

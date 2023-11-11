@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dim_progress:pyrind_log",
     "dim_progress:emberseed_log"
   ]
 }

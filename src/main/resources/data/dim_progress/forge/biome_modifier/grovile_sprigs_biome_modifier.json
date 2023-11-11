@@ -1,6 +1,7 @@
 {
   "type": "forge:add_features",
   "biomes": [
+    "dim_progress:emberseed_woodlands",
     "dim_progress:nyctophobic_coppice",
     "dim_progress:bloodred_bog"
   ],

@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:EmberseedPlanks"
+      },
+      {
+        "value": "CUSTOM:PyrindPlanks"
       }
     ],
     "blocks": [],

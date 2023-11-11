@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dim_progress:block/pyrind_planks",
+    "top": "dim_progress:block/pyrind_planks",
+    "side": "dim_progress:block/pyrind_planks"
+  },
+  "render_type": "solid"
+}

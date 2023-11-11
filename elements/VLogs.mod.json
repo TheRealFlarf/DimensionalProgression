@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:EmberseedLog"
+      },
+      {
+        "value": "CUSTOM:PyrindLog"
       }
     ],
     "blocks": [],
