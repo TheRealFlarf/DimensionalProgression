@@ -1,7 +1,7 @@
 {
-  "type": "dim_progress:magmatic_desert_felsandstone_patch",
+  "type": "dim_progress:magmatic_desert_magma_patch",
   "config": {
-    "size": 49,
+    "size": 27,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -10,7 +10,7 @@
           "block": "dim_progress:felsand"
         },
         "state": {
-          "Name": "dim_progress:felsandstone"
+          "Name": "minecraft:magma_block"
         }
       }
     ]

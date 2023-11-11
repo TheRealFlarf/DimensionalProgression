@@ -701,9 +701,13 @@
       "registry_name": "firebloom",
       "metadata": {
         "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/firebloom.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/FirebloomFeature.java",
           "src/main/resources/assets/dim_progress/blockstates/firebloom.json",
           "src/main/resources/assets/dim_progress/models/item/firebloom.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/firebloom.json",
           "src/main/resources/assets/dim_progress/models/block/firebloom.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/firebloom_biome_modifier.json",
           "src/main/java/net/therealflarf/dimprogress/block/FirebloomBlock.java"
         ]
       },
@@ -1847,6 +1851,54 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedLeaves",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_leaves.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_leaves.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VLogsBlock",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_logs_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "MagmaticDesertMagmaPatch",
+      "type": "feature",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_desert_magma_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/magmatic_desert_magma_patch_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/magmatic_desert_magma_patch.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/magmatic_desert_magma_patch.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/MagmaticDesertMagmaPatchFeature.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -1872,13 +1924,13 @@
       "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
       "item_group.dim_progress.dp_natural": "DP: Natural",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
-      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
-      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.magmactus": "Magmactus",
+      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
+      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
-      "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
-      "item_group.dim_progress.dp_building": "DP: Building",
       "biome.dim_progress.cragrock_fields": "Cragrock Fields",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
       "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
@@ -1912,6 +1964,7 @@
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
       "block.dim_progress.dreadstone": "Dreadstone",
       "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
+      "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
       "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",

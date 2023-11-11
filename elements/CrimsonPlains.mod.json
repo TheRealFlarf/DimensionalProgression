@@ -77,19 +77,19 @@
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 0,
-    "minHeight": 7,
+    "treeType": 1,
+    "minHeight": 8,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:EmberseedLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:EmberseedLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [],
     "spawnStronghold": false,

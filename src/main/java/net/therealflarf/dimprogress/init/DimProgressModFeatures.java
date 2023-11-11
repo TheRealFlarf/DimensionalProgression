@@ -6,10 +6,12 @@ package net.therealflarf.dimprogress.init;
 
 import net.therealflarf.dimprogress.world.features.plants.NycticSprigsFeature;
 import net.therealflarf.dimprogress.world.features.plants.GrovileSprigsFeature;
+import net.therealflarf.dimprogress.world.features.plants.FirebloomFeature;
 import net.therealflarf.dimprogress.world.features.plants.DeadPergalonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.plants.CrimsonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.ores.DeepslateRuniconOreFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmactusGeneratorFeature;
+import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmaPatchFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertLavaPatchesFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertFirePatchFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertFelsandstonePatchFeature;
@@ -26,6 +28,7 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 public class DimProgressModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, DimProgressMod.MODID);
 	public static final RegistryObject<Feature<?>> DEEPSLATE_RUNICON_ORE = REGISTRY.register("deepslate_runicon_ore", DeepslateRuniconOreFeature::new);
+	public static final RegistryObject<Feature<?>> FIREBLOOM = REGISTRY.register("firebloom", FirebloomFeature::new);
 	public static final RegistryObject<Feature<?>> CRIMSON_SPRIGS = REGISTRY.register("crimson_sprigs", CrimsonSprigsFeature::new);
 	public static final RegistryObject<Feature<?>> DEAD_PERGALON_SPRIGS = REGISTRY.register("dead_pergalon_sprigs", DeadPergalonSprigsFeature::new);
 	public static final RegistryObject<Feature<?>> GROVILE_SPRIGS = REGISTRY.register("grovile_sprigs", GrovileSprigsFeature::new);
@@ -34,4 +37,5 @@ public class DimProgressModFeatures {
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_LAVA_PATCHES = REGISTRY.register("magmatic_desert_lava_patches", MagmaticDesertLavaPatchesFeature::new);
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_FELSANDSTONE_PATCH = REGISTRY.register("magmatic_desert_felsandstone_patch", MagmaticDesertFelsandstonePatchFeature::new);
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_FIRE_PATCH = REGISTRY.register("magmatic_desert_fire_patch", MagmaticDesertFirePatchFeature::new);
+	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_MAGMA_PATCH = REGISTRY.register("magmatic_desert_magma_patch", MagmaticDesertMagmaPatchFeature::new);
 }

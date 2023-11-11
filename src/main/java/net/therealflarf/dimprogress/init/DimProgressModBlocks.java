@@ -28,6 +28,7 @@ import net.therealflarf.dimprogress.block.EmberseedSlabBlock;
 import net.therealflarf.dimprogress.block.EmberseedPressurePlateBlock;
 import net.therealflarf.dimprogress.block.EmberseedPlanksBlock;
 import net.therealflarf.dimprogress.block.EmberseedLogBlock;
+import net.therealflarf.dimprogress.block.EmberseedLeavesBlock;
 import net.therealflarf.dimprogress.block.EmberseedFenceGateBlock;
 import net.therealflarf.dimprogress.block.EmberseedFenceBlock;
 import net.therealflarf.dimprogress.block.EmberseedButtonBlock;
@@ -102,4 +103,5 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> NYCTIC_SPRIGS = REGISTRY.register("nyctic_sprigs", () -> new NycticSprigsBlock());
 	public static final RegistryObject<Block> MAGMACTUS = REGISTRY.register("magmactus", () -> new MagmactusBlock());
 	public static final RegistryObject<Block> CRIMSON_MUD = REGISTRY.register("crimson_mud", () -> new CrimsonMudBlock());
+	public static final RegistryObject<Block> EMBERSEED_LEAVES = REGISTRY.register("emberseed_leaves", () -> new EmberseedLeavesBlock());
 }

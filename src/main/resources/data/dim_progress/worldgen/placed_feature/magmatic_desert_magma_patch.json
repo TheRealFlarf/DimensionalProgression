@@ -1,5 +1,5 @@
 {
-  "feature": "dim_progress:magmatic_desert_felsandstone_patch",
+  "feature": "dim_progress:magmatic_desert_magma_patch",
   "placement": [
     {
       "type": "minecraft:heightmap",
@@ -7,7 +7,7 @@
     },
     {
       "type": "minecraft:count",
-      "count": 9
+      "count": 4
     },
     {
       "type": "minecraft:in_square"

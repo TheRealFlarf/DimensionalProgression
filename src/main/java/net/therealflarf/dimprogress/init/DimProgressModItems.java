@@ -68,6 +68,7 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> NYCTIC_SPRIGS = block(DimProgressModBlocks.NYCTIC_SPRIGS);
 	public static final RegistryObject<Item> MAGMACTUS = block(DimProgressModBlocks.MAGMACTUS);
 	public static final RegistryObject<Item> CRIMSON_MUD = block(DimProgressModBlocks.CRIMSON_MUD);
+	public static final RegistryObject<Item> EMBERSEED_LEAVES = block(DimProgressModBlocks.EMBERSEED_LEAVES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

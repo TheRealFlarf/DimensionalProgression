@@ -1,7 +1,7 @@
 {
   "type": "dim_progress:magmatic_desert_fire_patch",
   "config": {
-    "tries": 80,
+    "tries": 69,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
