@@ -9,14 +9,14 @@
       "registry_name": "deepslate_runicon_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/world/features/ores/DeepslateRuniconOreFeature.java",
-          "src/main/resources/assets/dim_progress/models/block/deepslate_runicon_ore.json",
           "src/main/resources/data/dim_progress/worldgen/placed_feature/deepslate_runicon_ore.json",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/deepslate_runicon_ore.json",
-          "src/main/resources/data/dim_progress/forge/biome_modifier/deepslate_runicon_ore_biome_modifier.json",
-          "src/main/resources/assets/dim_progress/blockstates/deepslate_runicon_ore.json",
           "src/main/java/net/therealflarf/dimprogress/block/DeepslateRuniconOreBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/deepslate_runicon_ore.json"
+          "src/main/resources/assets/dim_progress/models/item/deepslate_runicon_ore.json",
+          "src/main/resources/assets/dim_progress/models/block/deepslate_runicon_ore.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/ores/DeepslateRuniconOreFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/deepslate_runicon_ore.json",
+          "src/main/resources/assets/dim_progress/blockstates/deepslate_runicon_ore.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/deepslate_runicon_ore_biome_modifier.json"
         ]
       },
       "path": "~/Dimensions/Overworld"
@@ -45,10 +45,10 @@
       "registry_name": "runicon_block",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/RuniconBlockBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/runicon_block.json",
           "src/main/resources/assets/dim_progress/blockstates/runicon_block.json",
-          "src/main/resources/assets/dim_progress/models/block/runicon_block.json"
+          "src/main/resources/assets/dim_progress/models/item/runicon_block.json",
+          "src/main/resources/assets/dim_progress/models/block/runicon_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RuniconBlockBlock.java"
         ]
       },
       "path": "~/Dimensions/Overworld"
@@ -167,10 +167,10 @@
       "registry_name": "runic_stone_ring",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/RunicStoneRingBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/runic_stone_ring.json",
           "src/main/resources/assets/dim_progress/models/item/runic_stone_ring.json",
-          "src/main/resources/assets/dim_progress/blockstates/runic_stone_ring.json"
+          "src/main/resources/assets/dim_progress/blockstates/runic_stone_ring.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicStoneRingBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/runic_stone_ring.json"
         ]
       },
       "path": "~/Dimensions/Overworld"
@@ -184,10 +184,10 @@
       "registry_name": "runic_stone_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/runic_stone_pillar.json",
           "src/main/java/net/therealflarf/dimprogress/block/RunicStonePillarBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/runic_stone_pillar.json",
-          "src/main/resources/assets/dim_progress/blockstates/runic_stone_pillar.json"
+          "src/main/resources/assets/dim_progress/blockstates/runic_stone_pillar.json",
+          "src/main/resources/assets/dim_progress/models/block/runic_stone_pillar.json",
+          "src/main/resources/assets/dim_progress/models/item/runic_stone_pillar.json"
         ]
       },
       "path": "~/Dimensions/Overworld"
@@ -243,9 +243,9 @@
       "registry_name": "runic_stone_portal_core",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dim_progress/blockstates/runic_stone_portal_core.json",
           "src/main/java/net/therealflarf/dimprogress/block/RunicStonePortalCoreBlock.java",
           "src/main/resources/assets/dim_progress/models/item/runic_stone_portal_core.json",
-          "src/main/resources/assets/dim_progress/blockstates/runic_stone_portal_core.json",
           "src/main/resources/assets/dim_progress/models/block/runic_stone_portal_core.json"
         ]
       },
@@ -330,10 +330,10 @@
       "registry_name": "crystal_glass",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/CrystalGlassBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/crystal_glass.json",
           "src/main/resources/assets/dim_progress/models/block/crystal_glass.json",
-          "src/main/resources/assets/dim_progress/blockstates/crystal_glass.json"
+          "src/main/resources/assets/dim_progress/blockstates/crystal_glass.json",
+          "src/main/resources/assets/dim_progress/models/item/crystal_glass.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrystalGlassBlock.java"
         ]
       },
       "path": "~/Dimensions/Overworld"
@@ -412,10 +412,10 @@
       "registry_name": "dreadstone",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/dreadstone.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone.json",
           "src/main/resources/assets/dim_progress/models/item/dreadstone.json",
-          "src/main/resources/assets/dim_progress/models/block/dreadstone.json"
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -430,8 +430,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/item/dreadstone_bricks.json",
-          "src/main/resources/assets/dim_progress/blockstates/dreadstone_bricks.json",
           "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBricksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_bricks.json",
           "src/main/resources/assets/dim_progress/models/block/dreadstone_bricks.json"
         ]
       },
@@ -461,11 +461,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBrickStairsBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs_inner.json",
           "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs.json",
           "src/main/resources/assets/dim_progress/models/item/dreadstone_brick_stairs.json",
-          "src/main/resources/assets/dim_progress/blockstates/dreadstone_brick_stairs.json",
-          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_stairs_inner.json"
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_brick_stairs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -479,12 +479,12 @@
       "registry_name": "dreadstone_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab_full.json",
-          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBrickSlabBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab.json",
-          "src/main/resources/assets/dim_progress/blockstates/dreadstone_brick_slab.json",
           "src/main/resources/assets/dim_progress/models/item/dreadstone_brick_slab.json",
-          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab_top.json"
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab_full.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_brick_slab_top.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneBrickSlabBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -528,8 +528,8 @@
         "files": [
           "src/main/java/net/therealflarf/dimprogress/block/CrackedDreadstoneBricksBlock.java",
           "src/main/resources/assets/dim_progress/models/item/cracked_dreadstone_bricks.json",
-          "src/main/resources/assets/dim_progress/blockstates/cracked_dreadstone_bricks.json",
-          "src/main/resources/assets/dim_progress/models/block/cracked_dreadstone_bricks.json"
+          "src/main/resources/assets/dim_progress/models/block/cracked_dreadstone_bricks.json",
+          "src/main/resources/assets/dim_progress/blockstates/cracked_dreadstone_bricks.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -558,9 +558,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/block/crimsoil.json",
-          "src/main/java/net/therealflarf/dimprogress/block/CrimsoilBlock.java",
           "src/main/resources/assets/dim_progress/models/item/crimsoil.json",
-          "src/main/resources/assets/dim_progress/blockstates/crimsoil.json"
+          "src/main/resources/assets/dim_progress/blockstates/crimsoil.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsoilBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -574,10 +574,10 @@
       "registry_name": "crimson_crimsoil_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/blockstates/crimson_crimsoil_grass.json",
-          "src/main/resources/assets/dim_progress/models/item/crimson_crimsoil_grass.json",
           "src/main/resources/assets/dim_progress/models/block/crimson_crimsoil_grass.json",
-          "src/main/java/net/therealflarf/dimprogress/block/CrimsonCrimsoilGrassBlock.java"
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsonCrimsoilGrassBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/crimson_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/models/item/crimson_crimsoil_grass.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -591,10 +591,10 @@
       "registry_name": "dead_crimsoil_grass",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/DeadCrimsoilGrassBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/dead_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/blockstates/dead_crimsoil_grass.json",
           "src/main/resources/assets/dim_progress/models/item/dead_crimsoil_grass.json",
-          "src/main/resources/assets/dim_progress/blockstates/dead_crimsoil_grass.json"
+          "src/main/resources/assets/dim_progress/models/block/dead_crimsoil_grass.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DeadCrimsoilGrassBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -609,9 +609,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/blockstates/sunburst_ziolip.json",
-          "src/main/resources/assets/dim_progress/models/block/sunburst_ziolip.json",
           "src/main/java/net/therealflarf/dimprogress/block/SunburstZiolipBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/sunburst_ziolip.json"
+          "src/main/resources/assets/dim_progress/models/item/sunburst_ziolip.json",
+          "src/main/resources/assets/dim_progress/models/block/sunburst_ziolip.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -625,10 +625,10 @@
       "registry_name": "magenta_ziolip",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/MagentaZiolipBlock.java",
           "src/main/resources/assets/dim_progress/models/block/magenta_ziolip.json",
+          "src/main/resources/assets/dim_progress/models/item/magenta_ziolip.json",
           "src/main/resources/assets/dim_progress/blockstates/magenta_ziolip.json",
-          "src/main/resources/assets/dim_progress/models/item/magenta_ziolip.json"
+          "src/main/java/net/therealflarf/dimprogress/block/MagentaZiolipBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -642,8 +642,8 @@
       "registry_name": "purple_ziolip",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/PurpleZiolipBlock.java",
           "src/main/resources/assets/dim_progress/models/block/purple_ziolip.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PurpleZiolipBlock.java",
           "src/main/resources/assets/dim_progress/models/item/purple_ziolip.json",
           "src/main/resources/assets/dim_progress/blockstates/purple_ziolip.json"
         ]
@@ -701,9 +701,9 @@
       "registry_name": "firebloom",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dim_progress/blockstates/firebloom.json",
           "src/main/resources/assets/dim_progress/models/item/firebloom.json",
           "src/main/resources/assets/dim_progress/models/block/firebloom.json",
-          "src/main/resources/assets/dim_progress/blockstates/firebloom.json",
           "src/main/java/net/therealflarf/dimprogress/block/FirebloomBlock.java"
         ]
       },
@@ -732,10 +732,10 @@
       "registry_name": "emberseed_log",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_log.json",
           "src/main/java/net/therealflarf/dimprogress/block/EmberseedLogBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/emberseed_log.json",
           "src/main/resources/assets/dim_progress/models/item/emberseed_log.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_log.json"
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_log.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -750,9 +750,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/item/emberseed_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedPlanksBlock.java",
           "src/main/resources/assets/dim_progress/blockstates/emberseed_planks.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_planks.json",
-          "src/main/java/net/therealflarf/dimprogress/block/EmberseedPlanksBlock.java"
+          "src/main/resources/assets/dim_progress/models/block/emberseed_planks.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -766,12 +766,12 @@
       "registry_name": "emberseed_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs_inner.json",
-          "src/main/resources/assets/dim_progress/models/item/emberseed_stairs.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_stairs.json",
           "src/main/java/net/therealflarf/dimprogress/block/EmberseedStairsBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/emberseed_stairs.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs_outer.json"
+          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_stairs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -785,12 +785,12 @@
       "registry_name": "emberseed_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_slab.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_slab_top.json",
           "src/main/resources/assets/dim_progress/models/item/emberseed_slab.json",
-          "src/main/resources/assets/dim_progress/blockstates/emberseed_slab.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_slab.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_slab_full.json",
-          "src/main/java/net/therealflarf/dimprogress/block/EmberseedSlabBlock.java"
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedSlabBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_slab.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -846,10 +846,10 @@
       "registry_name": "emberseed_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/item/emberseed_fence.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_inventory.json",
           "src/main/java/net/therealflarf/dimprogress/block/EmberseedFenceBlock.java",
           "src/main/resources/assets/dim_progress/models/block/emberseed_fence_post.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_inventory.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_fence.json",
           "src/main/resources/assets/dim_progress/blockstates/emberseed_fence.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_fence.json"
         ]
@@ -865,12 +865,12 @@
       "registry_name": "emberseed_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_open.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_wall.json",
           "src/main/java/net/therealflarf/dimprogress/block/EmberseedFenceGateBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/emberseed_fence_gate.json",
           "src/main/resources/assets/dim_progress/models/item/emberseed_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_open.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_fence_gate_wall_open.json"
         ]
       },
@@ -913,11 +913,11 @@
       "registry_name": "emberseed_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/EmberseedPressurePlateBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/emberseed_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_pressure_plate.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_pressure_plate_down.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_pressure_plate.json",
-          "src/main/resources/assets/dim_progress/models/item/emberseed_pressure_plate.json"
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_pressure_plate.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedPressurePlateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_pressure_plate.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -932,11 +932,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/item/emberseed_button.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_button.json",
           "src/main/resources/assets/dim_progress/blockstates/emberseed_button.json",
-          "src/main/resources/assets/dim_progress/models/block/emberseed_button_pressed.json",
           "src/main/resources/assets/dim_progress/models/block/emberseed_button_inventory.json",
-          "src/main/java/net/therealflarf/dimprogress/block/EmberseedButtonBlock.java"
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedButtonBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_button_pressed.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_button.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1006,8 +1006,8 @@
       "registry_name": "felsand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/blockstates/felsand.json",
           "src/main/resources/assets/dim_progress/models/item/felsand.json",
+          "src/main/resources/assets/dim_progress/blockstates/felsand.json",
           "src/main/java/net/therealflarf/dimprogress/block/FelsandBlock.java",
           "src/main/resources/assets/dim_progress/models/block/felsand.json"
         ]
@@ -1023,10 +1023,10 @@
       "registry_name": "felsandstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/felsandstone.json",
-          "src/main/resources/assets/dim_progress/models/item/felsandstone.json",
           "src/main/resources/assets/dim_progress/blockstates/felsandstone.json",
-          "src/main/java/net/therealflarf/dimprogress/block/FelsandstoneBlock.java"
+          "src/main/java/net/therealflarf/dimprogress/block/FelsandstoneBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/felsandstone.json",
+          "src/main/resources/assets/dim_progress/models/block/felsandstone.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1041,9 +1041,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/item/cut_felsandstone.json",
-          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone.json",
           "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone.json"
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone.json",
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1058,9 +1058,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_bricks.json",
-          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_bricks.json",
           "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBricksBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_bricks.json"
+          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_bricks.json",
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_bricks.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1074,11 +1074,11 @@
       "registry_name": "cut_felsandstone_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBrickStairsBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_brick_stairs.json",
           "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_stairs.json",
           "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_stairs_inner.json",
           "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_brick_stairs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBrickStairsBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_brick_stairs.json",
           "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_stairs_outer.json"
         ]
       },
@@ -1094,11 +1094,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/dim_progress/blockstates/cut_felsandstone_brick_slab.json",
-          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBrickSlabBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab_top.json",
-          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_brick_slab.json",
           "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab.json",
-          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab_full.json"
+          "src/main/resources/assets/dim_progress/models/item/cut_felsandstone_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/cut_felsandstone_brick_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CutFelsandstoneBrickSlabBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1308,10 +1308,10 @@
       "registry_name": "sunlit_silica",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/blockstates/sunlit_silica.json",
-          "src/main/resources/assets/dim_progress/models/item/sunlit_silica.json",
+          "src/main/java/net/therealflarf/dimprogress/block/SunlitSilicaBlock.java",
           "src/main/resources/assets/dim_progress/models/block/sunlit_silica.json",
-          "src/main/java/net/therealflarf/dimprogress/block/SunlitSilicaBlock.java"
+          "src/main/resources/assets/dim_progress/blockstates/sunlit_silica.json",
+          "src/main/resources/assets/dim_progress/models/item/sunlit_silica.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1325,9 +1325,9 @@
       "registry_name": "sunlit_silica_glass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/item/sunlit_silica_glass.json",
           "src/main/java/net/therealflarf/dimprogress/block/SunlitSilicaGlassBlock.java",
           "src/main/resources/assets/dim_progress/models/block/sunlit_silica_glass.json",
+          "src/main/resources/assets/dim_progress/models/item/sunlit_silica_glass.json",
           "src/main/resources/assets/dim_progress/blockstates/sunlit_silica_glass.json"
         ]
       },
@@ -1384,14 +1384,14 @@
       "registry_name": "crimson_sprigs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/dim_progress/models/block/crimson_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/item/crimson_sprigs.json",
           "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_sprigs.json",
-          "src/main/java/net/therealflarf/dimprogress/block/CrimsonSprigsBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/crimson_sprigs.json",
           "src/main/java/net/therealflarf/dimprogress/world/features/plants/CrimsonSprigsFeature.java",
           "src/main/resources/data/dim_progress/forge/biome_modifier/crimson_sprigs_biome_modifier.json",
-          "src/main/resources/assets/dim_progress/models/item/crimson_sprigs.json",
           "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_sprigs.json",
-          "src/main/resources/assets/dim_progress/models/block/crimson_sprigs.json"
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsonSprigsBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/crimson_sprigs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1405,14 +1405,14 @@
       "registry_name": "dead_pergalon_sprigs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/item/dead_pergalon_sprigs.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/plants/DeadPergalonSprigsFeature.java",
           "src/main/resources/data/dim_progress/forge/biome_modifier/dead_pergalon_sprigs_biome_modifier.json",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/dead_pergalon_sprigs.json",
-          "src/main/resources/assets/dim_progress/blockstates/dead_pergalon_sprigs.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/dead_pergalon_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/DeadPergalonSprigsFeature.java",
           "src/main/resources/assets/dim_progress/models/block/dead_pergalon_sprigs.json",
-          "src/main/java/net/therealflarf/dimprogress/block/DeadPergalonSprigsBlock.java"
+          "src/main/java/net/therealflarf/dimprogress/block/DeadPergalonSprigsBlock.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dead_pergalon_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/item/dead_pergalon_sprigs.json",
+          "src/main/resources/assets/dim_progress/blockstates/dead_pergalon_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dead_pergalon_sprigs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1463,20 +1463,20 @@
       "name": "Pergalon",
       "type": "dimension",
       "sortid": 94,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "pergalon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/blockstates/pergalon_portal.json",
+          "src/main/java/net/therealflarf/dimprogress/world/dimension/PergalonDimension.java",
+          "src/main/resources/assets/dim_progress/models/block/pergalon_portal_ew.json",
           "src/main/resources/assets/dim_progress/models/block/pergalon_portal_ns.json",
           "src/main/java/net/therealflarf/dimprogress/world/teleporter/PergalonPortalShape.java",
           "src/main/resources/data/dim_progress/dimension_type/pergalon.json",
-          "src/main/java/net/therealflarf/dimprogress/block/PergalonPortalBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/pergalon_portal_ew.json",
-          "src/main/java/net/therealflarf/dimprogress/world/dimension/PergalonDimension.java",
+          "src/main/resources/data/dim_progress/dimension/pergalon.json",
           "src/main/java/net/therealflarf/dimprogress/world/teleporter/PergalonTeleporter.java",
-          "src/main/resources/data/dim_progress/dimension/pergalon.json"
+          "src/main/java/net/therealflarf/dimprogress/block/PergalonPortalBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/pergalon_portal.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1572,9 +1572,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/therealflarf/dimprogress/block/NycteciumBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/nyctecium.json",
           "src/main/resources/assets/dim_progress/blockstates/nyctecium.json",
-          "src/main/resources/assets/dim_progress/models/block/nyctecium.json",
-          "src/main/resources/assets/dim_progress/models/item/nyctecium.json"
+          "src/main/resources/assets/dim_progress/models/block/nyctecium.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1602,14 +1602,14 @@
       "registry_name": "grovile_sprigs",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/forge/biome_modifier/grovile_sprigs_biome_modifier.json",
-          "src/main/resources/assets/dim_progress/blockstates/grovile_sprigs.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/plants/GrovileSprigsFeature.java",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/grovile_sprigs.json",
-          "src/main/resources/assets/dim_progress/models/item/grovile_sprigs.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/grovile_sprigs.json",
           "src/main/resources/assets/dim_progress/models/block/grovile_sprigs.json",
-          "src/main/java/net/therealflarf/dimprogress/block/GrovileSprigsBlock.java"
+          "src/main/resources/data/dim_progress/forge/biome_modifier/grovile_sprigs_biome_modifier.json",
+          "src/main/resources/assets/dim_progress/models/item/grovile_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/GrovileSprigsBlock.java",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/GrovileSprigsFeature.java",
+          "src/main/resources/assets/dim_progress/blockstates/grovile_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/grovile_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/grovile_sprigs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1623,10 +1623,10 @@
       "registry_name": "grovile_crimsoil_grass",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/GrovileCrimsoilGrassBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/grovile_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/blockstates/grovile_crimsoil_grass.json",
           "src/main/resources/assets/dim_progress/models/item/grovile_crimsoil_grass.json",
-          "src/main/resources/assets/dim_progress/blockstates/grovile_crimsoil_grass.json"
+          "src/main/java/net/therealflarf/dimprogress/block/GrovileCrimsoilGrassBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/grovile_crimsoil_grass.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1706,10 +1706,10 @@
       "registry_name": "magmactus",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/block/MagmactusBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/magmactus.json",
           "src/main/resources/assets/dim_progress/blockstates/magmactus.json",
-          "src/main/resources/assets/dim_progress/models/block/magmactus.json"
+          "src/main/resources/assets/dim_progress/models/block/magmactus.json",
+          "src/main/resources/assets/dim_progress/models/item/magmactus.json",
+          "src/main/java/net/therealflarf/dimprogress/block/MagmactusBlock.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1723,14 +1723,14 @@
       "registry_name": "nyctic_sprigs",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctic_sprigs.json",
-          "src/main/resources/assets/dim_progress/models/item/nyctic_sprigs.json",
           "src/main/resources/assets/dim_progress/blockstates/nyctic_sprigs.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctic_sprigs.json",
           "src/main/resources/data/dim_progress/forge/biome_modifier/nyctic_sprigs_biome_modifier.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/plants/NycticSprigsFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctic_sprigs.json",
           "src/main/java/net/therealflarf/dimprogress/block/NycticSprigsBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/nyctic_sprigs.json"
+          "src/main/resources/assets/dim_progress/models/item/nyctic_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctic_sprigs.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/plants/NycticSprigsFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctic_sprigs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
