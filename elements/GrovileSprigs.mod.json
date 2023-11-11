@@ -92,6 +92,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:NyctophobicCoppice"
+      },
+      {
+        "value": "CUSTOM:BloodredBog"
       }
     ],
     "generationType": "Grass",

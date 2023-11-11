@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:magmatic_desert",
+  "features": "dim_progress:magmatic_desert_lava_patches",
+  "step": "surface_structures"
+}

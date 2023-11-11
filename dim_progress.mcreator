@@ -1734,6 +1734,119 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagmaticDesertMagmactusGenerator",
+      "type": "feature",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_desert_magmactus_generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/magmatic_desert_magmactus_generator_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/magmatic_desert_magmactus_generator.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/MagmaticDesertMagmactusGeneratorFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/magmatic_desert_magmactus_generator.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagmaticDesertLavaPatches",
+      "type": "feature",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_desert_lava_patches",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/features/MagmaticDesertLavaPatchesFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/magmatic_desert_lava_patches.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/magmatic_desert_lava_patches.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/magmatic_desert_lava_patches_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagmaticDesertFelsandstonePatch",
+      "type": "feature",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_desert_felsandstone_patch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/features/MagmaticDesertFelsandstonePatchFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/magmatic_desert_felsandstone_patch.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/magmatic_desert_felsandstone_patch.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/magmatic_desert_felsandstone_patch_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "InfiniburnOverworld",
+      "type": "tag",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_overworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/infiniburn_overworld.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "MagmaticDesertFirePatch",
+      "type": "feature",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmatic_desert_fire_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/magmatic_desert_fire_patch.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/magmatic_desert_fire_patch.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/magmatic_desert_fire_patch_biome_modifier.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/MagmaticDesertFirePatchFeature.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonMud",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/crimson_mud.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrimsonMudBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/crimson_mud.json",
+          "src/main/resources/assets/dim_progress/models/item/crimson_mud.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "FirebloomSmelt",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firebloom_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/firebloom_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -1759,13 +1872,13 @@
       "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
       "item_group.dim_progress.dp_natural": "DP: Natural",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
-      "block.dim_progress.magmactus": "Magmactus",
-      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
+      "block.dim_progress.magmactus": "Magmactus",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
-      "biome.dim_progress.cragrock_fields": "Cragrock Fields",
-      "item_group.dim_progress.dp_building": "DP: Building",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "biome.dim_progress.cragrock_fields": "Cragrock Fields",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
       "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
@@ -1794,6 +1907,7 @@
       "item.dim_progress.runicon_shard": "Runicon Shard",
       "block.dim_progress.emberseed_button": "Emberseed Button",
       "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
+      "block.dim_progress.crimson_mud": "Crimson Mud",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
       "block.dim_progress.dreadstone": "Dreadstone",

@@ -9,6 +9,10 @@ import net.therealflarf.dimprogress.world.features.plants.GrovileSprigsFeature;
 import net.therealflarf.dimprogress.world.features.plants.DeadPergalonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.plants.CrimsonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.ores.DeepslateRuniconOreFeature;
+import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmactusGeneratorFeature;
+import net.therealflarf.dimprogress.world.features.MagmaticDesertLavaPatchesFeature;
+import net.therealflarf.dimprogress.world.features.MagmaticDesertFirePatchFeature;
+import net.therealflarf.dimprogress.world.features.MagmaticDesertFelsandstonePatchFeature;
 import net.therealflarf.dimprogress.DimProgressMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -26,4 +30,8 @@ public class DimProgressModFeatures {
 	public static final RegistryObject<Feature<?>> DEAD_PERGALON_SPRIGS = REGISTRY.register("dead_pergalon_sprigs", DeadPergalonSprigsFeature::new);
 	public static final RegistryObject<Feature<?>> GROVILE_SPRIGS = REGISTRY.register("grovile_sprigs", GrovileSprigsFeature::new);
 	public static final RegistryObject<Feature<?>> NYCTIC_SPRIGS = REGISTRY.register("nyctic_sprigs", NycticSprigsFeature::new);
+	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_MAGMACTUS_GENERATOR = REGISTRY.register("magmatic_desert_magmactus_generator", MagmaticDesertMagmactusGeneratorFeature::new);
+	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_LAVA_PATCHES = REGISTRY.register("magmatic_desert_lava_patches", MagmaticDesertLavaPatchesFeature::new);
+	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_FELSANDSTONE_PATCH = REGISTRY.register("magmatic_desert_felsandstone_patch", MagmaticDesertFelsandstonePatchFeature::new);
+	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_FIRE_PATCH = REGISTRY.register("magmatic_desert_fire_patch", MagmaticDesertFirePatchFeature::new);
 }

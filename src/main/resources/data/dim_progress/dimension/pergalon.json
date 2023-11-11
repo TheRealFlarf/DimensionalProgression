@@ -4,7 +4,7 @@
     "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "biomes": "biomes": [
+      "biomes": [
         {
           "biome": "dim_progress:bloodred_bog",
           "parameters": {

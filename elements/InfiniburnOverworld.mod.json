@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Felsand"
+      },
+      {
+        "value": "CUSTOM:Felsandstone"
+      },
+      {
+        "value": "CUSTOM:CutFelsandstone"
+      },
+      {
+        "value": "CUSTOM:CutFelsandstoneBricks"
+      },
+      {
+        "value": "CUSTOM:SunlitSilica"
+      },
+      {
+        "value": "CUSTOM:SunlitSilicaGlass"
+      },
+      {
+        "value": "CUSTOM:DeadCrimsoilGrass"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "infiniburn_overworld",
+    "namespace": "minecraft"
+  }
+}

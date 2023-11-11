@@ -47,6 +47,7 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.NYCTECIUM.get().asItem());
 				tabData.accept(DimProgressModBlocks.NYCTIC_SPRIGS.get().asItem());
 				tabData.accept(DimProgressModBlocks.MAGMACTUS.get().asItem());
+				tabData.accept(DimProgressModBlocks.CRIMSON_MUD.get().asItem());
 			})
 
 					.build());

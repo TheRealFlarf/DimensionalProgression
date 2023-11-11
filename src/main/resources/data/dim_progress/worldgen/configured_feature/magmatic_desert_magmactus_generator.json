@@ -1,0 +1,59 @@
+{
+  "type": "dim_progress:magmatic_desert_magmactus_generator",
+  "config": {
+    "tries": 10,
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
+          "direction": "up",
+          "layers": [
+            {
+              "height": {
+                "type": "biased_to_bottom",
+                "value": {
+                  "min_inclusive": 1,
+                  "max_inclusive": 3
+                }
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "dim_progress:magmactus"
+                }
+              }
+            }
+          ],
+          "prioritize_tip": false
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:cactus",
+                  "Properties": {
+                    "age": "0"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

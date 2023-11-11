@@ -92,6 +92,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:CrimsonPlains"
+      },
+      {
+        "value": "CUSTOM:EmberseedWoodlands"
       }
     ],
     "generationType": "Grass",

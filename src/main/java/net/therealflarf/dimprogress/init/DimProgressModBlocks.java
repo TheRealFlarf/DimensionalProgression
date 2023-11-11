@@ -44,6 +44,7 @@ import net.therealflarf.dimprogress.block.CutFelsandstoneBrickSlabBlock;
 import net.therealflarf.dimprogress.block.CutFelsandstoneBlock;
 import net.therealflarf.dimprogress.block.CrystalGlassBlock;
 import net.therealflarf.dimprogress.block.CrimsonSprigsBlock;
+import net.therealflarf.dimprogress.block.CrimsonMudBlock;
 import net.therealflarf.dimprogress.block.CrimsonCrimsoilGrassBlock;
 import net.therealflarf.dimprogress.block.CrimsoilBlock;
 import net.therealflarf.dimprogress.block.CrackedDreadstoneBricksBlock;
@@ -100,4 +101,5 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> NYCTECIUM = REGISTRY.register("nyctecium", () -> new NycteciumBlock());
 	public static final RegistryObject<Block> NYCTIC_SPRIGS = REGISTRY.register("nyctic_sprigs", () -> new NycticSprigsBlock());
 	public static final RegistryObject<Block> MAGMACTUS = REGISTRY.register("magmactus", () -> new MagmactusBlock());
+	public static final RegistryObject<Block> CRIMSON_MUD = REGISTRY.register("crimson_mud", () -> new CrimsonMudBlock());
 }
