@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dim_progress:block/procedural_dungeon_gen_test_portal_ew"
+    },
+    "axis=x": {
+      "model": "dim_progress:block/procedural_dungeon_gen_test_portal_ns"
+    }
+  }
+}

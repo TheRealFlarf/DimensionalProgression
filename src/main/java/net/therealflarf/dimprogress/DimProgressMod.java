@@ -20,6 +20,7 @@ import net.therealflarf.dimprogress.init.DimProgressModTabs;
 import net.therealflarf.dimprogress.init.DimProgressModSounds;
 import net.therealflarf.dimprogress.init.DimProgressModItems;
 import net.therealflarf.dimprogress.init.DimProgressModFeatures;
+import net.therealflarf.dimprogress.init.DimProgressModEntities;
 import net.therealflarf.dimprogress.init.DimProgressModBlocks;
 
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -56,6 +57,7 @@ public class DimProgressMod {
 		DimProgressModBlocks.REGISTRY.register(bus);
 
 		DimProgressModItems.REGISTRY.register(bus);
+		DimProgressModEntities.REGISTRY.register(bus);
 
 		DimProgressModTabs.REGISTRY.register(bus);
 		DimProgressModFeatures.REGISTRY.register(bus);

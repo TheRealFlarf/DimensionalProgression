@@ -8,14 +8,19 @@ import net.therealflarf.dimprogress.DimProgressMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DimProgressModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DimProgressMod.MODID);
 	public static final RegistryObject<CreativeModeTab> DP_MISC = REGISTRY.register("dp_misc",
@@ -95,4 +100,16 @@ public class DimProgressModTabs {
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(DimProgressModItems.DT_HALLWAY_PLACEMENT_SPAWN_EGG.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(DimProgressModItems.PROCEDURAL_DUNGEON_GEN_TEST.get());
+		}
+	}
 }

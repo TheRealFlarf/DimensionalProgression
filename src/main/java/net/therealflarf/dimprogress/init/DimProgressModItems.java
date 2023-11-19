@@ -7,6 +7,7 @@ package net.therealflarf.dimprogress.init;
 import net.therealflarf.dimprogress.item.WorldgenTestItem;
 import net.therealflarf.dimprogress.item.RuniconShardItem;
 import net.therealflarf.dimprogress.item.RunicGemstoneItem;
+import net.therealflarf.dimprogress.item.ProceduralDungeonGenTestItem;
 import net.therealflarf.dimprogress.item.PergalonPortalChargeItem;
 import net.therealflarf.dimprogress.item.NetherPortalChargeItem;
 import net.therealflarf.dimprogress.DimProgressMod;
@@ -14,6 +15,7 @@ import net.therealflarf.dimprogress.DimProgressMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -78,6 +80,8 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> PYRIND_PRESSURE_PLATE = block(DimProgressModBlocks.PYRIND_PRESSURE_PLATE);
 	public static final RegistryObject<Item> PYRIND_BUTTON = block(DimProgressModBlocks.PYRIND_BUTTON);
 	public static final RegistryObject<Item> PYRIND_LEAVES = block(DimProgressModBlocks.PYRIND_LEAVES);
+	public static final RegistryObject<Item> PROCEDURAL_DUNGEON_GEN_TEST = REGISTRY.register("procedural_dungeon_gen_test", () -> new ProceduralDungeonGenTestItem());
+	public static final RegistryObject<Item> DT_HALLWAY_PLACEMENT_SPAWN_EGG = REGISTRY.register("dt_hallway_placement_spawn_egg", () -> new ForgeSpawnEggItem(DimProgressModEntities.DT_HALLWAY_PLACEMENT, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

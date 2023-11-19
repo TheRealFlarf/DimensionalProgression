@@ -22,6 +22,7 @@ import net.therealflarf.dimprogress.block.PyrindFenceGateBlock;
 import net.therealflarf.dimprogress.block.PyrindFenceBlock;
 import net.therealflarf.dimprogress.block.PyrindButtonBlock;
 import net.therealflarf.dimprogress.block.PurpleZiolipBlock;
+import net.therealflarf.dimprogress.block.ProceduralDungeonGenTestPortalBlock;
 import net.therealflarf.dimprogress.block.PergalonPortalBlock;
 import net.therealflarf.dimprogress.block.NycticSprigsBlock;
 import net.therealflarf.dimprogress.block.NycteciumBlock;
@@ -122,4 +123,5 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> PYRIND_PRESSURE_PLATE = REGISTRY.register("pyrind_pressure_plate", () -> new PyrindPressurePlateBlock());
 	public static final RegistryObject<Block> PYRIND_BUTTON = REGISTRY.register("pyrind_button", () -> new PyrindButtonBlock());
 	public static final RegistryObject<Block> PYRIND_LEAVES = REGISTRY.register("pyrind_leaves", () -> new PyrindLeavesBlock());
+	public static final RegistryObject<Block> PROCEDURAL_DUNGEON_GEN_TEST_PORTAL = REGISTRY.register("procedural_dungeon_gen_test_portal", () -> new ProceduralDungeonGenTestPortalBlock());
 }
