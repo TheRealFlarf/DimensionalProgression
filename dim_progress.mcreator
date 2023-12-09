@@ -2304,6 +2304,62 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonCrimsoilGrassDrops",
+      "type": "loottable",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_crimsoil_grass_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/crimson_crimsoil_grass.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DeadCrimsoilGrassDrops",
+      "type": "loottable",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_crimsoil_grass_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/dead_crimsoil_grass.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NycteciumDrops",
+      "type": "loottable",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctecium_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/nyctecium.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "GrovileCrimsoilGrassDrops",
+      "type": "loottable",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grovile_crimsoil_grass_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/grovile_crimsoil_grass.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],

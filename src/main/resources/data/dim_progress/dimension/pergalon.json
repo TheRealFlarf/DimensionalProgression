@@ -18,18 +18,6 @@
           }
         },
         {
-          "biome": "dim_progress:cragrock_fields",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0.8,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
           "biome": "dim_progress:emberseed_woodlands",
           "parameters": {
             "temperature": 0.2,
