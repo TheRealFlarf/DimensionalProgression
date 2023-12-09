@@ -4,6 +4,12 @@
   "downfall": 1,
   "effects": {
     "ambient_sound": "ambient.basalt_deltas.loop",
+    "music": {
+      "sound": "dim_progress:pergalon_ambient",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -10223593,
     "grass_color": -11468782,
     "sky_color": -4127427,

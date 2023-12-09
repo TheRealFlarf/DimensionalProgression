@@ -777,7 +777,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "dim_progress:grovile_crimsoil_grass"
+                              "Name": "dim_progress:crimsoil"
                             }
                           }
                         },

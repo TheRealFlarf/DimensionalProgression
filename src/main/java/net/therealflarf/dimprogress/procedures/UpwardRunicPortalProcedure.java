@@ -70,6 +70,13 @@ public class UpwardRunicPortalProcedure {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:portal_frame_activate")), SoundSource.BLOCKS, 1, 1, false);
 					}
 				}
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:pergalon_portal_activate")), SoundSource.MUSIC, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:pergalon_portal_activate")), SoundSource.MUSIC, 1, 1, false);
+					}
+				}
 			} else {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("The portal must be activated with an active Portal Charge"), true);
@@ -117,6 +124,13 @@ public class UpwardRunicPortalProcedure {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:portal_frame_activate")), SoundSource.BLOCKS, 1, 1);
 					} else {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:portal_frame_activate")), SoundSource.BLOCKS, 1, 1, false);
+					}
+				}
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:pergalon_portal_activate")), SoundSource.MUSIC, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("dim_progress:pergalon_portal_activate")), SoundSource.MUSIC, 1, 1, false);
 					}
 				}
 			} else {

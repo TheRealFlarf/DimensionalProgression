@@ -4,7 +4,7 @@
   "definition": {
     "name": "Nyctophobic Coppice",
     "groundBlock": {
-      "value": "CUSTOM:Crimsoil"
+      "value": "CUSTOM:GrovileCrimsoilGrass"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Crimsoil"
@@ -39,7 +39,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:pergalon_ambient"
     },
     "moodSound": {
       "value": ""

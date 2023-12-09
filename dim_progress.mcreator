@@ -2272,6 +2272,38 @@
         ]
       },
       "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "PergalonPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/PergalonPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -2283,6 +2315,33 @@
       ],
       "category": "block",
       "subtitle": "Runic Portal Activates"
+    },
+    {
+      "name": "pergalon_portal_activate",
+      "files": [
+        "discomfort"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "pergalon_introduction",
+      "files": [
+        "underworld"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "pergalon_ambient",
+      "files": [
+        "lost",
+        "long_forgotten",
+        "nightfall",
+        "foreign_astronomy"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2290,17 +2349,20 @@
       "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
       "block.dim_progress.emberseed_fence": "Emberseed Fence",
       "block.dim_progress.sunlit_silica": "Sunlit Silica",
+      "subtitles.pergalon_ambient": "",
       "item.dim_progress.runic_gemstone": "Runic Gemstone",
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
       "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
       "biome.dim_progress.crimson_plains": "Crimson Plains",
       "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
       "item_group.dim_progress.dp_natural": "DP: Natural",
+      "subtitles.pergalon_introduction": "",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
       "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.magmactus": "Magmactus",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
+      "subtitles.pergalon_portal_activate": "",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "item_group.dim_progress.dp_building": "DP: Building",
       "biome.dim_progress.cragrock_fields": "Cragrock Fields",
@@ -2408,7 +2470,12 @@
           },
           {
             "name": "Limbo",
-            "children": []
+            "children": [
+              {
+                "name": "GatewayDim1",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Pergalon",

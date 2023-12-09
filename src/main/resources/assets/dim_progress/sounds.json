@@ -7,5 +7,41 @@
         "stream": false
       }
     ]
+  },
+  "pergalon_portal_activate": {
+    "sounds": [
+      {
+        "name": "dim_progress:discomfort",
+        "stream": true
+      }
+    ]
+  },
+  "pergalon_introduction": {
+    "sounds": [
+      {
+        "name": "dim_progress:underworld",
+        "stream": true
+      }
+    ]
+  },
+  "pergalon_ambient": {
+    "sounds": [
+      {
+        "name": "dim_progress:lost",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:long_forgotten",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:nightfall",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:foreign_astronomy",
+        "stream": true
+      }
+    ]
   }
 }

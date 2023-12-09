@@ -4,6 +4,12 @@
   "downfall": 0,
   "effects": {
     "ambient_sound": "ambient.nether_wastes.loop",
+    "music": {
+      "sound": "dim_progress:pergalon_ambient",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -5220608,
     "grass_color": -7055349,
     "sky_color": -7526371,
