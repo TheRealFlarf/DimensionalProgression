@@ -59,6 +59,14 @@ import net.therealflarf.dimprogress.block.CrimsonMudBlock;
 import net.therealflarf.dimprogress.block.CrimsonCrimsoilGrassBlock;
 import net.therealflarf.dimprogress.block.CrimsoilBlock;
 import net.therealflarf.dimprogress.block.CrackedDreadstoneBricksBlock;
+import net.therealflarf.dimprogress.block.ClotbarkStairsBlock;
+import net.therealflarf.dimprogress.block.ClotbarkSlabBlock;
+import net.therealflarf.dimprogress.block.ClotbarkPressurePlateBlock;
+import net.therealflarf.dimprogress.block.ClotbarkPlanksBlock;
+import net.therealflarf.dimprogress.block.ClotbarkLogBlock;
+import net.therealflarf.dimprogress.block.ClotbarkFenceGateBlock;
+import net.therealflarf.dimprogress.block.ClotbarkFenceBlock;
+import net.therealflarf.dimprogress.block.ClotbarkButtonBlock;
 import net.therealflarf.dimprogress.DimProgressMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -124,4 +132,12 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> PYRIND_BUTTON = REGISTRY.register("pyrind_button", () -> new PyrindButtonBlock());
 	public static final RegistryObject<Block> PYRIND_LEAVES = REGISTRY.register("pyrind_leaves", () -> new PyrindLeavesBlock());
 	public static final RegistryObject<Block> PROCEDURAL_DUNGEON_GEN_TEST_PORTAL = REGISTRY.register("procedural_dungeon_gen_test_portal", () -> new ProceduralDungeonGenTestPortalBlock());
+	public static final RegistryObject<Block> CLOTBARK_LOG = REGISTRY.register("clotbark_log", () -> new ClotbarkLogBlock());
+	public static final RegistryObject<Block> CLOTBARK_PLANKS = REGISTRY.register("clotbark_planks", () -> new ClotbarkPlanksBlock());
+	public static final RegistryObject<Block> CLOTBARK_STAIRS = REGISTRY.register("clotbark_stairs", () -> new ClotbarkStairsBlock());
+	public static final RegistryObject<Block> CLOTBARK_SLAB = REGISTRY.register("clotbark_slab", () -> new ClotbarkSlabBlock());
+	public static final RegistryObject<Block> CLOTBARK_FENCE = REGISTRY.register("clotbark_fence", () -> new ClotbarkFenceBlock());
+	public static final RegistryObject<Block> CLOTBARK_FENCE_GATE = REGISTRY.register("clotbark_fence_gate", () -> new ClotbarkFenceGateBlock());
+	public static final RegistryObject<Block> CLOTBARK_PRESSURE_PLATE = REGISTRY.register("clotbark_pressure_plate", () -> new ClotbarkPressurePlateBlock());
+	public static final RegistryObject<Block> CLOTBARK_BUTTON = REGISTRY.register("clotbark_button", () -> new ClotbarkButtonBlock());
 }

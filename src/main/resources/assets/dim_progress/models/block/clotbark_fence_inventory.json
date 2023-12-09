@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "dim_progress:block/clotbark_planks",
+    "particle": "dim_progress:block/clotbark_planks"
+  },
+  "render_type": "solid"
+}

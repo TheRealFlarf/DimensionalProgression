@@ -10,6 +10,9 @@
       },
       {
         "value": "CUSTOM:PyrindLog"
+      },
+      {
+        "value": "CUSTOM:ClotbarkLog"
       }
     ],
     "functions": [],

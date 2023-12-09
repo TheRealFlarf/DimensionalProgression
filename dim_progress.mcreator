@@ -2346,6 +2346,230 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BloodredBogMudPatch",
+      "type": "feature",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodred_bog_mud_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/bloodred_bog_mud_patch_biome_modifier.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/BloodredBogMudPatchFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_mud_patch.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_mud_patch.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BloodredBogWaterPools",
+      "type": "feature",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodred_bog_water_pools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/bloodred_bog_water_pools_biome_modifier.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/BloodredBogWaterPoolsFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_water_pools.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_water_pools.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkLog",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/clotbark_log.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_log.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_log.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkLogBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkPlanks",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/clotbark_planks.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkPlanksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkStairs",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_stairs_inner.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkStairsBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkSlab",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/clotbark_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_slab.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkPlanksCraft",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkStairsCraft",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkSlabCraft",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkFence",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence_post.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkFenceBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence_inventory.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkFenceGate",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkFenceGateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence_gate_open.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence_gate.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence_gate_wall_open.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkPressurePlate",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/clotbark_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_pressure_plate_down.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkPressurePlateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_pressure_plate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkButton",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/clotbark_button.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_button.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_button.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_button_inventory.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkButtonBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_button_pressed.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -2389,7 +2613,9 @@
   "language_map": {
     "en_us": {
       "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
+      "block.dim_progress.clotbark_fence_gate": "Clotbark Fence Gate",
       "block.dim_progress.emberseed_fence": "Emberseed Fence",
+      "block.dim_progress.clotbark_button": "Clotbark Button",
       "block.dim_progress.sunlit_silica": "Sunlit Silica",
       "subtitles.pergalon_ambient": "",
       "item.dim_progress.runic_gemstone": "Runic Gemstone",
@@ -2408,6 +2634,7 @@
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "item_group.dim_progress.dp_building": "DP: Building",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
+      "block.dim_progress.clotbark_slab": "Clotbark Slab",
       "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
       "block.dim_progress.pyrind_planks": "Pyrind Planks",
@@ -2415,6 +2642,7 @@
       "block.dim_progress.pyrind_button": "Pyrind Button",
       "biome.dim_progress.basic": "Basic",
       "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
+      "block.dim_progress.clotbark_stairs": "Clotbark Stairs",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
       "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
       "block.dim_progress.firebloom": "Firebloom",
@@ -2430,6 +2658,7 @@
       "block.dim_progress.pyrind_fence": "Pyrind Fence",
       "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
       "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
+      "block.dim_progress.clotbark_planks": "Clotbark Planks",
       "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
       "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
@@ -2437,6 +2666,7 @@
       "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
       "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
       "block.dim_progress.felsand": "Felsand",
+      "block.dim_progress.clotbark_fence": "Clotbark Fence",
       "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
       "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
@@ -2446,6 +2676,7 @@
       "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
       "block.dim_progress.emberseed_button": "Emberseed Button",
       "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
+      "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
       "block.dim_progress.crimson_mud": "Crimson Mud",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
@@ -2461,6 +2692,7 @@
       "block.dim_progress.nyctecium": "Nyctecium",
       "block.dim_progress.cut_felsandstone": "Cut Felsandstone",
       "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
+      "block.dim_progress.clotbark_log": "Clotbark Log",
       "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
       "block.dim_progress.crystal_glass": "Crystal Glass"
     }

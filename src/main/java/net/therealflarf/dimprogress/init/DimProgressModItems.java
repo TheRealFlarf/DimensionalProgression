@@ -82,6 +82,14 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> PYRIND_LEAVES = block(DimProgressModBlocks.PYRIND_LEAVES);
 	public static final RegistryObject<Item> PROCEDURAL_DUNGEON_GEN_TEST = REGISTRY.register("procedural_dungeon_gen_test", () -> new ProceduralDungeonGenTestItem());
 	public static final RegistryObject<Item> DT_HALLWAY_PLACEMENT_SPAWN_EGG = REGISTRY.register("dt_hallway_placement_spawn_egg", () -> new ForgeSpawnEggItem(DimProgressModEntities.DT_HALLWAY_PLACEMENT, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CLOTBARK_LOG = block(DimProgressModBlocks.CLOTBARK_LOG);
+	public static final RegistryObject<Item> CLOTBARK_PLANKS = block(DimProgressModBlocks.CLOTBARK_PLANKS);
+	public static final RegistryObject<Item> CLOTBARK_STAIRS = block(DimProgressModBlocks.CLOTBARK_STAIRS);
+	public static final RegistryObject<Item> CLOTBARK_SLAB = block(DimProgressModBlocks.CLOTBARK_SLAB);
+	public static final RegistryObject<Item> CLOTBARK_FENCE = block(DimProgressModBlocks.CLOTBARK_FENCE);
+	public static final RegistryObject<Item> CLOTBARK_FENCE_GATE = block(DimProgressModBlocks.CLOTBARK_FENCE_GATE);
+	public static final RegistryObject<Item> CLOTBARK_PRESSURE_PLATE = block(DimProgressModBlocks.CLOTBARK_PRESSURE_PLATE);
+	public static final RegistryObject<Item> CLOTBARK_BUTTON = block(DimProgressModBlocks.CLOTBARK_BUTTON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

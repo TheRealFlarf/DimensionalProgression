@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:clotbark_planks"
+    },
+    "1": {
+      "item": "dim_progress:clotbark_planks"
+    },
+    "2": {
+      "item": "dim_progress:clotbark_planks"
+    }
+  },
+  "result": {
+    "item": "dim_progress:clotbark_slab",
+    "count": 6
+  }
+}

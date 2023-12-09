@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "dim_progress:block/clotbark_planks",
+    "top": "dim_progress:block/clotbark_planks",
+    "side": "dim_progress:block/clotbark_planks"
+  },
+  "render_type": "solid"
+}

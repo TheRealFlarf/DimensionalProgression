@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class CrimsonMudBlock extends Block {
 	public CrimsonMudBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.MUD).strength(0.8f).speedFactor(0.4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.MUD).strength(0.8f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

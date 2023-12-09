@@ -1,0 +1,22 @@
+{
+  "feature": "dim_progress:bloodred_bog_water_pools",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 12
+        }
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -56,6 +56,7 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.EMBERSEED_LEAVES.get().asItem());
 				tabData.accept(DimProgressModBlocks.PYRIND_LOG.get().asItem());
 				tabData.accept(DimProgressModBlocks.PYRIND_LEAVES.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_LOG.get().asItem());
 			})
 
 					.build());
@@ -89,6 +90,13 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.PYRIND_FENCE_GATE.get().asItem());
 				tabData.accept(DimProgressModBlocks.PYRIND_PRESSURE_PLATE.get().asItem());
 				tabData.accept(DimProgressModBlocks.PYRIND_BUTTON.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_PLANKS.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_STAIRS.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_SLAB.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_FENCE.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_FENCE_GATE.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_PRESSURE_PLATE.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_BUTTON.get().asItem());
 			})
 
 					.build());

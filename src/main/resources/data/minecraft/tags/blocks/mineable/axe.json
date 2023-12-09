@@ -16,6 +16,14 @@
     "dim_progress:pyrind_fence",
     "dim_progress:pyrind_fence_gate",
     "dim_progress:pyrind_pressure_plate",
-    "dim_progress:pyrind_button"
+    "dim_progress:pyrind_button",
+    "dim_progress:clotbark_log",
+    "dim_progress:clotbark_planks",
+    "dim_progress:clotbark_stairs",
+    "dim_progress:clotbark_slab",
+    "dim_progress:clotbark_fence",
+    "dim_progress:clotbark_fence_gate",
+    "dim_progress:clotbark_pressure_plate",
+    "dim_progress:clotbark_button"
   ]
 }

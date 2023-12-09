@@ -1,0 +1,28 @@
+{
+  "type": "dim_progress:bloodred_bog_water_pools",
+  "config": {
+    "contents": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "rim": {
+      "Name": "dim_progress:crimson_mud"
+    },
+    "size": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 12
+      }
+    },
+    "rim_size": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    }
+  }
+}

@@ -17,6 +17,8 @@ import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmaPatchFeatu
 import net.therealflarf.dimprogress.world.features.MagmaticDesertLavaPatchesFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertFirePatchFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertFelsandstonePatchFeature;
+import net.therealflarf.dimprogress.world.features.BloodredBogWaterPoolsFeature;
+import net.therealflarf.dimprogress.world.features.BloodredBogMudPatchFeature;
 import net.therealflarf.dimprogress.DimProgressMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -42,4 +44,6 @@ public class DimProgressModFeatures {
 	public static final RegistryObject<Feature<?>> MAGMATIC_DESERT_MAGMA_PATCH = REGISTRY.register("magmatic_desert_magma_patch", MagmaticDesertMagmaPatchFeature::new);
 	public static final RegistryObject<Feature<?>> SUNLIT_SILICA_PRISM_LARGE = REGISTRY.register("sunlit_silica_prism_large", SunlitSilicaPrismLargeFeature::new);
 	public static final RegistryObject<Feature<?>> SUNLIT_SILICA_PRISM_SMALL = REGISTRY.register("sunlit_silica_prism_small", SunlitSilicaPrismSmallFeature::new);
+	public static final RegistryObject<Feature<?>> BLOODRED_BOG_MUD_PATCH = REGISTRY.register("bloodred_bog_mud_patch", BloodredBogMudPatchFeature::new);
+	public static final RegistryObject<Feature<?>> BLOODRED_BOG_WATER_POOLS = REGISTRY.register("bloodred_bog_water_pools", BloodredBogWaterPoolsFeature::new);
 }
