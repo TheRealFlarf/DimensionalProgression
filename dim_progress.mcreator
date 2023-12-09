@@ -1553,20 +1553,6 @@
       "path": "~/Dimensions/Pergalon"
     },
     {
-      "name": "CragrockFields",
-      "type": "biome",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cragrock_fields",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/cragrock_fields.json"
-        ]
-      },
-      "path": "~/Dimensions/Pergalon"
-    },
-    {
       "name": "Nyctecium",
       "type": "block",
       "sortid": 105,
@@ -2421,7 +2407,6 @@
       "subtitles.pergalon_portal_activate": "",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "item_group.dim_progress.dp_building": "DP: Building",
-      "biome.dim_progress.cragrock_fields": "Cragrock Fields",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
