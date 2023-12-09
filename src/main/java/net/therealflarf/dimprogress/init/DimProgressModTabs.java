@@ -57,6 +57,7 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.PYRIND_LOG.get().asItem());
 				tabData.accept(DimProgressModBlocks.PYRIND_LEAVES.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_LOG.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_LEAVES.get().asItem());
 			})
 
 					.build());

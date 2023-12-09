@@ -2570,6 +2570,23 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkLeaves",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_leaves.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_leaves.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -2657,6 +2674,7 @@
       "block.dim_progress.pyrind_slab": "Pyrind Slab",
       "block.dim_progress.pyrind_fence": "Pyrind Fence",
       "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
+      "block.dim_progress.clotbark_leaves": "Clotbark Leaves",
       "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
       "block.dim_progress.clotbark_planks": "Clotbark Planks",
       "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",

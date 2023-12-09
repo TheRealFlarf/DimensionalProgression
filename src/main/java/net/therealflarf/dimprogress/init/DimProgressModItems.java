@@ -90,6 +90,7 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> CLOTBARK_FENCE_GATE = block(DimProgressModBlocks.CLOTBARK_FENCE_GATE);
 	public static final RegistryObject<Item> CLOTBARK_PRESSURE_PLATE = block(DimProgressModBlocks.CLOTBARK_PRESSURE_PLATE);
 	public static final RegistryObject<Item> CLOTBARK_BUTTON = block(DimProgressModBlocks.CLOTBARK_BUTTON);
+	public static final RegistryObject<Item> CLOTBARK_LEAVES = block(DimProgressModBlocks.CLOTBARK_LEAVES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

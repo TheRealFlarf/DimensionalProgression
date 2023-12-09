@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "dim_progress:block/crimson_mud",
-    "portal": "dim_progress:block/crimson_mud"
+    "particle": "dim_progress:block/pergalon_portal",
+    "portal": "dim_progress:block/pergalon_portal"
   },
   "elements": [
     {

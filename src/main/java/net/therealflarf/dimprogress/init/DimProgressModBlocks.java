@@ -64,6 +64,7 @@ import net.therealflarf.dimprogress.block.ClotbarkSlabBlock;
 import net.therealflarf.dimprogress.block.ClotbarkPressurePlateBlock;
 import net.therealflarf.dimprogress.block.ClotbarkPlanksBlock;
 import net.therealflarf.dimprogress.block.ClotbarkLogBlock;
+import net.therealflarf.dimprogress.block.ClotbarkLeavesBlock;
 import net.therealflarf.dimprogress.block.ClotbarkFenceGateBlock;
 import net.therealflarf.dimprogress.block.ClotbarkFenceBlock;
 import net.therealflarf.dimprogress.block.ClotbarkButtonBlock;
@@ -140,4 +141,5 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> CLOTBARK_FENCE_GATE = REGISTRY.register("clotbark_fence_gate", () -> new ClotbarkFenceGateBlock());
 	public static final RegistryObject<Block> CLOTBARK_PRESSURE_PLATE = REGISTRY.register("clotbark_pressure_plate", () -> new ClotbarkPressurePlateBlock());
 	public static final RegistryObject<Block> CLOTBARK_BUTTON = REGISTRY.register("clotbark_button", () -> new ClotbarkButtonBlock());
+	public static final RegistryObject<Block> CLOTBARK_LEAVES = REGISTRY.register("clotbark_leaves", () -> new ClotbarkLeavesBlock());
 }

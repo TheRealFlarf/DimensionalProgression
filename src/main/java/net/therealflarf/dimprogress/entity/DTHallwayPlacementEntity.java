@@ -1,7 +1,6 @@
 
 package net.therealflarf.dimprogress.entity;
 
-import net.therealflarf.dimprogress.procedures.DTPlaceRandomHallwayProcedure;
 import net.therealflarf.dimprogress.init.DimProgressModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -81,12 +80,6 @@ public class DTHallwayPlacementEntity extends PathfinderMob {
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
 		return false;
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		DTPlaceRandomHallwayProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

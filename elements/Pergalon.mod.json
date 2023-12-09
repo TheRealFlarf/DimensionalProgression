@@ -10,9 +10,6 @@
         "value": "CUSTOM:BloodredBog"
       },
       {
-        "value": "CUSTOM:CragrockFields"
-      },
-      {
         "value": "CUSTOM:EmberseedWoodlands"
       },
       {
@@ -59,7 +56,7 @@
       "value": "TOOLS"
     },
     "texture": "",
-    "portalTexture": "crimson_mud",
+    "portalTexture": "pergalon_portal",
     "enablePortal": true
   }
 }
