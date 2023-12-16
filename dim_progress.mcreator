@@ -2587,6 +2587,135 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedDoor",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_top_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_top_right.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedDoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_bottom_left_open.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_door.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_door.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_top_right_open.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_bottom_right.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_top_left.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_bottom_left.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindDoor",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_top_right.json",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_door.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindDoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_bottom_right.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_door.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_bottom_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_bottom_left.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_top_left.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_top_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_top_right_open.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkDoor",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_top_right.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_top_left.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_bottom_right.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkDoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_top_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_top_right_open.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_bottom_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_bottom_left.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_door.json",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_door.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedTrapdoor",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/emberseed_trapdoor.json",
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedTrapdoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_trapdoor_open.json",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_trapdoor.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_trapdoor_top.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindTrapdoor",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/pyrind_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_trapdoor.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindTrapdoorBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_trapdoor_open.json",
+          "src/main/resources/assets/dim_progress/models/block/pyrind_trapdoor_top.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkTrapdoor",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/clotbark_trapdoor.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkTrapdoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_trapdoor_open.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_trapdoor_top.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_trapdoor.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -2646,6 +2775,7 @@
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
       "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.magmactus": "Magmactus",
+      "block.dim_progress.clotbark_door": "Clotbark Door",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
       "subtitles.pergalon_portal_activate": "",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
@@ -2654,6 +2784,7 @@
       "block.dim_progress.clotbark_slab": "Clotbark Slab",
       "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
+      "block.dim_progress.clotbark_trapdoor": "Clotbark Trapdoor",
       "block.dim_progress.pyrind_planks": "Pyrind Planks",
       "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
       "block.dim_progress.pyrind_button": "Pyrind Button",
@@ -2681,6 +2812,7 @@
       "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
       "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
+      "block.dim_progress.pyrind_door": "Pyrind Door",
       "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
       "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
       "block.dim_progress.felsand": "Felsand",
@@ -2696,12 +2828,15 @@
       "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
       "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
       "block.dim_progress.crimson_mud": "Crimson Mud",
+      "block.dim_progress.emberseed_door": "Emberseed Door",
+      "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
       "block.dim_progress.dreadstone": "Dreadstone",
       "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
       "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
       "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
+      "block.dim_progress.pyrind_trapdoor": "Pyrind Trapdoor",
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
       "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",

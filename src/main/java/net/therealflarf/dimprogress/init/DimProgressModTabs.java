@@ -98,6 +98,12 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.CLOTBARK_FENCE_GATE.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_BUTTON.get().asItem());
+				tabData.accept(DimProgressModBlocks.EMBERSEED_DOOR.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_DOOR.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_DOOR.get().asItem());
+				tabData.accept(DimProgressModBlocks.EMBERSEED_TRAPDOOR.get().asItem());
+				tabData.accept(DimProgressModBlocks.PYRIND_TRAPDOOR.get().asItem());
+				tabData.accept(DimProgressModBlocks.CLOTBARK_TRAPDOOR.get().asItem());
 			})
 
 					.build());

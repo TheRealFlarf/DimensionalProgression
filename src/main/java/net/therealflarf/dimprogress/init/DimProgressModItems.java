@@ -19,6 +19,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 public class DimProgressModItems {
@@ -91,8 +92,18 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> CLOTBARK_PRESSURE_PLATE = block(DimProgressModBlocks.CLOTBARK_PRESSURE_PLATE);
 	public static final RegistryObject<Item> CLOTBARK_BUTTON = block(DimProgressModBlocks.CLOTBARK_BUTTON);
 	public static final RegistryObject<Item> CLOTBARK_LEAVES = block(DimProgressModBlocks.CLOTBARK_LEAVES);
+	public static final RegistryObject<Item> EMBERSEED_DOOR = doubleBlock(DimProgressModBlocks.EMBERSEED_DOOR);
+	public static final RegistryObject<Item> PYRIND_DOOR = doubleBlock(DimProgressModBlocks.PYRIND_DOOR);
+	public static final RegistryObject<Item> CLOTBARK_DOOR = doubleBlock(DimProgressModBlocks.CLOTBARK_DOOR);
+	public static final RegistryObject<Item> EMBERSEED_TRAPDOOR = block(DimProgressModBlocks.EMBERSEED_TRAPDOOR);
+	public static final RegistryObject<Item> PYRIND_TRAPDOOR = block(DimProgressModBlocks.PYRIND_TRAPDOOR);
+	public static final RegistryObject<Item> CLOTBARK_TRAPDOOR = block(DimProgressModBlocks.CLOTBARK_TRAPDOOR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

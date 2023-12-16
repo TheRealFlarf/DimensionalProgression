@@ -24,6 +24,12 @@
     "dim_progress:clotbark_fence",
     "dim_progress:clotbark_fence_gate",
     "dim_progress:clotbark_pressure_plate",
-    "dim_progress:clotbark_button"
+    "dim_progress:clotbark_button",
+    "dim_progress:emberseed_door",
+    "dim_progress:pyrind_door",
+    "dim_progress:clotbark_door",
+    "dim_progress:emberseed_trapdoor",
+    "dim_progress:pyrind_trapdoor",
+    "dim_progress:clotbark_trapdoor"
   ]
 }
