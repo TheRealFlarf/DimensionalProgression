@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class CrimsonMudBlock extends Block {
 	public CrimsonMudBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.MUD).strength(0.8f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.MUD).strength(0.8f).speedFactor(0.4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class CrimsonMudBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 0, 0, 16, 15, 16);
+		return box(0, 0, 0, 16, 14, 16);
 	}
 
 	@Override

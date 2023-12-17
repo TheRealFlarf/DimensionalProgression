@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:clotbark_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "dim_progress:clotbark_planks"
+    },
+    "3": {
+      "item": "dim_progress:clotbark_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "dim_progress:clotbark_planks"
+    }
+  },
+  "result": {
+    "item": "dim_progress:clotbark_fence",
+    "count": 3
+  }
+}

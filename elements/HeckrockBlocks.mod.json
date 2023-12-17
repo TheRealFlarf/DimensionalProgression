@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Heckrock"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrock"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "heckrock_blocks",
+    "namespace": "mod"
+  }
+}

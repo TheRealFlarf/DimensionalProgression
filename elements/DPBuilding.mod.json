@@ -4,7 +4,7 @@
   "definition": {
     "name": "DP: Building",
     "icon": {
-      "value": "Blocks.STONEBRICK#1"
+      "value": "CUSTOM:CutFelsandstoneBricks"
     },
     "showSearch": false
   }

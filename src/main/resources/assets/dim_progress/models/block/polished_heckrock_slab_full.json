@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dim_progress:block/polished_heckrock",
+    "top": "dim_progress:block/polished_heckrock",
+    "side": "dim_progress:block/polished_heckrock"
+  },
+  "render_type": "solid"
+}

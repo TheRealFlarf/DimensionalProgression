@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "3": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "4": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "6": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "7": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "8": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    }
+  },
+  "result": {
+    "item": "dim_progress:polished_heckrock_tile_stairs",
+    "count": 4
+  }
+}

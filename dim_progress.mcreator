@@ -2716,6 +2716,612 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Heckrock",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heckrock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/HeckrockBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/heckrock.json",
+          "src/main/resources/assets/dim_progress/blockstates/heckrock.json",
+          "src/main/resources/assets/dim_progress/models/block/heckrock.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrock",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockCraft",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "HeckrockBlocks",
+      "type": "tag",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heckrock_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/items/heckrock_blocks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockStonecut",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockSlab",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_slab.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_slab_full.json",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_slab_top.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockSlabCraft",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBricks",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockBricksBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_bricks.json",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickStairs",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockBrickStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickSlab",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockBrickSlabBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_slab_full.json",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickWall",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockBrickWallBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_wall_inventory.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_wall_side_tall.json",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_brick_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_brick_wall_post.json",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_brick_wall.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTiles",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockTilesBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_tiles.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tiles.json",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_tiles.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTileStairs",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tile_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tile_stairs.json",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_tile_stairs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockTileStairsBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_tile_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tile_stairs_inner.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTileSlab",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tile_slab.json",
+          "src/main/resources/assets/dim_progress/blockstates/polished_heckrock_tile_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/polished_heckrock_tile_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tile_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedHeckrockTileSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/polished_heckrock_tile_slab_top.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBricksCraft",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_bricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickWallCraft",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_brick_wall_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTilesCraft",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tiles_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_tiles_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTileStairsCraft",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tile_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_tile_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTileSlabCraft",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tile_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_tile_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockSlabStonecut",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBricksStonecut",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_bricks_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_bricks_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickStairsStonecut",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_brick_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickSlabStonecut",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_brick_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockBrickWallStonecut",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_brick_wall_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_brick_wall_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTilesStonecut",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tiles_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_tiles_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTileStairsStonecut",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tile_stairs_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_tile_stairs_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PolishedHeckrockTileSlabStonecut",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_heckrock_tile_slab_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_heckrock_tile_slab_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedDoorCraft",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_door_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/emberseed_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindDoorCraft",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_door_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pyrind_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkDoorCraft",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_door_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkFenceCraft",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_fence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_fence_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkFenceGateCraft",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_fence_gate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_fence_gate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkButtonCraft",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_button_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/clotbark_button_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonNegativeHeckrockPlacement",
+      "type": "feature",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_negative_heckrock_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/features/PergalonNegativeHeckrockPlacementFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_negative_heckrock_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_negative_heckrock_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_negative_heckrock_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -2758,96 +3364,106 @@
   ],
   "language_map": {
     "en_us": {
-      "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
-      "block.dim_progress.clotbark_fence_gate": "Clotbark Fence Gate",
-      "block.dim_progress.emberseed_fence": "Emberseed Fence",
       "block.dim_progress.clotbark_button": "Clotbark Button",
       "block.dim_progress.sunlit_silica": "Sunlit Silica",
       "subtitles.pergalon_ambient": "",
-      "item.dim_progress.runic_gemstone": "Runic Gemstone",
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
-      "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
-      "biome.dim_progress.crimson_plains": "Crimson Plains",
-      "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
-      "item_group.dim_progress.dp_natural": "DP: Natural",
       "subtitles.pergalon_introduction": "",
-      "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
-      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
-      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.magmactus": "Magmactus",
-      "block.dim_progress.clotbark_door": "Clotbark Door",
+      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
+      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
       "subtitles.pergalon_portal_activate": "",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "item_group.dim_progress.dp_building": "DP: Building",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "block.dim_progress.clotbark_slab": "Clotbark Slab",
-      "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
-      "block.dim_progress.clotbark_trapdoor": "Clotbark Trapdoor",
       "block.dim_progress.pyrind_planks": "Pyrind Planks",
       "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
       "block.dim_progress.pyrind_button": "Pyrind Button",
-      "biome.dim_progress.basic": "Basic",
-      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
       "block.dim_progress.clotbark_stairs": "Clotbark Stairs",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
-      "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
-      "block.dim_progress.firebloom": "Firebloom",
       "block.dim_progress.pyrind_log": "Pyrind Log",
+      "block.dim_progress.polished_heckrock_tile_stairs": "Polished Heckrock Tile Stairs",
       "block.dim_progress.emberseed_log": "Emberseed Log",
       "block.dim_progress.crimsoil": "Crimsoil",
-      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
       "block.dim_progress.nyctic_sprigs": "Nyctic Sprigs",
+      "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
+      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
+      "block.dim_progress.pyrind_door": "Pyrind Door",
+      "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
+      "block.dim_progress.felsand": "Felsand",
+      "block.dim_progress.polished_heckrock_brick_slab": "Polished Heckrock Brick Slab",
+      "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
+      "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
+      "block.dim_progress.heckrock": "Heckrock",
+      "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
+      "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
+      "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
+      "block.dim_progress.emberseed_door": "Emberseed Door",
+      "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
+      "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
+      "block.dim_progress.dreadstone": "Dreadstone",
+      "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
+      "block.dim_progress.polished_heckrock": "Polished Heckrock",
+      "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
+      "biome.dim_progress.bloodred_bog": "Bloodred Bog",
+      "biome.dim_progress.nyctophobic_coppice": "Nyctophobic Coppice",
+      "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
+      "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
+      "block.dim_progress.crystal_glass": "Crystal Glass",
+      "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
+      "block.dim_progress.clotbark_fence_gate": "Clotbark Fence Gate",
+      "block.dim_progress.polished_heckrock_bricks": "Polished Heckrock Bricks",
+      "block.dim_progress.emberseed_fence": "Emberseed Fence",
+      "item.dim_progress.runic_gemstone": "Runic Gemstone",
+      "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
+      "biome.dim_progress.crimson_plains": "Crimson Plains",
+      "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
+      "item_group.dim_progress.dp_natural": "DP: Natural",
+      "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
+      "block.dim_progress.polished_heckrock_slab": "Polished Heckrock Slab",
+      "block.dim_progress.clotbark_door": "Clotbark Door",
+      "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
+      "block.dim_progress.clotbark_trapdoor": "Clotbark Trapdoor",
+      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
+      "biome.dim_progress.basic": "Basic",
+      "block.dim_progress.polished_heckrock_brick_stairs": "Polished Heckrock Brick Stairs",
+      "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
+      "block.dim_progress.firebloom": "Firebloom",
+      "block.dim_progress.polished_heckrock_tile_slab": "Polished Heckrock Tile Slab",
+      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
       "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
       "block.dim_progress.runicon_block": "Block of Runicon",
       "block.dim_progress.felsandstone": "Felsandstone",
       "block.dim_progress.pyrind_slab": "Pyrind Slab",
       "block.dim_progress.pyrind_fence": "Pyrind Fence",
-      "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
       "block.dim_progress.clotbark_leaves": "Clotbark Leaves",
       "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
       "block.dim_progress.clotbark_planks": "Clotbark Planks",
-      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
+      "block.dim_progress.polished_heckrock_brick_wall": "Polished Heckrock Brick Wall",
       "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
       "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
-      "block.dim_progress.pyrind_door": "Pyrind Door",
       "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
-      "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
-      "block.dim_progress.felsand": "Felsand",
       "block.dim_progress.clotbark_fence": "Clotbark Fence",
-      "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
+      "block.dim_progress.polished_heckrock_tiles": "Polished Heckrock Tiles",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
-      "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
       "block.dim_progress.purple_ziolip": "Purple Ziolip",
       "item.dim_progress.runicon_shard": "Runicon Shard",
-      "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
-      "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
       "block.dim_progress.emberseed_button": "Emberseed Button",
-      "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
       "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
       "block.dim_progress.crimson_mud": "Crimson Mud",
-      "block.dim_progress.emberseed_door": "Emberseed Door",
-      "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
-      "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
-      "block.dim_progress.dreadstone": "Dreadstone",
       "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
       "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
-      "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
       "block.dim_progress.pyrind_trapdoor": "Pyrind Trapdoor",
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
-      "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",
-      "biome.dim_progress.bloodred_bog": "Bloodred Bog",
-      "biome.dim_progress.nyctophobic_coppice": "Nyctophobic Coppice",
       "block.dim_progress.nyctecium": "Nyctecium",
       "block.dim_progress.cut_felsandstone": "Cut Felsandstone",
-      "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
-      "block.dim_progress.clotbark_log": "Clotbark Log",
-      "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
-      "block.dim_progress.crystal_glass": "Crystal Glass"
+      "block.dim_progress.clotbark_log": "Clotbark Log"
     }
   },
   "foldersRoot": {

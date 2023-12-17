@@ -98,6 +98,16 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> EMBERSEED_TRAPDOOR = block(DimProgressModBlocks.EMBERSEED_TRAPDOOR);
 	public static final RegistryObject<Item> PYRIND_TRAPDOOR = block(DimProgressModBlocks.PYRIND_TRAPDOOR);
 	public static final RegistryObject<Item> CLOTBARK_TRAPDOOR = block(DimProgressModBlocks.CLOTBARK_TRAPDOOR);
+	public static final RegistryObject<Item> HECKROCK = block(DimProgressModBlocks.HECKROCK);
+	public static final RegistryObject<Item> POLISHED_HECKROCK = block(DimProgressModBlocks.POLISHED_HECKROCK);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_SLAB = block(DimProgressModBlocks.POLISHED_HECKROCK_SLAB);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_BRICKS = block(DimProgressModBlocks.POLISHED_HECKROCK_BRICKS);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_BRICK_STAIRS = block(DimProgressModBlocks.POLISHED_HECKROCK_BRICK_STAIRS);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_BRICK_SLAB = block(DimProgressModBlocks.POLISHED_HECKROCK_BRICK_SLAB);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_BRICK_WALL = block(DimProgressModBlocks.POLISHED_HECKROCK_BRICK_WALL);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_TILES = block(DimProgressModBlocks.POLISHED_HECKROCK_TILES);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_TILE_STAIRS = block(DimProgressModBlocks.POLISHED_HECKROCK_TILE_STAIRS);
+	public static final RegistryObject<Item> POLISHED_HECKROCK_TILE_SLAB = block(DimProgressModBlocks.POLISHED_HECKROCK_TILE_SLAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

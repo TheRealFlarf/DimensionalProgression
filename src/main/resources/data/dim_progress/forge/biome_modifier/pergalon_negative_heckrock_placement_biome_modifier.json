@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "dim_progress:pergalon_negative_heckrock_placement",
+  "step": "underground_structures"
+}

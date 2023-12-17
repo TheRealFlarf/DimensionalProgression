@@ -12,8 +12,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,7 +29,7 @@ public class DimProgressModTabs {
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> DP_NATURAL = REGISTRY.register("dp_natural",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_natural")).icon(() -> new ItemStack(Blocks.GRASS_BLOCK)).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_natural")).icon(() -> new ItemStack(DimProgressModBlocks.CRIMSON_CRIMSOIL_GRASS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DimProgressModBlocks.DEEPSLATE_RUNICON_ORE.get().asItem());
 				tabData.accept(DimProgressModBlocks.DREADSTONE.get().asItem());
 				tabData.accept(DimProgressModBlocks.CRIMSOIL.get().asItem());
@@ -58,11 +56,12 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.PYRIND_LEAVES.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_LOG.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_LEAVES.get().asItem());
+				tabData.accept(DimProgressModBlocks.HECKROCK.get().asItem());
 			})
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> DP_BUILDING = REGISTRY.register("dp_building",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_building")).icon(() -> new ItemStack(Blocks.MOSSY_STONE_BRICKS)).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_building")).icon(() -> new ItemStack(DimProgressModBlocks.CUT_FELSANDSTONE_BRICKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DimProgressModBlocks.RUNICON_BLOCK.get().asItem());
 				tabData.accept(DimProgressModBlocks.RUNIC_STONE_RING.get().asItem());
 				tabData.accept(DimProgressModBlocks.RUNIC_STONE_PILLAR.get().asItem());
@@ -104,11 +103,20 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.EMBERSEED_TRAPDOOR.get().asItem());
 				tabData.accept(DimProgressModBlocks.PYRIND_TRAPDOOR.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_TRAPDOOR.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_SLAB.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_BRICKS.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_BRICK_STAIRS.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_BRICK_SLAB.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_BRICK_WALL.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_TILES.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_TILE_STAIRS.get().asItem());
+				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_TILE_SLAB.get().asItem());
 			})
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> DP_TOOLS = REGISTRY.register("dp_tools",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_tools")).icon(() -> new ItemStack(Items.DIAMOND_AXE)).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_tools")).icon(() -> new ItemStack(DimProgressModItems.NETHER_PORTAL_CHARGE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DimProgressModItems.NETHER_PORTAL_CHARGE.get());
 				tabData.accept(DimProgressModItems.PERGALON_PORTAL_CHARGE.get());
 				tabData.accept(DimProgressModItems.WORLDGEN_TEST.get());

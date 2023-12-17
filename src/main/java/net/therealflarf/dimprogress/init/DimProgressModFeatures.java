@@ -12,6 +12,7 @@ import net.therealflarf.dimprogress.world.features.plants.CrimsonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.ores.DeepslateRuniconOreFeature;
 import net.therealflarf.dimprogress.world.features.SunlitSilicaPrismSmallFeature;
 import net.therealflarf.dimprogress.world.features.SunlitSilicaPrismLargeFeature;
+import net.therealflarf.dimprogress.world.features.PergalonNegativeHeckrockPlacementFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmactusGeneratorFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmaPatchFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertLavaPatchesFeature;
@@ -46,4 +47,5 @@ public class DimProgressModFeatures {
 	public static final RegistryObject<Feature<?>> SUNLIT_SILICA_PRISM_SMALL = REGISTRY.register("sunlit_silica_prism_small", SunlitSilicaPrismSmallFeature::new);
 	public static final RegistryObject<Feature<?>> BLOODRED_BOG_MUD_PATCH = REGISTRY.register("bloodred_bog_mud_patch", BloodredBogMudPatchFeature::new);
 	public static final RegistryObject<Feature<?>> BLOODRED_BOG_WATER_POOLS = REGISTRY.register("bloodred_bog_water_pools", BloodredBogWaterPoolsFeature::new);
+	public static final RegistryObject<Feature<?>> PERGALON_NEGATIVE_HECKROCK_PLACEMENT = REGISTRY.register("pergalon_negative_heckrock_placement", PergalonNegativeHeckrockPlacementFeature::new);
 }

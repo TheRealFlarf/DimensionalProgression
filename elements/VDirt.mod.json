@@ -13,6 +13,15 @@
       },
       {
         "value": "CUSTOM:DeadCrimsoilGrass"
+      },
+      {
+        "value": "CUSTOM:GrovileCrimsoilGrass"
+      },
+      {
+        "value": "CUSTOM:Nyctecium"
+      },
+      {
+        "value": "CUSTOM:CrimsonMud"
       }
     ],
     "functions": [],

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedHeckrockBrickWall"
+    },
+    "name": "polished_heckrock_brick_wall_craft",
+    "namespace": "mod"
+  }
+}

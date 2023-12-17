@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "tag": "dim_progress:heckrock_blocks"
+  },
+  "result": "dim_progress:polished_heckrock"
+}

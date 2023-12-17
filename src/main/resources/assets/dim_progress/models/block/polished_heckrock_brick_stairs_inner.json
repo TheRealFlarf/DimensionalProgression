@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dim_progress:block/polished_heckrock_bricks",
+    "top": "dim_progress:block/polished_heckrock_bricks",
+    "side": "dim_progress:block/polished_heckrock_bricks"
+  },
+  "render_type": "solid"
+}

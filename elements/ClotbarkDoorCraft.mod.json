@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ClotbarkPlanks"
+      },
+      {
+        "value": "CUSTOM:ClotbarkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClotbarkPlanks"
+      },
+      {
+        "value": "CUSTOM:ClotbarkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ClotbarkPlanks"
+      },
+      {
+        "value": "CUSTOM:ClotbarkPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ClotbarkDoor"
+    },
+    "name": "clotbark_door_craft",
+    "namespace": "mod"
+  }
+}

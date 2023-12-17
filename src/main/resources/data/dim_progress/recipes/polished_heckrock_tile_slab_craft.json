@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "1": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    },
+    "2": {
+      "item": "dim_progress:polished_heckrock_tiles"
+    }
+  },
+  "result": {
+    "item": "dim_progress:polished_heckrock_tile_slab",
+    "count": 6
+  }
+}

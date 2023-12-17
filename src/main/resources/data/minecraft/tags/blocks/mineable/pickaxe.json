@@ -18,6 +18,16 @@
     "dim_progress:cut_felsandstone_brick_stairs",
     "dim_progress:cut_felsandstone_brick_slab",
     "dim_progress:sunlit_silica",
-    "dim_progress:sunlit_silica_glass"
+    "dim_progress:sunlit_silica_glass",
+    "dim_progress:heckrock",
+    "dim_progress:polished_heckrock",
+    "dim_progress:polished_heckrock_slab",
+    "dim_progress:polished_heckrock_bricks",
+    "dim_progress:polished_heckrock_brick_stairs",
+    "dim_progress:polished_heckrock_brick_slab",
+    "dim_progress:polished_heckrock_brick_wall",
+    "dim_progress:polished_heckrock_tiles",
+    "dim_progress:polished_heckrock_tile_stairs",
+    "dim_progress:polished_heckrock_tile_slab"
   ]
 }

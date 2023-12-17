@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:emberseed_planks"
+    },
+    "1": {
+      "item": "dim_progress:emberseed_planks"
+    },
+    "2": {
+      "item": "dim_progress:emberseed_planks"
+    },
+    "3": {
+      "item": "dim_progress:emberseed_planks"
+    },
+    "4": {
+      "item": "dim_progress:emberseed_planks"
+    },
+    "5": {
+      "item": "dim_progress:emberseed_planks"
+    }
+  },
+  "result": {
+    "item": "dim_progress:emberseed_trapdoor",
+    "count": 2
+  }
+}

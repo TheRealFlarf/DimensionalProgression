@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      },
+      {
+        "value": "CUSTOM:PolishedHeckrockTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedHeckrockTileStairs"
+    },
+    "name": "polished_heckrock_tile_stairs_craft",
+    "namespace": "mod"
+  }
+}
