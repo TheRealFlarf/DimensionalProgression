@@ -75,10 +75,10 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 0,
+    "treesPerChunk": 9,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 6,
+    "minHeight": 5,
     "treeStem": {
       "value": "CUSTOM:EmberseedLog"
     },

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:raw_venomite_block"
+    }
+  },
+  "result": {
+    "item": "dim_progress:raw_venomite",
+    "count": 9
+  }
+}

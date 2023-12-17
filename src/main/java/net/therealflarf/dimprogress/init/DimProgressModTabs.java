@@ -25,6 +25,10 @@ public class DimProgressModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dim_progress.dp_misc")).icon(() -> new ItemStack(DimProgressModItems.RUNICON_SHARD.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(DimProgressModItems.RUNICON_SHARD.get());
 				tabData.accept(DimProgressModItems.RUNIC_GEMSTONE.get());
+				tabData.accept(DimProgressModItems.RAW_VENOMITE.get());
+				tabData.accept(DimProgressModItems.VENOMITE_INGOT.get());
+				tabData.accept(DimProgressModItems.MOLTEN_CLAY_BALL.get());
+				tabData.accept(DimProgressModItems.TEPIDBRICK.get());
 			})
 
 					.build());
@@ -57,6 +61,9 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.CLOTBARK_LOG.get().asItem());
 				tabData.accept(DimProgressModBlocks.CLOTBARK_LEAVES.get().asItem());
 				tabData.accept(DimProgressModBlocks.HECKROCK.get().asItem());
+				tabData.accept(DimProgressModBlocks.DREADSTONE_VENOMITE_ORE.get().asItem());
+				tabData.accept(DimProgressModBlocks.HECKROCK_VENOMITE_ORE.get().asItem());
+				tabData.accept(DimProgressModBlocks.MOLTEN_CLAY.get().asItem());
 			})
 
 					.build());
@@ -112,6 +119,9 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_TILES.get().asItem());
 				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_TILE_STAIRS.get().asItem());
 				tabData.accept(DimProgressModBlocks.POLISHED_HECKROCK_TILE_SLAB.get().asItem());
+				tabData.accept(DimProgressModBlocks.VENOMITE_BLOCK.get().asItem());
+				tabData.accept(DimProgressModBlocks.RAW_VENOMITE_BLOCK.get().asItem());
+				tabData.accept(DimProgressModBlocks.TEPIDBRICKS.get().asItem());
 			})
 
 					.build());
@@ -127,12 +137,20 @@ public class DimProgressModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(DimProgressModItems.VENOMITE_SWORD.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(DimProgressModItems.DT_HALLWAY_PLACEMENT_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DimProgressModItems.PROCEDURAL_DUNGEON_GEN_TEST.get());
+			tabData.accept(DimProgressModItems.VENOMITE_AXE.get());
+			tabData.accept(DimProgressModItems.VENOMITE_PICKAXE.get());
+			tabData.accept(DimProgressModItems.VENOMITE_SHOVEL.get());
+			tabData.accept(DimProgressModItems.VENOMITE_HOE.get());
 		}
 	}
 }

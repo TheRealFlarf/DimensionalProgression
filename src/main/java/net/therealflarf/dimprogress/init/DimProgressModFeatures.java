@@ -10,9 +10,13 @@ import net.therealflarf.dimprogress.world.features.plants.FirebloomFeature;
 import net.therealflarf.dimprogress.world.features.plants.DeadPergalonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.plants.CrimsonSprigsFeature;
 import net.therealflarf.dimprogress.world.features.ores.DeepslateRuniconOreFeature;
+import net.therealflarf.dimprogress.world.features.UnderwaterCrimsonMudPlacementFeature;
 import net.therealflarf.dimprogress.world.features.SunlitSilicaPrismSmallFeature;
 import net.therealflarf.dimprogress.world.features.SunlitSilicaPrismLargeFeature;
+import net.therealflarf.dimprogress.world.features.PergalonVenomiteOreVeinSmallFeature;
+import net.therealflarf.dimprogress.world.features.PergalonVenomiteOreVeinFeature;
 import net.therealflarf.dimprogress.world.features.PergalonNegativeHeckrockPlacementFeature;
+import net.therealflarf.dimprogress.world.features.MoltenClayRiverPatchesFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmactusGeneratorFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertMagmaPatchFeature;
 import net.therealflarf.dimprogress.world.features.MagmaticDesertLavaPatchesFeature;
@@ -48,4 +52,8 @@ public class DimProgressModFeatures {
 	public static final RegistryObject<Feature<?>> BLOODRED_BOG_MUD_PATCH = REGISTRY.register("bloodred_bog_mud_patch", BloodredBogMudPatchFeature::new);
 	public static final RegistryObject<Feature<?>> BLOODRED_BOG_WATER_POOLS = REGISTRY.register("bloodred_bog_water_pools", BloodredBogWaterPoolsFeature::new);
 	public static final RegistryObject<Feature<?>> PERGALON_NEGATIVE_HECKROCK_PLACEMENT = REGISTRY.register("pergalon_negative_heckrock_placement", PergalonNegativeHeckrockPlacementFeature::new);
+	public static final RegistryObject<Feature<?>> PERGALON_VENOMITE_ORE_VEIN = REGISTRY.register("pergalon_venomite_ore_vein", PergalonVenomiteOreVeinFeature::new);
+	public static final RegistryObject<Feature<?>> MOLTEN_CLAY_RIVER_PATCHES = REGISTRY.register("molten_clay_river_patches", MoltenClayRiverPatchesFeature::new);
+	public static final RegistryObject<Feature<?>> UNDERWATER_CRIMSON_MUD_PLACEMENT = REGISTRY.register("underwater_crimson_mud_placement", UnderwaterCrimsonMudPlacementFeature::new);
+	public static final RegistryObject<Feature<?>> PERGALON_VENOMITE_ORE_VEIN_SMALL = REGISTRY.register("pergalon_venomite_ore_vein_small", PergalonVenomiteOreVeinSmallFeature::new);
 }

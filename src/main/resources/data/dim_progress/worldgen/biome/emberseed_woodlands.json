@@ -39,7 +39,9 @@
     [],
     [],
     [],
-    [],
+    [
+      "dim_progress:emberseed_woodlands_tree"
+    ],
     []
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/heckrock_venomite_ore",
+    "particle": "dim_progress:block/heckrock_venomite_ore"
+  },
+  "render_type": "solid"
+}

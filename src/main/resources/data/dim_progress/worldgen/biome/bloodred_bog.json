@@ -39,7 +39,9 @@
     [],
     [],
     [],
-    [],
+    [
+      "dim_progress:bloodred_bog_tree"
+    ],
     []
   ]
 }

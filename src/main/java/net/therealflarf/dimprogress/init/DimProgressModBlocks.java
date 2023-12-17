@@ -5,6 +5,8 @@
 package net.therealflarf.dimprogress.init;
 
 import net.therealflarf.dimprogress.block.WorldgenTestPortalBlock;
+import net.therealflarf.dimprogress.block.VenomiteBlockBlock;
+import net.therealflarf.dimprogress.block.TepidbricksBlock;
 import net.therealflarf.dimprogress.block.SunlitSilicaGlassBlock;
 import net.therealflarf.dimprogress.block.SunlitSilicaBlock;
 import net.therealflarf.dimprogress.block.SunburstZiolipBlock;
@@ -12,6 +14,7 @@ import net.therealflarf.dimprogress.block.RuniconBlockBlock;
 import net.therealflarf.dimprogress.block.RunicStoneRingBlock;
 import net.therealflarf.dimprogress.block.RunicStonePortalCoreBlock;
 import net.therealflarf.dimprogress.block.RunicStonePillarBlock;
+import net.therealflarf.dimprogress.block.RawVenomiteBlockBlock;
 import net.therealflarf.dimprogress.block.PyrindTrapdoorBlock;
 import net.therealflarf.dimprogress.block.PyrindStairsBlock;
 import net.therealflarf.dimprogress.block.PyrindSlabBlock;
@@ -37,8 +40,10 @@ import net.therealflarf.dimprogress.block.PolishedHeckrockBlock;
 import net.therealflarf.dimprogress.block.PergalonPortalBlock;
 import net.therealflarf.dimprogress.block.NycticSprigsBlock;
 import net.therealflarf.dimprogress.block.NycteciumBlock;
+import net.therealflarf.dimprogress.block.MoltenClayBlock;
 import net.therealflarf.dimprogress.block.MagmactusBlock;
 import net.therealflarf.dimprogress.block.MagentaZiolipBlock;
+import net.therealflarf.dimprogress.block.HeckrockVenomiteOreBlock;
 import net.therealflarf.dimprogress.block.HeckrockBlock;
 import net.therealflarf.dimprogress.block.GrovileSprigsBlock;
 import net.therealflarf.dimprogress.block.GrovileCrimsoilGrassBlock;
@@ -56,6 +61,7 @@ import net.therealflarf.dimprogress.block.EmberseedFenceGateBlock;
 import net.therealflarf.dimprogress.block.EmberseedFenceBlock;
 import net.therealflarf.dimprogress.block.EmberseedDoorBlock;
 import net.therealflarf.dimprogress.block.EmberseedButtonBlock;
+import net.therealflarf.dimprogress.block.DreadstoneVenomiteOreBlock;
 import net.therealflarf.dimprogress.block.DreadstoneBricksBlock;
 import net.therealflarf.dimprogress.block.DreadstoneBrickStairsBlock;
 import net.therealflarf.dimprogress.block.DreadstoneBrickSlabBlock;
@@ -174,4 +180,10 @@ public class DimProgressModBlocks {
 	public static final RegistryObject<Block> POLISHED_HECKROCK_TILES = REGISTRY.register("polished_heckrock_tiles", () -> new PolishedHeckrockTilesBlock());
 	public static final RegistryObject<Block> POLISHED_HECKROCK_TILE_STAIRS = REGISTRY.register("polished_heckrock_tile_stairs", () -> new PolishedHeckrockTileStairsBlock());
 	public static final RegistryObject<Block> POLISHED_HECKROCK_TILE_SLAB = REGISTRY.register("polished_heckrock_tile_slab", () -> new PolishedHeckrockTileSlabBlock());
+	public static final RegistryObject<Block> DREADSTONE_VENOMITE_ORE = REGISTRY.register("dreadstone_venomite_ore", () -> new DreadstoneVenomiteOreBlock());
+	public static final RegistryObject<Block> HECKROCK_VENOMITE_ORE = REGISTRY.register("heckrock_venomite_ore", () -> new HeckrockVenomiteOreBlock());
+	public static final RegistryObject<Block> VENOMITE_BLOCK = REGISTRY.register("venomite_block", () -> new VenomiteBlockBlock());
+	public static final RegistryObject<Block> RAW_VENOMITE_BLOCK = REGISTRY.register("raw_venomite_block", () -> new RawVenomiteBlockBlock());
+	public static final RegistryObject<Block> MOLTEN_CLAY = REGISTRY.register("molten_clay", () -> new MoltenClayBlock());
+	public static final RegistryObject<Block> TEPIDBRICKS = REGISTRY.register("tepidbricks", () -> new TepidbricksBlock());
 }

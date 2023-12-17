@@ -1,0 +1,28 @@
+{
+  "feature": "dim_progress:pergalon_venomite_ore_vein_small",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 20
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 4
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 74
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

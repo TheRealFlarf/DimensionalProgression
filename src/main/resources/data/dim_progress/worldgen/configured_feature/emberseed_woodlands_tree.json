@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 1
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dim_progress:crimsoil"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dim_progress:emberseed_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dim_progress:emberseed_leaves"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 2,
+      "height_rand_b": 0
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": 2,
+      "offset": 0,
+      "height": 3
+    },
+    "decorators": [
+      {
+        "type": "dim_progress:emberseed_woodlands_tree_fruit_decorator"
+      },
+      {
+        "type": "dim_progress:emberseed_woodlands_tree_trunk_decorator"
+      },
+      {
+        "type": "dim_progress:emberseed_woodlands_tree_leave_decorator"
+      }
+    ]
+  }
+}

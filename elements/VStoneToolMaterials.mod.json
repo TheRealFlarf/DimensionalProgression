@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Dreadstone"
+      },
+      {
+        "value": "CUSTOM:Heckrock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "stone_tool_materials",
+    "namespace": "minecraft"
+  }
+}

@@ -1458,7 +1458,12 @@
       "registry_name": "crimson_plains",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/crimson_plains.json"
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_plains_tree.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/CrimsonPlainsFruitDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_plains_tree.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/CrimsonPlainsLeaveDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/biome/crimson_plains.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/CrimsonPlainsTrunkDecorator.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1578,7 +1583,12 @@
       "registry_name": "emberseed_woodlands",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/emberseed_woodlands.json"
+          "src/main/resources/data/dim_progress/worldgen/biome/emberseed_woodlands.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/EmberseedWoodlandsFruitDecorator.java",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/EmberseedWoodlandsTrunkDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_tree.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/EmberseedWoodlandsLeaveDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_tree.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1654,7 +1664,12 @@
       "registry_name": "sunburst_savanna",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/sunburst_savanna.json"
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/SunburstSavannaTrunkDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunburst_savanna_tree.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/SunburstSavannaLeaveDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/biome/sunburst_savanna.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunburst_savanna_tree.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/SunburstSavannaFruitDecorator.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1668,7 +1683,12 @@
       "registry_name": "nyctophobic_coppice",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/nyctophobic_coppice.json"
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/NyctophobicCoppiceTrunkDecorator.java",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/NyctophobicCoppiceFruitDecorator.java",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/NyctophobicCoppiceLeaveDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/biome/nyctophobic_coppice.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_tree.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_tree.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1682,7 +1702,12 @@
       "registry_name": "bloodred_bog",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/bloodred_bog.json"
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/BloodredBogFruitDecorator.java",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/BloodredBogLeaveDecorator.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_tree.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_tree.json",
+          "src/main/resources/data/dim_progress/worldgen/biome/bloodred_bog.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/BloodredBogTrunkDecorator.java"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -3322,6 +3347,591 @@
         ]
       },
       "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VStoneToolMaterials",
+      "type": "tag",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_stone_tool_materials",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/stone_tool_materials.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "DreadstoneVenomiteOre",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_venomite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneVenomiteOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_venomite_ore.json",
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_venomite_ore.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_venomite_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawVenomite",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_venomite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/RawVenomiteItem.java",
+          "src/main/resources/assets/dim_progress/models/item/raw_venomite.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteIngot",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/VenomiteIngotItem.java",
+          "src/main/resources/assets/dim_progress/models/item/venomite_ingot.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneVenomiteOreDrops",
+      "type": "loottable",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_venomite_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/dreadstone_venomite_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "HeckrockVenomiteOre",
+      "type": "block",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heckrock_venomite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/heckrock_venomite_ore.json",
+          "src/main/resources/assets/dim_progress/models/block/heckrock_venomite_ore.json",
+          "src/main/java/net/therealflarf/dimprogress/block/HeckrockVenomiteOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/heckrock_venomite_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "HeckrockVenomiteOreDrops",
+      "type": "loottable",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heckrock_venomite_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/heckrock_venomite_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonVenomiteOreVein",
+      "type": "feature",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_venomite_ore_vein",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/features/PergalonVenomiteOreVeinFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_venomite_ore_vein.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_venomite_ore_vein.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_venomite_ore_vein_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteSmelt",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteBlast",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_blast.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteBlock",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/venomite_block.json",
+          "src/main/resources/assets/dim_progress/blockstates/venomite_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VenomiteBlockBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/venomite_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteBlockCraft",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawVenomiteBlock",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_venomite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/raw_venomite_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RawVenomiteBlockBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/raw_venomite_block.json",
+          "src/main/resources/assets/dim_progress/blockstates/raw_venomite_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawVenomiteBlockCraft",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_venomite_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/raw_venomite_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteBlockUncraft",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_block_uncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_block_uncraft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawVenomiteBlockUncraft",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_venomite_block_uncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/raw_venomite_block_uncraft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RuniconBlockUncraft",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runicon_block_uncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runicon_block_uncraft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "VenomitePickaxe",
+      "type": "tool",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/venomite_pickaxe.json",
+          "src/main/java/net/therealflarf/dimprogress/item/VenomitePickaxeItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteAxe",
+      "type": "tool",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/venomite_axe.json",
+          "src/main/java/net/therealflarf/dimprogress/item/VenomiteAxeItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteSword",
+      "type": "tool",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/venomite_sword.json",
+          "src/main/java/net/therealflarf/dimprogress/item/VenomiteSwordItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteShovel",
+      "type": "tool",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/VenomiteShovelItem.java",
+          "src/main/resources/assets/dim_progress/models/item/venomite_shovel.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteHoe",
+      "type": "tool",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/venomite_hoe.json",
+          "src/main/java/net/therealflarf/dimprogress/item/VenomiteHoeItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/venomite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MoltenClay",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_clay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/molten_clay.json",
+          "src/main/resources/assets/dim_progress/blockstates/molten_clay.json",
+          "src/main/java/net/therealflarf/dimprogress/block/MoltenClayBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/molten_clay.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MoltenClayBall",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_clay_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/molten_clay_ball.json",
+          "src/main/java/net/therealflarf/dimprogress/item/MoltenClayBallItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MoltenClayDrops",
+      "type": "loottable",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_clay_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/molten_clay.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Tepidbrick",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tepidbrick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/TepidbrickItem.java",
+          "src/main/resources/assets/dim_progress/models/item/tepidbrick.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Tepidbricks",
+      "type": "block",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tepidbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/tepidbricks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/TepidbricksBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/tepidbricks.json",
+          "src/main/resources/assets/dim_progress/models/item/tepidbricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TepidbrickSmelt",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tepidbrick_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/tepidbrick_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TepidbricksCraft",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tepidbricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/tepidbricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MoltenClaySmelt",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_clay_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/molten_clay_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MoltenClayRiverPatches",
+      "type": "feature",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_clay_river_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/molten_clay_river_patches.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/molten_clay_river_patches.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/MoltenClayRiverPatchesFeature.java",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/molten_clay_river_patches_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "UnderwaterCrimsonMudPlacement",
+      "type": "feature",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underwater_crimson_mud_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/underwater_crimson_mud_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/underwater_crimson_mud_placement.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/UnderwaterCrimsonMudPlacementFeature.java",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/underwater_crimson_mud_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MoltenClayCraft",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_clay_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/molten_clay_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonVenomiteOreVeinSmall",
+      "type": "feature",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_venomite_ore_vein_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_venomite_ore_vein_small_biome_modifier.json",
+          "src/main/java/net/therealflarf/dimprogress/world/features/PergalonVenomiteOreVeinSmallFeature.java",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_venomite_ore_vein_small.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_venomite_ore_vein_small.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     }
   ],
   "variable_elements": [],
@@ -3368,14 +3978,16 @@
       "block.dim_progress.sunlit_silica": "Sunlit Silica",
       "subtitles.pergalon_ambient": "",
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
+      "block.dim_progress.tepidbricks": "Tepidbricks",
       "subtitles.pergalon_introduction": "",
+      "item.dim_progress.venomite_ingot": "Venomite Ingot",
       "block.dim_progress.magmactus": "Magmactus",
       "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
       "subtitles.pergalon_portal_activate": "",
-      "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "item_group.dim_progress.dp_building": "DP: Building",
+      "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
       "block.dim_progress.clotbark_slab": "Clotbark Slab",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
@@ -3384,28 +3996,34 @@
       "block.dim_progress.pyrind_button": "Pyrind Button",
       "block.dim_progress.clotbark_stairs": "Clotbark Stairs",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
+      "block.dim_progress.heckrock_venomite_ore": "Heckrock Venomite Ore",
       "block.dim_progress.pyrind_log": "Pyrind Log",
       "block.dim_progress.polished_heckrock_tile_stairs": "Polished Heckrock Tile Stairs",
       "block.dim_progress.emberseed_log": "Emberseed Log",
       "block.dim_progress.crimsoil": "Crimsoil",
       "block.dim_progress.nyctic_sprigs": "Nyctic Sprigs",
+      "item.dim_progress.venomite_axe": "Venomite Axe",
       "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
+      "item.dim_progress.raw_venomite": "Raw Venomite",
       "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
       "block.dim_progress.pyrind_door": "Pyrind Door",
       "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
-      "block.dim_progress.felsand": "Felsand",
       "block.dim_progress.polished_heckrock_brick_slab": "Polished Heckrock Brick Slab",
+      "block.dim_progress.felsand": "Felsand",
       "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
+      "item.dim_progress.venomite_sword": "Venomite Sword",
       "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
+      "item.dim_progress.venomite_pickaxe": "Venomite Pickaxe",
       "block.dim_progress.heckrock": "Heckrock",
       "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
       "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
       "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
-      "block.dim_progress.emberseed_door": "Emberseed Door",
       "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
+      "block.dim_progress.emberseed_door": "Emberseed Door",
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
       "block.dim_progress.dreadstone": "Dreadstone",
       "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
+      "item.dim_progress.venomite_hoe": "Venomite Hoe",
       "block.dim_progress.polished_heckrock": "Polished Heckrock",
       "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
       "biome.dim_progress.bloodred_bog": "Bloodred Bog",
@@ -3421,12 +4039,16 @@
       "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
       "biome.dim_progress.crimson_plains": "Crimson Plains",
       "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
+      "item.dim_progress.venomite_shovel": "Venomite Shovel",
       "item_group.dim_progress.dp_natural": "DP: Natural",
+      "block.dim_progress.venomite_block": "Block of Venomite",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
       "block.dim_progress.polished_heckrock_slab": "Polished Heckrock Slab",
+      "block.dim_progress.molten_clay": "Molten Clay",
       "block.dim_progress.clotbark_door": "Clotbark Door",
       "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "block.dim_progress.clotbark_trapdoor": "Clotbark Trapdoor",
+      "block.dim_progress.raw_venomite_block": "Block of Raw Venomite",
       "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
       "biome.dim_progress.basic": "Basic",
       "block.dim_progress.polished_heckrock_brick_stairs": "Polished Heckrock Brick Stairs",
@@ -3449,16 +4071,19 @@
       "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
       "block.dim_progress.clotbark_fence": "Clotbark Fence",
       "block.dim_progress.polished_heckrock_tiles": "Polished Heckrock Tiles",
+      "block.dim_progress.dreadstone_venomite_ore": "Dreadstone Venomite Ore",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
       "block.dim_progress.purple_ziolip": "Purple Ziolip",
       "item.dim_progress.runicon_shard": "Runicon Shard",
       "block.dim_progress.emberseed_button": "Emberseed Button",
       "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
       "block.dim_progress.crimson_mud": "Crimson Mud",
+      "item.dim_progress.molten_clay_ball": "Molten Clay Ball",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
       "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
       "block.dim_progress.pyrind_trapdoor": "Pyrind Trapdoor",
+      "item.dim_progress.tepidbrick": "Tepidbrick",
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",
       "block.dim_progress.nyctecium": "Nyctecium",

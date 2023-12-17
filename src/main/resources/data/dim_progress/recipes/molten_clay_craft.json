@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:molten_clay_ball"
+    },
+    "1": {
+      "item": "dim_progress:molten_clay_ball"
+    },
+    "2": {
+      "item": "dim_progress:molten_clay_ball"
+    },
+    "3": {
+      "item": "dim_progress:molten_clay_ball"
+    }
+  },
+  "result": {
+    "item": "dim_progress:molten_clay",
+    "count": 1
+  }
+}

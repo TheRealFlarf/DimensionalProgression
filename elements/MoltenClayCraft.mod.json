@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MoltenClayBall"
+      },
+      {
+        "value": "CUSTOM:MoltenClayBall"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoltenClayBall"
+      },
+      {
+        "value": "CUSTOM:MoltenClayBall"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MoltenClay"
+    },
+    "name": "molten_clay_craft",
+    "namespace": "mod"
+  }
+}

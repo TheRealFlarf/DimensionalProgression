@@ -28,6 +28,11 @@
     "dim_progress:polished_heckrock_brick_wall",
     "dim_progress:polished_heckrock_tiles",
     "dim_progress:polished_heckrock_tile_stairs",
-    "dim_progress:polished_heckrock_tile_slab"
+    "dim_progress:polished_heckrock_tile_slab",
+    "dim_progress:dreadstone_venomite_ore",
+    "dim_progress:heckrock_venomite_ore",
+    "dim_progress:venomite_block",
+    "dim_progress:raw_venomite_block",
+    "dim_progress:tepidbricks"
   ]
 }

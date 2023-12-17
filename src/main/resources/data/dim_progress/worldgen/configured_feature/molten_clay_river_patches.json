@@ -1,0 +1,18 @@
+{
+  "type": "dim_progress:molten_clay_river_patches",
+  "config": {
+    "size": 24,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "dim_progress:crimsoil"
+        },
+        "state": {
+          "Name": "dim_progress:molten_clay"
+        }
+      }
+    ]
+  }
+}

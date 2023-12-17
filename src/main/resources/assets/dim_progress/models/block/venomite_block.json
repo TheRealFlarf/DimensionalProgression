@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/venomite_block",
+    "particle": "dim_progress:block/venomite_block"
+  },
+  "render_type": "solid"
+}

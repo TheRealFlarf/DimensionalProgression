@@ -75,21 +75,21 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 0,
-    "vanillaTreeType": "Default",
-    "treeType": 0,
-    "minHeight": 7,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 8,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:PyrindLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:PyrindLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [],
     "spawnStronghold": false,

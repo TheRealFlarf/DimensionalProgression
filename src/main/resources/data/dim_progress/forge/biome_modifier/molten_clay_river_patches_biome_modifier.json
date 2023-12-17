@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "dim_progress:molten_clay_river_patches",
+  "step": "surface_structures"
+}

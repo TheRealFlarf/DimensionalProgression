@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:tepidbrick"
+    },
+    "1": {
+      "item": "dim_progress:tepidbrick"
+    },
+    "2": {
+      "item": "dim_progress:tepidbrick"
+    },
+    "3": {
+      "item": "dim_progress:tepidbrick"
+    }
+  },
+  "result": {
+    "item": "dim_progress:tepidbricks",
+    "count": 1
+  }
+}

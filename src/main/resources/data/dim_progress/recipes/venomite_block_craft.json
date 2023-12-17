@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "1": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "2": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "3": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "4": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "5": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "6": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "7": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "8": {
+      "item": "dim_progress:venomite_ingot"
+    }
+  },
+  "result": {
+    "item": "dim_progress:venomite_block",
+    "count": 1
+  }
+}

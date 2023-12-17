@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/dreadstone_venomite_ore",
+    "particle": "dim_progress:block/dreadstone_venomite_ore"
+  },
+  "render_type": "solid"
+}

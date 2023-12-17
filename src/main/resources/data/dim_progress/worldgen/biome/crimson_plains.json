@@ -39,7 +39,9 @@
     [],
     [],
     [],
-    [],
+    [
+      "dim_progress:crimson_plains_tree"
+    ],
     []
   ]
 }

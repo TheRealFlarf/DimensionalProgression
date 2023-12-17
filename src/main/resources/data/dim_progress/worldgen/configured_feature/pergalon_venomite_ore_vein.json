@@ -1,0 +1,27 @@
+{
+  "type": "dim_progress:pergalon_venomite_ore_vein",
+  "config": {
+    "size": 20,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "dim_progress:heckrock"
+        },
+        "state": {
+          "Name": "dim_progress:heckrock_venomite_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "dim_progress:dreadstone"
+        },
+        "state": {
+          "Name": "dim_progress:dreadstone_venomite_ore"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "dim_progress:underwater_crimson_mud_placement",
+  "step": "surface_structures"
+}

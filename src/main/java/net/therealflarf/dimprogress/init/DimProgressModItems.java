@@ -5,11 +5,20 @@
 package net.therealflarf.dimprogress.init;
 
 import net.therealflarf.dimprogress.item.WorldgenTestItem;
+import net.therealflarf.dimprogress.item.VenomiteSwordItem;
+import net.therealflarf.dimprogress.item.VenomiteShovelItem;
+import net.therealflarf.dimprogress.item.VenomitePickaxeItem;
+import net.therealflarf.dimprogress.item.VenomiteIngotItem;
+import net.therealflarf.dimprogress.item.VenomiteHoeItem;
+import net.therealflarf.dimprogress.item.VenomiteAxeItem;
+import net.therealflarf.dimprogress.item.TepidbrickItem;
 import net.therealflarf.dimprogress.item.RuniconShardItem;
 import net.therealflarf.dimprogress.item.RunicGemstoneItem;
+import net.therealflarf.dimprogress.item.RawVenomiteItem;
 import net.therealflarf.dimprogress.item.ProceduralDungeonGenTestItem;
 import net.therealflarf.dimprogress.item.PergalonPortalChargeItem;
 import net.therealflarf.dimprogress.item.NetherPortalChargeItem;
+import net.therealflarf.dimprogress.item.MoltenClayBallItem;
 import net.therealflarf.dimprogress.DimProgressMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -108,6 +117,21 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> POLISHED_HECKROCK_TILES = block(DimProgressModBlocks.POLISHED_HECKROCK_TILES);
 	public static final RegistryObject<Item> POLISHED_HECKROCK_TILE_STAIRS = block(DimProgressModBlocks.POLISHED_HECKROCK_TILE_STAIRS);
 	public static final RegistryObject<Item> POLISHED_HECKROCK_TILE_SLAB = block(DimProgressModBlocks.POLISHED_HECKROCK_TILE_SLAB);
+	public static final RegistryObject<Item> DREADSTONE_VENOMITE_ORE = block(DimProgressModBlocks.DREADSTONE_VENOMITE_ORE);
+	public static final RegistryObject<Item> RAW_VENOMITE = REGISTRY.register("raw_venomite", () -> new RawVenomiteItem());
+	public static final RegistryObject<Item> VENOMITE_INGOT = REGISTRY.register("venomite_ingot", () -> new VenomiteIngotItem());
+	public static final RegistryObject<Item> HECKROCK_VENOMITE_ORE = block(DimProgressModBlocks.HECKROCK_VENOMITE_ORE);
+	public static final RegistryObject<Item> VENOMITE_BLOCK = block(DimProgressModBlocks.VENOMITE_BLOCK);
+	public static final RegistryObject<Item> RAW_VENOMITE_BLOCK = block(DimProgressModBlocks.RAW_VENOMITE_BLOCK);
+	public static final RegistryObject<Item> MOLTEN_CLAY = block(DimProgressModBlocks.MOLTEN_CLAY);
+	public static final RegistryObject<Item> VENOMITE_AXE = REGISTRY.register("venomite_axe", () -> new VenomiteAxeItem());
+	public static final RegistryObject<Item> VENOMITE_PICKAXE = REGISTRY.register("venomite_pickaxe", () -> new VenomitePickaxeItem());
+	public static final RegistryObject<Item> VENOMITE_SWORD = REGISTRY.register("venomite_sword", () -> new VenomiteSwordItem());
+	public static final RegistryObject<Item> VENOMITE_SHOVEL = REGISTRY.register("venomite_shovel", () -> new VenomiteShovelItem());
+	public static final RegistryObject<Item> VENOMITE_HOE = REGISTRY.register("venomite_hoe", () -> new VenomiteHoeItem());
+	public static final RegistryObject<Item> MOLTEN_CLAY_BALL = REGISTRY.register("molten_clay_ball", () -> new MoltenClayBallItem());
+	public static final RegistryObject<Item> TEPIDBRICK = REGISTRY.register("tepidbrick", () -> new TepidbrickItem());
+	public static final RegistryObject<Item> TEPIDBRICKS = block(DimProgressModBlocks.TEPIDBRICKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
