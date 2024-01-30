@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dim_progress:custom/runic_rift_gate_particle"
+    },
+    "facing=east": {
+      "model": "dim_progress:custom/runic_rift_gate_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dim_progress:custom/runic_rift_gate_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dim_progress:custom/runic_rift_gate_particle",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "dim_progress:custom/rune_candle",
+  "textures": {
+    "all": "dim_progress:block/rune_candle_base",
+    "particle": "dim_progress:block/runicon_block",
+    "0": "dim_progress:block/runic_candlewick",
+    "1": "dim_progress:block/rune_candle_base"
+  },
+  "render_type": "translucent"
+}

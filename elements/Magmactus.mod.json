@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "magmactus",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Magmactus",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.6,
     "resistance": 1.0,
     "hasGravity": false,
@@ -99,6 +101,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
+    "placingCondition": {
+      "name": "MagmactusBlockValidPlacementCondition"
+    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -117,13 +122,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "MagmactusUpdateTick"
+    },
     "onEntityCollides": {
       "name": "MagmactusEntityCollidesInTheBlock"
     },
     "onEntityWalksOn": {
       "name": "MagmactusEntityCollidesInTheBlock"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "Items.DYE#5"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      },
+      {
+        "value": "TAG:dim_progress:terracottas"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.STAINED_HARDENED_CLAY#10"
+    },
+    "name": "terracotta_recolor_purple",
+    "namespace": "mod"
+  }
+}

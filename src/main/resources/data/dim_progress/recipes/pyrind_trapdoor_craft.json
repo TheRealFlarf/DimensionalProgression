@@ -2,26 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "dim_progress:pyrind_planks"
-    },
-    "1": {
-      "item": "dim_progress:pyrind_planks"
-    },
-    "2": {
-      "item": "dim_progress:pyrind_planks"
-    },
-    "3": {
-      "item": "dim_progress:pyrind_planks"
-    },
-    "4": {
-      "item": "dim_progress:pyrind_planks"
-    },
-    "5": {
+    "a": {
       "item": "dim_progress:pyrind_planks"
     }
   },

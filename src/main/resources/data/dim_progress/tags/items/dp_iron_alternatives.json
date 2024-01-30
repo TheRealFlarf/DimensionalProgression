@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "dim_progress:venomite_ingot",
+    "minecraft:iron_ingot"
+  ]
+}

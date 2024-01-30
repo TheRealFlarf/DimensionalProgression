@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:saplings"
+    },
+    "b": {
+      "item": "minecraft:stone"
+    },
+    "c": {
+      "item": "dim_progress:runicon_shard"
+    },
+    "d": {
+      "item": "dim_progress:infused_vitality_crystal"
+    }
+  },
+  "result": {
+    "item": "dim_progress:pergalon_portal_charge",
+    "count": 1
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "type": "dim_progress:pergalon_venomite_ore_vein_small",
+  "type": "minecraft:ore",
   "config": {
-    "size": 11,
+    "size": 21,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {

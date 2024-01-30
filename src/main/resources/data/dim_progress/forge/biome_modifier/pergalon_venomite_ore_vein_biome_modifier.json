@@ -1,9 +1,8 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "dim_progress:emberseed_woodlands",
-    "dim_progress:nyctophobic_coppice",
-    "dim_progress:bloodred_bog"
+    "dim_progress:bloodred_bog",
+    "dim_progress:nyctophobic_coppice"
   ],
   "features": "dim_progress:pergalon_venomite_ore_vein",
   "step": "underground_structures"

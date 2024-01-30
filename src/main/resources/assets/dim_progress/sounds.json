@@ -8,14 +8,6 @@
       }
     ]
   },
-  "pergalon_portal_activate": {
-    "sounds": [
-      {
-        "name": "dim_progress:discomfort",
-        "stream": true
-      }
-    ]
-  },
   "pergalon_introduction": {
     "sounds": [
       {
@@ -41,6 +33,31 @@
       {
         "name": "dim_progress:foreign_astronomy",
         "stream": true
+      }
+    ]
+  },
+  "music.runic_rift": {
+    "sounds": [
+      {
+        "name": "dim_progress:downward_passage",
+        "stream": true
+      }
+    ]
+  },
+  "music.pergalon.portal_activate": {
+    "subtitle": "subtitles.music.pergalon.portal_activate",
+    "sounds": [
+      {
+        "name": "dim_progress:discomfort",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.runic_rift.loop": {
+    "sounds": [
+      {
+        "name": "dim_progress:runic_rift_ambient",
+        "stream": false
       }
     ]
   }

@@ -6,8 +6,8 @@ license="Academic Free License v3.0"
 modId="dim_progress"
 version="1.0.0"
 displayName="Dimensional Progression"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="flarf, MCreator"
 
 [[dependencies.dim_progress]]
@@ -19,4 +19,16 @@ authors="flarf, MCreator"
 
 
 
+[[dependencies.dim_progress]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dim_progress]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

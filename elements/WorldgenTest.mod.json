@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -33,7 +33,9 @@
     },
     "enableIgniter": true,
     "igniterName": "Worldgen Test Portal Igniter",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "igniterTab": {
       "value": "CUSTOM:DPTools"
     },

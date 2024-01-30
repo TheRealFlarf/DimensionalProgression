@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/nyctocap_planks",
+    "particle": "dim_progress:block/nyctocap_planks"
+  },
+  "render_type": "solid"
+}

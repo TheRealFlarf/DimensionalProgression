@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "dim_progress:clotbark_log",
+    "dim_progress:emberseed_log",
     "dim_progress:pyrind_log",
-    "dim_progress:emberseed_log"
+    "dim_progress:clotbark_log"
   ]
 }

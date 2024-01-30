@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "1": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "2": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "3": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "4": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "5": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "6": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "7": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "8": {
+    "a": {
       "item": "dim_progress:runicon_shard"
     }
   },

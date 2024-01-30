@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_powder"
+    },
+    "b": {
+      "item": "dim_progress:runicon_shard"
+    }
+  },
+  "result": {
+    "item": "dim_progress:rune_candle",
+    "count": 4
+  }
+}

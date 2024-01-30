@@ -1,12 +1,12 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "plant",
   "definition": {
     "renderType": 12,
     "texture": "purple_ziolip",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "",
+    "itemTexture": "purple_ziolip",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -22,14 +22,16 @@
         "mx": 4.0,
         "my": 0.0,
         "mz": 4.0,
-        "Mx": 8.0,
+        "Mx": 12.0,
         "My": 14.0,
-        "Mz": 8.0,
+        "Mz": 12.0,
         "subtract": false
       }
     ],
     "name": "Purple Ziolip",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:DPNatural"
     },
@@ -79,7 +81,7 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 64,

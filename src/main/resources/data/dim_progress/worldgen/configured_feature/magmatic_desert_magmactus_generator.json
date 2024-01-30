@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:magmatic_desert_magmactus_generator",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 10,
     "feature": {

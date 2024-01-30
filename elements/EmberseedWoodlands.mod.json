@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "biome",
   "definition": {
     "name": "Emberseed Woodlands",
@@ -75,7 +75,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 9,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 5,

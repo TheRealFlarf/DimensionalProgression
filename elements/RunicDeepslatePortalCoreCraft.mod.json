@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.POLISHED_DEEPSLATE"
+      },
+      {
+        "value": "Blocks.POLISHED_DEEPSLATE"
+      },
+      {
+        "value": "Blocks.POLISHED_DEEPSLATE"
+      },
+      {
+        "value": "CUSTOM:RunicGemstone"
+      },
+      {
+        "value": "CUSTOM:RuniconBlock"
+      },
+      {
+        "value": "CUSTOM:RunicGemstone"
+      },
+      {
+        "value": "Blocks.POLISHED_DEEPSLATE"
+      },
+      {
+        "value": "Blocks.POLISHED_DEEPSLATE"
+      },
+      {
+        "value": "Blocks.POLISHED_DEEPSLATE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RunicDeepslatePortalCore"
+    },
+    "name": "runic_deepslate_portal_core_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:nyctocap_stem"
+    }
+  },
+  "result": {
+    "item": "dim_progress:nyctocap_planks",
+    "count": 4
+  }
+}

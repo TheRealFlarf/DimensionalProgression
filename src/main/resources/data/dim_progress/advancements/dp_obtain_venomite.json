@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dim_progress:venomite_ingot"
+    },
+    "title": {
+      "translate": "advancements.dp_obtain_venomite.title"
+    },
+    "description": {
+      "translate": "advancements.dp_obtain_venomite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dp_obtain_venomite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dim_progress:venomite_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dim_progress:dp_enter_pergalon"
+}

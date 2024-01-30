@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:bloodred_bog",
+  "features": "dim_progress:bloodred_bog_clotbark_bushes",
+  "step": "surface_structures"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:sunburst_savanna",
+  "features": "dim_progress:sunburst_savanna_pyrinds",
+  "step": "surface_structures"
+}

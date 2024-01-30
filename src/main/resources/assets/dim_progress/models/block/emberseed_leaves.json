@@ -4,5 +4,5 @@
     "all": "dim_progress:block/emberseed_leaves",
     "particle": "dim_progress:block/emberseed_leaves"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }

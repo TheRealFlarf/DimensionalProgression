@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dim_progress:runicon_block"
+    },
+    "title": {
+      "translate": "advancements.dp_obtain_more_runicon.title"
+    },
+    "description": {
+      "translate": "advancements.dp_obtain_more_runicon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "dp_obtain_more_runicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dim_progress:runicon_block"
+            ],
+            "count": {
+              "min": 64,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dim_progress:dp_obtain_runicon"
+}

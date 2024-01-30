@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     "dim_progress:felsand",
-    "dim_progress:sunlit_silica_glass",
     "dim_progress:felsandstone",
-    "dim_progress:dead_crimsoil_grass",
-    "dim_progress:sunlit_silica",
     "dim_progress:cut_felsandstone",
-    "dim_progress:cut_felsandstone_bricks"
+    "dim_progress:cut_felsandstone_bricks",
+    "dim_progress:sunlit_silica",
+    "dim_progress:sunlit_silica_glass",
+    "dim_progress:dead_crimsoil_grass"
   ]
 }

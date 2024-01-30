@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:dreadstone"
+    },
+    "b": {
+      "item": "dim_progress:runicon_shard"
+    }
+  },
+  "result": {
+    "item": "dim_progress:runic_dreadstone_pillar",
+    "count": 6
+  }
+}

@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "dim_progress:emberseed_planks"
-    },
-    "3": {
-      "item": "dim_progress:emberseed_planks"
-    },
-    "4": {
-      "item": "dim_progress:emberseed_planks"
-    },
-    "6": {
-      "item": "dim_progress:emberseed_planks"
-    },
-    "7": {
-      "item": "dim_progress:emberseed_planks"
-    },
-    "8": {
+    "a": {
       "item": "dim_progress:emberseed_planks"
     }
   },

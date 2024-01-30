@@ -1,13 +1,21 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tag",
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RunicDreadstoneRing"
+      },
+      {
+        "value": "CUSTOM:RunicDreadstonePortalCore"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "runic_portal_cores",
     "namespace": "mod"
   }

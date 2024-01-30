@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:nyctic_sprigs",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 48,
     "feature": {

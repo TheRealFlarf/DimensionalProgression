@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dim_progress:block/nyctocap_slab"
+    },
+    "type=top": {
+      "model": "dim_progress:block/nyctocap_slab_top"
+    },
+    "type=double": {
+      "model": "dim_progress:block/nyctocap_slab_full"
+    }
+  }
+}

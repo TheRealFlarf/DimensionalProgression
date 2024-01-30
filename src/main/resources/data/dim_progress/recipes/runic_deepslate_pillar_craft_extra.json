@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "b": {
+      "item": "dim_progress:runicon_shard"
+    },
+    "c": {
+      "item": "dim_progress:runic_gemstone"
+    }
+  },
+  "result": {
+    "item": "dim_progress:runic_deepslate_pillar",
+    "count": 16
+  }
+}

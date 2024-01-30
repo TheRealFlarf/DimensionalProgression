@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:deepslate_runicon_ore",
+  "type": "minecraft:ore",
   "config": {
     "size": 8,
     "discard_chance_on_air_exposure": 0,

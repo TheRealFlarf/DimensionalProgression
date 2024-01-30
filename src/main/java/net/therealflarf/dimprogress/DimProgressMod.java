@@ -16,12 +16,13 @@ package net.therealflarf.dimprogress;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.therealflarf.dimprogress.world.features.StructureFeature;
 import net.therealflarf.dimprogress.init.DimProgressModTabs;
 import net.therealflarf.dimprogress.init.DimProgressModSounds;
 import net.therealflarf.dimprogress.init.DimProgressModItems;
-import net.therealflarf.dimprogress.init.DimProgressModFeatures;
 import net.therealflarf.dimprogress.init.DimProgressModEntities;
 import net.therealflarf.dimprogress.init.DimProgressModBlocks;
+import net.therealflarf.dimprogress.init.DimProgressModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -55,12 +56,13 @@ public class DimProgressMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		DimProgressModSounds.REGISTRY.register(bus);
 		DimProgressModBlocks.REGISTRY.register(bus);
-
+		DimProgressModBlockEntities.REGISTRY.register(bus);
 		DimProgressModItems.REGISTRY.register(bus);
 		DimProgressModEntities.REGISTRY.register(bus);
 
 		DimProgressModTabs.REGISTRY.register(bus);
-		DimProgressModFeatures.REGISTRY.register(bus);
+
+		StructureFeature.REGISTRY.register(bus);
 
 	}
 

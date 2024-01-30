@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "dim_progress:runic_dreadstone_ring",
+    "dim_progress:runic_dreadstone_portal_core"
+  ]
 }

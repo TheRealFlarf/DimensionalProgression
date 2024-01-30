@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dim_progress:block/runic_dreadstone_pillar_end",
+    "up": "dim_progress:block/runic_dreadstone_pillar_end",
+    "north": "dim_progress:block/runic_dreadstone_pillar",
+    "east": "dim_progress:block/runic_dreadstone_pillar",
+    "south": "dim_progress:block/runic_dreadstone_pillar",
+    "west": "dim_progress:block/runic_dreadstone_pillar",
+    "particle": "dim_progress:block/runic_dreadstone_pillar_end"
+  },
+  "render_type": "solid"
+}

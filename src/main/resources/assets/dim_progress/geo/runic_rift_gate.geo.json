@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.runic_rift_gate - Converted",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "rightdoor",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, -8],
+							"size": [24, 48, 16],
+							"uv": {
+								"north": {"uv": [0, 48], "uv_size": [24, 48]},
+								"east": {"uv": [56, 48], "uv_size": [16, 48]},
+								"south": {"uv": [48, 0], "uv_size": [24, 48]},
+								"west": {"uv": [72, 0], "uv_size": [16, 48]},
+								"up": {"uv": [72, 80], "uv_size": [24, 16]},
+								"down": {"uv": [88, 16], "uv_size": [24, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "leftdoor",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-24, 0, -8],
+							"size": [24, 48, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [24, 48]},
+								"east": {"uv": [24, 48], "uv_size": [16, 48]},
+								"south": {"uv": [24, 0], "uv_size": [24, 48]},
+								"west": {"uv": [40, 48], "uv_size": [16, 48]},
+								"up": {"uv": [72, 48], "uv_size": [24, 16]},
+								"down": {"uv": [72, 80], "uv_size": [24, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

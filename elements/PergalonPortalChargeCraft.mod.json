@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SAPLING"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.SAPLING"
+      },
+      {
+        "value": "CUSTOM:RuniconShard"
+      },
+      {
+        "value": "CUSTOM:InfusedLifeCrystal"
+      },
+      {
+        "value": "CUSTOM:RuniconShard"
+      },
+      {
+        "value": "Blocks.SAPLING"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.SAPLING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PergalonPortalCharge"
+    },
+    "name": "pergalon_portal_charge_craft",
+    "namespace": "mod"
+  }
+}

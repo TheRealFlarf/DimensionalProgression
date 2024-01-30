@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:nyctophobic_coppice",
+  "features": "dim_progress:nyctophobic_coppice_nyctecium_patches",
+  "step": "surface_structures"
+}

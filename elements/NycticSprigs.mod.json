@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -29,7 +29,9 @@
       }
     ],
     "name": "Nyctic Sprigs",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:DPNatural"
     },
@@ -57,7 +59,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": "Blocks.AIR"
     },
@@ -82,13 +84,14 @@
       },
       {
         "value": "CUSTOM:Nyctecium"
+      },
+      {
+        "value": "CUSTOM:CrimsonMud"
       }
     ],
     "isBonemealable": false,
     "frequencyOnChunks": 9,
-    "spawnWorldTypes": [
-      "CUSTOM:Pergalon"
-    ],
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:NyctophobicCoppice"

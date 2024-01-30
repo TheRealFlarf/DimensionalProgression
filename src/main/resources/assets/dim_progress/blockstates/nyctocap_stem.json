@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dim_progress:block/nyctocap_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dim_progress:block/nyctocap_stem"
+    },
+    "axis=z": {
+      "model": "dim_progress:block/nyctocap_stem",
+      "x": 90
+    }
+  }
+}

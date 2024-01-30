@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "dim_progress:emberseed_woodlands",
+    "dim_progress:magmatic_desert",
+    "dim_progress:sunburst_savanna"
+  ],
+  "features": "dim_progress:sunlit_silica_prism_large_feature",
+  "step": "surface_structures"
+}

@@ -2,29 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "aba",
+    " a "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "dim_progress:runicon_shard"
     },
-    "3": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "4": {
-      "item": "minecraft:ender_pearl"
-    },
-    "5": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "7": {
-      "item": "dim_progress:runicon_shard"
+    "b": {
+      "item": "minecraft:diamond"
     }
   },
   "result": {
     "item": "dim_progress:runic_gemstone",
-    "count": 1
+    "count": 2
   }
 }

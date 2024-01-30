@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "dim_progress:runicon_shard"
+    },
+    "title": {
+      "translate": "advancements.dp_obtain_runicon.title"
+    },
+    "description": {
+      "translate": "advancements.dp_obtain_runicon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dp_obtain_runicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dim_progress:runicon_shard"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dim_progress:dimensional_progression_start"
+}

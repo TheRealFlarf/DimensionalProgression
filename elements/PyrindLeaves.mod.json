@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "pyrind_leaves",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Pyrind Leaves",
-    "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 0.5,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 0.2,
+    "resistance": 0.2,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
@@ -47,7 +49,7 @@
       "value": "Blocks.AIR"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -117,7 +119,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

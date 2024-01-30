@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "dim_progress:nether_portal_charge"
+    },
+    "title": {
+      "translate": "advancements.dp_open_portal.title"
+    },
+    "description": {
+      "translate": "advancements.dp_open_portal.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dp_open_portal": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dim_progress:dp_construct_portal_core"
+}
