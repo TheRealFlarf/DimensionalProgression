@@ -5,6 +5,7 @@
 package net.therealflarf.dimprogress.init;
 
 import net.therealflarf.dimprogress.entity.RunicRiftStructurePlacerEntity;
+import net.therealflarf.dimprogress.entity.MagnianEntity;
 import net.therealflarf.dimprogress.entity.DTHallwayPlacementEntity;
 import net.therealflarf.dimprogress.entity.CottonweaveEntity;
 import net.therealflarf.dimprogress.DimProgressMod;
@@ -35,6 +36,8 @@ public class DimProgressModEntities {
 					.setCustomClientFactory(RunicRiftStructurePlacerEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MagnianEntity>> MAGNIAN = register("magnian",
+			EntityType.Builder.<MagnianEntity>of(MagnianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MagnianEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -46,6 +49,7 @@ public class DimProgressModEntities {
 			CottonweaveEntity.init();
 			DTHallwayPlacementEntity.init();
 			RunicRiftStructurePlacerEntity.init();
+			MagnianEntity.init();
 		});
 	}
 
@@ -54,5 +58,6 @@ public class DimProgressModEntities {
 		event.put(COTTONWEAVE.get(), CottonweaveEntity.createAttributes().build());
 		event.put(DT_HALLWAY_PLACEMENT.get(), DTHallwayPlacementEntity.createAttributes().build());
 		event.put(RUNIC_RIFT_STRUCTURE_PLACER.get(), RunicRiftStructurePlacerEntity.createAttributes().build());
+		event.put(MAGNIAN.get(), MagnianEntity.createAttributes().build());
 	}
 }

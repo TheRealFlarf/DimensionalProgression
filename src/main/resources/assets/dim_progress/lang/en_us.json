@@ -46,6 +46,7 @@
   "block.dim_progress.runic_dreadstone_pillar": "Runic Dreadstone Pillar",
   "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
   "item.dim_progress.life_crystal": "Life Crystal",
+  "subtitles.entity.magnian.idle": "Magnian Breathes",
   "block.dim_progress.pyrind_door": "Pyrind Door",
   "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
   "block.dim_progress.polished_heckrock_brick_slab": "Polished Heckrock Brick Slab",
@@ -87,6 +88,7 @@
   "block.dim_progress.polished_heckrock_bricks": "Polished Heckrock Bricks",
   "block.dim_progress.emberseed_fence": "Emberseed Fence",
   "item.dim_progress.runic_gemstone": "Runic Gemstone",
+  "subtitles.entity.magnian.hurt": "Magnian Hurts",
   "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
   "biome.dim_progress.crimson_plains": "Crimson Plains",
   "advancements.dp_open_portal.descr": "Open your first Runic Portal",
@@ -98,6 +100,7 @@
   "block.dim_progress.runic_stone_portal_core": "Runic Stone Portal Core",
   "block.dim_progress.polished_heckrock_slab": "Polished Heckrock Slab",
   "entity.dim_progress.cottonweave": "Cottonweave",
+  "entity.dim_progress.magnian": "Magnian",
   "block.dim_progress.voidenbells": "Voidenbells",
   "block.dim_progress.molten_clay": "Molten Clay",
   "item.dim_progress.cottonweave_spawn_egg": "Cottonweave Spawn Egg",
@@ -166,6 +169,7 @@
   "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
   "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
   "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
+  "subtitles.entity.magnian.death": "Magnian Dies",
   "block.dim_progress.pyrind_trapdoor": "Pyrind Trapdoor",
   "item.dim_progress.tepidbrick": "Tepidbrick",
   "advancements.dp_obtain_more_runicon.title": "Mildly Overkill",
@@ -177,5 +181,6 @@
   "block.dim_progress.clotbark_log": "Clotbark Log",
   "block.dim_progress.dark_grain": "Dark Seeds",
   "block.dim_progress.dark_grain_stage_3": "Dark Grain (Fully Grown)",
-  "block.dim_progress.runic_rift_gate": "Runic Rift Gate"
+  "block.dim_progress.runic_rift_gate": "Runic Rift Gate",
+  "item.dim_progress.magnian_spawn_egg": "Magnian Spawn Egg"
 }

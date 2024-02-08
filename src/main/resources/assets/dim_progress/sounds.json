@@ -60,5 +60,60 @@
         "stream": false
       }
     ]
+  },
+  "entity.magnian.hurt": {
+    "subtitle": "subtitles.entity.magnian.hurt",
+    "sounds": [
+      {
+        "name": "dim_progress:magnian_hurt1",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_hurt2",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.magnian.death": {
+    "subtitle": "subtitles.entity.magnian.death",
+    "sounds": [
+      {
+        "name": "dim_progress:magnian_death1",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_death2",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_death3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.magnian.idle": {
+    "subtitle": "subtitles.entity.magnian.idle",
+    "sounds": [
+      {
+        "name": "dim_progress:magnian_idle1",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_idle2",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_idle3",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_idle4",
+        "stream": false
+      }
+    ]
   }
 }

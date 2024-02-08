@@ -38,6 +38,7 @@ public class DimProgressModTabs {
 				tabData.accept(DimProgressModItems.DRAIN_RUNIC_POWER.get());
 				tabData.accept(DimProgressModItems.COTTONWEAVE_SPAWN_EGG.get());
 				tabData.accept(DimProgressModItems.DREADGEM.get());
+				tabData.accept(DimProgressModItems.MAGNIAN_SPAWN_EGG.get());
 			})
 
 					.build());

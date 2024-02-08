@@ -189,6 +189,7 @@ public class DimProgressModItems {
 	public static final RegistryObject<Item> DREADSTONE_DREADGEM_ORE = block(DimProgressModBlocks.DREADSTONE_DREADGEM_ORE);
 	public static final RegistryObject<Item> DREADGEM = REGISTRY.register("dreadgem", () -> new DreadgemItem());
 	public static final RegistryObject<Item> DREADGEM_SWORD = REGISTRY.register("dreadgem_sword", () -> new DreadgemSwordItem());
+	public static final RegistryObject<Item> MAGNIAN_SPAWN_EGG = REGISTRY.register("magnian_spawn_egg", () -> new ForgeSpawnEggItem(DimProgressModEntities.MAGNIAN, -15068665, -37632, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
