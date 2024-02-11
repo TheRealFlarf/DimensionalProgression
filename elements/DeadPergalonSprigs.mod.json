@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "dead_pergalon_sprigs",
+    "texture": "dead_crimson_sprigs",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Dead Pergalon Sprigs",
+    "name": "Dead Crimson Sprigs",
     "specialInformation": {
       "fixedValue": []
     },
@@ -87,6 +87,18 @@
       },
       {
         "value": "CUSTOM:CrimsonMud"
+      },
+      {
+        "value": "CUSTOM:Felsand"
+      },
+      {
+        "value": "CUSTOM:Felsandstone"
+      },
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.SAND#1"
       }
     ],
     "isBonemealable": false,

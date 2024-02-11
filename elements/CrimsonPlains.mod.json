@@ -39,7 +39,7 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:pergalon_ambient"
+      "value": "CUSTOM:music.pergalon.generic"
     },
     "moodSound": {
       "value": ""
@@ -91,7 +91,9 @@
     "treeFruits": {
       "value": "Blocks.AIR"
     },
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "FrozenTopLayer"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,

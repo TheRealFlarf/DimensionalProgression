@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
@@ -56,7 +57,8 @@ public class DeadPergalonSprigsBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(DimProgressModBlocks.CRIMSOIL.get()) || groundState.is(DimProgressModBlocks.DEAD_CRIMSOIL_GRASS.get()) || groundState.is(DimProgressModBlocks.CRIMSON_MUD.get());
+		return groundState.is(DimProgressModBlocks.CRIMSOIL.get()) || groundState.is(DimProgressModBlocks.DEAD_CRIMSOIL_GRASS.get()) || groundState.is(DimProgressModBlocks.CRIMSON_MUD.get()) || groundState.is(DimProgressModBlocks.FELSAND.get())
+				|| groundState.is(DimProgressModBlocks.FELSANDSTONE.get()) || groundState.is(Blocks.SAND) || groundState.is(Blocks.RED_SAND);
 	}
 
 	@Override

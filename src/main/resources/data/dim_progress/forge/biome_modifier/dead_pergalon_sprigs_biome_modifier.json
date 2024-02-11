@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "dim_progress:magmatic_desert",
-    "dim_progress:sunburst_savanna"
-  ],
-  "features": "dim_progress:dead_pergalon_sprigs",
-  "step": "vegetal_decoration"
-}

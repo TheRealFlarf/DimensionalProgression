@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "dim_progress:dreadstone",
+    "dim_progress:crimsoil",
+    "dim_progress:crimson_crimsoil_grass",
+    "dim_progress:dead_crimsoil_grass",
+    "dim_progress:felsand",
+    "dim_progress:felsandstone",
+    "dim_progress:dark_crimson_crimsoil_grass",
+    "dim_progress:crimson_mud",
+    "dim_progress:heckrock",
+    "dim_progress:molten_clay",
+    "dim_progress:tainted_dreadstone"
+  ]
+}

@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:DPBuilding"
+      "value": "CUSTOM:DPUtilities"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

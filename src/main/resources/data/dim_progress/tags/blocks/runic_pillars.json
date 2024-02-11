@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "dim_progress:runic_stone_pillar",
-    "dim_progress:runic_dreadstone_pillar"
+    "dim_progress:runic_dreadstone_pillar",
+    "dim_progress:runic_deepslate_pillar"
   ]
 }

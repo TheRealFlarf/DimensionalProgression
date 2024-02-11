@@ -1,0 +1,13 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "UNDERGROUND_DECORATION",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:CorruptedDepths"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_replace_sphere\" inline=\"false\"><value name=\"targetState\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Dreadstone</field></block></value><value name=\"newState\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:TaintedDreadstone</field></block></value><value name=\"radius\"><block type=\"int_provider_uniform\"><field name=\"min\">7</field><field name=\"max\">12</field></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">25</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_height_uniform\"><value name=\"min\"><block type=\"vertical_anchor_above_bottom\"><field name=\"value\">0</field></block></value><value name=\"max\"><block type=\"vertical_anchor_above_bottom\"><field name=\"value\">72</field></block></value><next><block type=\"placement_environment_scan\"><field name=\"maxSteps\">2</field><field name=\"direction\">UP</field><value name=\"condition\"><block type=\"block_predicate_is_air\"></block></value><next><block type=\"placement_environment_scan\"><field name=\"maxSteps\">2</field><field name=\"direction\">DOWN</field><value name=\"condition\"><block type=\"block_predicate_is_air\"></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

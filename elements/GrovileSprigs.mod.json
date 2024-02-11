@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "grovile_sprigs",
+    "texture": "dark_crimson_sprigs",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Grovile Sprigs",
+    "name": "Dark Crimson Sprigs",
     "specialInformation": {
       "fixedValue": []
     },
@@ -101,6 +101,9 @@
       },
       {
         "value": "CUSTOM:EmberseedWoodlands"
+      },
+      {
+        "value": "CUSTOM:DarkCrimsonPlains"
       }
     ],
     "generationType": "Grass",

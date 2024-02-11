@@ -5,5 +5,5 @@
     "dim_progress:nyctophobic_coppice"
   ],
   "features": "dim_progress:pergalon_venomite_ore_vein",
-  "step": "underground_structures"
+  "step": "underground_ores"
 }

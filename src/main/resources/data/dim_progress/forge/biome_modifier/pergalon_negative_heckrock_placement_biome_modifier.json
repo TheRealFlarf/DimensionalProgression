@@ -6,8 +6,13 @@
     "dim_progress:emberseed_woodlands",
     "dim_progress:magmatic_desert",
     "dim_progress:nyctophobic_coppice",
-    "dim_progress:sunburst_savanna"
+    "dim_progress:sunburst_savanna",
+    "dim_progress:corrupted_depths",
+    "dim_progress:dark_crimson_plains",
+    "dim_progress:pergalon_beach",
+    "dim_progress:vaespen_woodlands",
+    "dim_progress:violet_sea"
   ],
   "features": "dim_progress:pergalon_negative_heckrock_placement",
-  "step": "underground_structures"
+  "step": "underground_decoration"
 }

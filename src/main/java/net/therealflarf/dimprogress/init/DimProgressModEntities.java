@@ -27,6 +27,8 @@ public class DimProgressModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, DimProgressMod.MODID);
 	public static final RegistryObject<EntityType<CottonweaveEntity>> COTTONWEAVE = register("cottonweave", EntityType.Builder.<CottonweaveEntity>of(CottonweaveEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CottonweaveEntity::new).fireImmune().sized(0.7f, 0.8f));
+	public static final RegistryObject<EntityType<MagnianEntity>> MAGNIAN = register("magnian",
+			EntityType.Builder.<MagnianEntity>of(MagnianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MagnianEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DTHallwayPlacementEntity>> DT_HALLWAY_PLACEMENT = register("dt_hallway_placement",
 			EntityType.Builder.<DTHallwayPlacementEntity>of(DTHallwayPlacementEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1).setUpdateInterval(3).setCustomClientFactory(DTHallwayPlacementEntity::new)
 
@@ -36,8 +38,6 @@ public class DimProgressModEntities {
 					.setCustomClientFactory(RunicRiftStructurePlacerEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<MagnianEntity>> MAGNIAN = register("magnian",
-			EntityType.Builder.<MagnianEntity>of(MagnianEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MagnianEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -47,17 +47,17 @@ public class DimProgressModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			CottonweaveEntity.init();
+			MagnianEntity.init();
 			DTHallwayPlacementEntity.init();
 			RunicRiftStructurePlacerEntity.init();
-			MagnianEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(COTTONWEAVE.get(), CottonweaveEntity.createAttributes().build());
+		event.put(MAGNIAN.get(), MagnianEntity.createAttributes().build());
 		event.put(DT_HALLWAY_PLACEMENT.get(), DTHallwayPlacementEntity.createAttributes().build());
 		event.put(RUNIC_RIFT_STRUCTURE_PLACER.get(), RunicRiftStructurePlacerEntity.createAttributes().build());
-		event.put(MAGNIAN.get(), MagnianEntity.createAttributes().build());
 	}
 }

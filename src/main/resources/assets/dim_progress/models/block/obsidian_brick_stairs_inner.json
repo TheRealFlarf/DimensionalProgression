@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dim_progress:block/obsidian_bricks",
+    "top": "dim_progress:block/obsidian_bricks",
+    "side": "dim_progress:block/obsidian_bricks"
+  },
+  "render_type": "solid"
+}

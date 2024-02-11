@@ -115,5 +115,33 @@
         "stream": false
       }
     ]
+  },
+  "music.pergalon.generic": {
+    "sounds": [
+      {
+        "name": "dim_progress:underworld",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:lost",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:long_forgotten",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:foreign_astronomy",
+        "stream": true
+      }
+    ]
+  },
+  "music.intro.pergalon": {
+    "sounds": [
+      {
+        "name": "dim_progress:underworld",
+        "stream": true
+      }
+    ]
   }
 }

@@ -12,6 +12,9 @@
       },
       {
         "value": "CUSTOM:ClotbarkLog"
+      },
+      {
+        "value": "CUSTOM:VaespenLog"
       }
     ],
     "blocks": [],

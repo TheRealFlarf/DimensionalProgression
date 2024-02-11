@@ -5,10 +5,16 @@
   "effects": {
     "ambient_sound": "ambient.crimson_forest.loop",
     "music": {
-      "sound": "dim_progress:pergalon_ambient",
+      "sound": "dim_progress:music.pergalon.generic",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "crimson_spore"
+      },
+      "probability": 0.001
     },
     "foliage_color": -10223593,
     "grass_color": -11468782,

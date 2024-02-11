@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "dim_progress:obsidian_bricks",
+    "count": 8
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "dim_progress:violet_sea",
+    "dim_progress:corrupted_depths"
+  ],
+  "features": "dim_progress:violet_sea_kelp_placement",
+  "step": "surface_structures"
+}

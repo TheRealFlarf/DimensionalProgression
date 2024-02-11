@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "crimsoil",
-    "textureTop": "grovile_grass_top",
-    "textureLeft": "grovile_crimsoil_grass_side",
-    "textureFront": "grovile_crimsoil_grass_side",
-    "textureRight": "grovile_crimsoil_grass_side",
-    "textureBack": "grovile_crimsoil_grass_side",
+    "textureTop": "dark_crimson_grass_top",
+    "textureLeft": "dark_crimson_crimsoil_grass_side",
+    "textureFront": "dark_crimson_crimsoil_grass_side",
+    "textureRight": "dark_crimson_crimsoil_grass_side",
+    "textureBack": "dark_crimson_crimsoil_grass_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Grovile Crimsoil Grass",
+    "name": "Dark Crimson Crimsoil Grass",
     "specialInformation": {
       "fixedValue": []
     },

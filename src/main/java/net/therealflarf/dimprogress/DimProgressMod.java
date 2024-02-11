@@ -19,6 +19,7 @@ import org.apache.logging.log4j.LogManager;
 import net.therealflarf.dimprogress.world.features.StructureFeature;
 import net.therealflarf.dimprogress.init.DimProgressModTabs;
 import net.therealflarf.dimprogress.init.DimProgressModSounds;
+import net.therealflarf.dimprogress.init.DimProgressModMenus;
 import net.therealflarf.dimprogress.init.DimProgressModItems;
 import net.therealflarf.dimprogress.init.DimProgressModEntities;
 import net.therealflarf.dimprogress.init.DimProgressModBlocks;
@@ -64,6 +65,7 @@ public class DimProgressMod {
 
 		StructureFeature.REGISTRY.register(bus);
 
+		DimProgressModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

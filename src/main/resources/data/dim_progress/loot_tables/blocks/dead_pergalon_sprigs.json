@@ -80,7 +80,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dim_progress:dead_pergalon_sprigs",
+          "name": "dim_progress:dead_crimson_sprigs",
           "weight": 1,
           "conditions": [
             {

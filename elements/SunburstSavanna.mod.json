@@ -39,7 +39,7 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:pergalon_ambient"
+      "value": "CUSTOM:music.pergalon.generic"
     },
     "moodSound": {
       "value": ""

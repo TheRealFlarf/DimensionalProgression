@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "dim_progress:structure_feature",
+          "config": {
+            "structure": "dim_progress:corrupted_depths_lanternpost",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "dim_progress:structure_feature",
+          "config": {
+            "structure": "dim_progress:corrupted_depths_lantern_ruin",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "dim_progress:structure_feature",
+          "config": {
+            "structure": "dim_progress:corrupted_depths_rubble",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "dim_progress:structure_feature",
+          "config": {
+            "structure": "dim_progress:corrupted_depths_ruined_spire",
+            "random_rotation": true,
+            "random_mirror": true,
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

@@ -2,12 +2,11 @@
   "feature": "dim_progress:pergalon_venomite_ore_vein_small",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 13
+      "type": "minecraft:count",
+      "count": 11
     },
     {
-      "type": "minecraft:count_on_every_layer",
-      "count": 4
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",

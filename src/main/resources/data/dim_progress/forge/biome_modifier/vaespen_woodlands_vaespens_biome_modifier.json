@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:vaespen_woodlands",
+  "features": "dim_progress:vaespen_woodlands_vaespens",
+  "step": "surface_structures"
+}

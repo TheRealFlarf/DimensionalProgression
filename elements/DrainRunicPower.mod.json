@@ -10,7 +10,7 @@
     "name": "Drain Runic Power",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:DPMisc"
+      "value": "CUSTOM:DPUtilities"
     },
     "stackSize": 1,
     "enchantability": 0,

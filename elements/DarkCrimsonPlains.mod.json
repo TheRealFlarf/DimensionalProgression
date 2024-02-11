@@ -1,0 +1,119 @@
+{
+  "_fv": 57,
+  "_type": "biome",
+  "definition": {
+    "name": "Dark Crimson Plains",
+    "groundBlock": {
+      "value": "CUSTOM:GrovileCrimsoilGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Crimsoil"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Crimsoil"
+    },
+    "airColor": {
+      "value": -11528401,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -14285292,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12582371,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -15073230,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -15073230,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.nether_wastes.loop"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "CUSTOM:music.pergalon.generic"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.30000000000000004,
+    "temperature": 0.30000000000000004,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "CUSTOM:EmberseedLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:EmberseedLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.7,
+  "downfall": 0.3,
+  "effects": {
+    "ambient_sound": "ambient.crimson_forest.loop",
+    "music": {
+      "sound": "dim_progress:music.pergalon.generic",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "warped_spore"
+      },
+      "probability": 0.001
+    },
+    "foliage_color": -14601909,
+    "grass_color": -11468782,
+    "sky_color": -6216118,
+    "fog_color": -6216118,
+    "water_color": -13493409,
+    "water_fog_color": -13493409
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

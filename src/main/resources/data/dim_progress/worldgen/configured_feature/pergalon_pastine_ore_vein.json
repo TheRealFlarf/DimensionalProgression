@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:scattered_ore",
+  "config": {
+    "size": 7,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "dim_progress:dreadstone"
+        },
+        "state": {
+          "Name": "dim_progress:dreadstone_pastine_ore"
+        }
+      }
+    ]
+  }
+}

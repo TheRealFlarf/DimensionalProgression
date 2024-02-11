@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dim_progress:block/dead_pergalon_sprigs",
-    "particle": "dim_progress:block/dead_pergalon_sprigs"
-  },
-  "render_type": "cutout"
-}

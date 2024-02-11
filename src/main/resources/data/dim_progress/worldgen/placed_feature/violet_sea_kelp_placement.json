@@ -1,0 +1,28 @@
+{
+  "feature": "dim_progress:violet_sea_kelp_placement",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 12
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:kelp_plant"
+        }
+      }
+    }
+  ]
+}

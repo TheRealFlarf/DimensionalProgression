@@ -3,7 +3,7 @@
     {
       "name": "DeepslateRuniconOre",
       "type": "block",
-      "sortid": 15,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_runicon_ore",
@@ -38,7 +38,7 @@
     {
       "name": "RuniconBlock",
       "type": "block",
-      "sortid": 54,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runicon_block",
@@ -55,7 +55,7 @@
     {
       "name": "DeepslateRuniconOreDrops",
       "type": "loottable",
-      "sortid": 127,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepslate_runicon_ore_drops",
@@ -69,7 +69,7 @@
     {
       "name": "RuniconBlockCraft",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runicon_block_craft",
@@ -83,7 +83,7 @@
     {
       "name": "DPMisc",
       "type": "tab",
-      "sortid": 129,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_misc",
@@ -95,7 +95,7 @@
     {
       "name": "DPNatural",
       "type": "tab",
-      "sortid": 130,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_natural",
@@ -107,7 +107,7 @@
     {
       "name": "DPBuilding",
       "type": "tab",
-      "sortid": 131,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_building",
@@ -119,7 +119,7 @@
     {
       "name": "DPTools",
       "type": "tab",
-      "sortid": 132,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_tools",
@@ -146,7 +146,7 @@
     {
       "name": "RunicGemstoneCraft",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_gemstone_craft",
@@ -160,7 +160,7 @@
     {
       "name": "RunicStoneRing",
       "type": "block",
-      "sortid": 58,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_ring",
@@ -177,7 +177,7 @@
     {
       "name": "RunicStonePillar",
       "type": "block",
-      "sortid": 57,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_pillar",
@@ -194,7 +194,7 @@
     {
       "name": "RunicRings",
       "type": "tag",
-      "sortid": 134,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_rings",
@@ -208,7 +208,7 @@
     {
       "name": "RunicPillars",
       "type": "tag",
-      "sortid": 135,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_pillars",
@@ -222,7 +222,7 @@
     {
       "name": "RunicPortalCores",
       "type": "tag",
-      "sortid": 136,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_portal_cores",
@@ -236,7 +236,7 @@
     {
       "name": "RunicStonePortalCore",
       "type": "block",
-      "sortid": 56,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_portal_core",
@@ -253,7 +253,7 @@
     {
       "name": "RunicStoneRingCraft",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_ring_craft",
@@ -267,7 +267,7 @@
     {
       "name": "RunicStonePillarCraft",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_pillar_craft",
@@ -281,7 +281,7 @@
     {
       "name": "RunicStoneRingCraftExtra",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_ring_craft_extra",
@@ -295,7 +295,7 @@
     {
       "name": "RunicStonePillarExtra",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_pillar_extra",
@@ -309,7 +309,7 @@
     {
       "name": "RunicStonePortalCoreCraft",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_stone_portal_core_craft",
@@ -323,7 +323,7 @@
     {
       "name": "CrystalGlass",
       "type": "block",
-      "sortid": 64,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_glass",
@@ -340,7 +340,7 @@
     {
       "name": "CrystalGlassSmelt",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_glass_smelt",
@@ -354,7 +354,7 @@
     {
       "name": "UpwardRunicPortal",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upward_runic_portal",
@@ -390,7 +390,7 @@
     {
       "name": "NetherPortalCharge",
       "type": "item",
-      "sortid": 116,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_portal_charge",
@@ -405,7 +405,7 @@
     {
       "name": "Dreadstone",
       "type": "block",
-      "sortid": 17,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone",
@@ -422,7 +422,7 @@
     {
       "name": "DreadstoneBricks",
       "type": "block",
-      "sortid": 65,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_bricks",
@@ -439,7 +439,7 @@
     {
       "name": "DreadstoneBricksCraft",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_bricks_craft",
@@ -453,7 +453,7 @@
     {
       "name": "DreadstoneBrickStairs",
       "type": "block",
-      "sortid": 66,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_brick_stairs",
@@ -472,7 +472,7 @@
     {
       "name": "DreadstoneBrickSlab",
       "type": "block",
-      "sortid": 67,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_brick_slab",
@@ -491,7 +491,7 @@
     {
       "name": "DreadstoneBrickStairsCraft",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_brick_stairs_craft",
@@ -505,7 +505,7 @@
     {
       "name": "DreadstoneBrickSlabCraft",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_brick_slab_craft",
@@ -519,7 +519,7 @@
     {
       "name": "CrackedDreadstoneBricks",
       "type": "block",
-      "sortid": 68,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_dreadstone_bricks",
@@ -536,7 +536,7 @@
     {
       "name": "CrackedDreadstoneBricksSmelt",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_dreadstone_bricks_smelt",
@@ -550,7 +550,7 @@
     {
       "name": "Crimsoil",
       "type": "block",
-      "sortid": 32,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimsoil",
@@ -567,7 +567,7 @@
     {
       "name": "CrimsonCrimsoilGrass",
       "type": "block",
-      "sortid": 35,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_crimsoil_grass",
@@ -584,7 +584,7 @@
     {
       "name": "DeadCrimsoilGrass",
       "type": "block",
-      "sortid": 37,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_crimsoil_grass",
@@ -601,7 +601,7 @@
     {
       "name": "SunburstZiolip",
       "type": "plant",
-      "sortid": 21,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunburst_ziolip",
@@ -618,7 +618,7 @@
     {
       "name": "MagentaZiolip",
       "type": "plant",
-      "sortid": 22,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_ziolip",
@@ -635,7 +635,7 @@
     {
       "name": "PurpleZiolip",
       "type": "plant",
-      "sortid": 23,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_ziolip",
@@ -652,7 +652,7 @@
     {
       "name": "SunburstZiolipDye",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunburst_ziolip_dye",
@@ -666,7 +666,7 @@
     {
       "name": "MagentaZiolipDye",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_ziolip_dye",
@@ -680,7 +680,7 @@
     {
       "name": "PurpleZiolipDye",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_ziolip_dye",
@@ -694,7 +694,7 @@
     {
       "name": "Firebloom",
       "type": "plant",
-      "sortid": 24,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firebloom",
@@ -714,7 +714,7 @@
     {
       "name": "FirebloomDye",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firebloom_dye",
@@ -728,7 +728,7 @@
     {
       "name": "EmberseedLog",
       "type": "block",
-      "sortid": 42,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_log",
@@ -745,7 +745,7 @@
     {
       "name": "EmberseedPlanks",
       "type": "block",
-      "sortid": 70,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_planks",
@@ -762,7 +762,7 @@
     {
       "name": "EmberseedStairs",
       "type": "block",
-      "sortid": 71,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_stairs",
@@ -781,7 +781,7 @@
     {
       "name": "EmberseedSlab",
       "type": "block",
-      "sortid": 72,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_slab",
@@ -800,7 +800,7 @@
     {
       "name": "EmberseedPlanksCraft",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_planks_craft",
@@ -814,7 +814,7 @@
     {
       "name": "EmberseedStairsCraft",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_stairs_craft",
@@ -828,7 +828,7 @@
     {
       "name": "EmberseedSlabCraft",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_slab_craft",
@@ -842,7 +842,7 @@
     {
       "name": "EmberseedFence",
       "type": "block",
-      "sortid": 73,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_fence",
@@ -861,7 +861,7 @@
     {
       "name": "EmberseedFenceGate",
       "type": "block",
-      "sortid": 74,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_fence_gate",
@@ -881,7 +881,7 @@
     {
       "name": "EmberseedFenceCraft",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_fence_craft",
@@ -895,7 +895,7 @@
     {
       "name": "EmberseedFenceGateCraft",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_fence_gate_craft",
@@ -909,7 +909,7 @@
     {
       "name": "EmberseedPressurePlate",
       "type": "block",
-      "sortid": 75,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_pressure_plate",
@@ -927,7 +927,7 @@
     {
       "name": "EmberseedButton",
       "type": "block",
-      "sortid": 76,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_button",
@@ -946,7 +946,7 @@
     {
       "name": "EmberseedPressurePlateCraft",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_pressure_plate_craft",
@@ -960,7 +960,7 @@
     {
       "name": "EmberseedButtonCraft",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_button_craft",
@@ -974,7 +974,7 @@
     {
       "name": "VPlanks",
       "type": "tag",
-      "sortid": 159,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_planks",
@@ -988,7 +988,7 @@
     {
       "name": "VLogs",
       "type": "tag",
-      "sortid": 160,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_logs",
@@ -1002,7 +1002,7 @@
     {
       "name": "Felsand",
       "type": "block",
-      "sortid": 27,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "felsand",
@@ -1019,7 +1019,7 @@
     {
       "name": "Felsandstone",
       "type": "block",
-      "sortid": 29,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "felsandstone",
@@ -1036,7 +1036,7 @@
     {
       "name": "CutFelsandstone",
       "type": "block",
-      "sortid": 100,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone",
@@ -1053,7 +1053,7 @@
     {
       "name": "CutFelsandstoneBricks",
       "type": "block",
-      "sortid": 101,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_bricks",
@@ -1070,7 +1070,7 @@
     {
       "name": "CutFelsandstoneBrickStairs",
       "type": "block",
-      "sortid": 102,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_stairs",
@@ -1089,7 +1089,7 @@
     {
       "name": "CutFelsandstoneBrickSlab",
       "type": "block",
-      "sortid": 103,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_slab",
@@ -1108,7 +1108,7 @@
     {
       "name": "FelsandstoneCraft",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "felsandstone_craft",
@@ -1122,7 +1122,7 @@
     {
       "name": "CutFelsandstoneCraft",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_craft",
@@ -1136,7 +1136,7 @@
     {
       "name": "CutFelsandstoneStonecut",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_stonecut",
@@ -1150,7 +1150,7 @@
     {
       "name": "CutFelsandstoneBricksCraft",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_bricks_craft",
@@ -1164,7 +1164,7 @@
     {
       "name": "CutFelsandstoneBricksStonecut",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_bricks_stonecut",
@@ -1178,7 +1178,7 @@
     {
       "name": "CutFelsandstoneBricksStonecut2",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_bricks_stonecut_2",
@@ -1192,7 +1192,7 @@
     {
       "name": "CutFelsandstoneBrickStairsCraft",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_stairs_craft",
@@ -1206,7 +1206,7 @@
     {
       "name": "CutFelsandstoneBrickStairsStonecut",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_stairs_stonecut",
@@ -1220,7 +1220,7 @@
     {
       "name": "CutFelsandstoneBrickStairsStonecut2",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_stairs_stonecut_2",
@@ -1234,7 +1234,7 @@
     {
       "name": "CutFelsandstoneBrickStairsStonecut3",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_stairs_stonecut_3",
@@ -1248,7 +1248,7 @@
     {
       "name": "CutFelsandstoneBrickSlabCraft",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_slab_craft",
@@ -1262,7 +1262,7 @@
     {
       "name": "CutFelsandstoneBrickSlabStonecut",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_slab_stonecut",
@@ -1276,7 +1276,7 @@
     {
       "name": "CutFelsandstoneBrickSlabStonecut2",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_slab_stonecut_2",
@@ -1290,7 +1290,7 @@
     {
       "name": "CutFelsandstoneBrickSlabStonecut3",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cut_felsandstone_brick_slab_stonecut_3",
@@ -1304,7 +1304,7 @@
     {
       "name": "SunlitSilica",
       "type": "block",
-      "sortid": 30,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica",
@@ -1321,7 +1321,7 @@
     {
       "name": "SunlitSilicaGlass",
       "type": "block",
-      "sortid": 69,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica_glass",
@@ -1338,7 +1338,7 @@
     {
       "name": "SunlitSilicaGlassCraft",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica_glass_craft",
@@ -1352,7 +1352,7 @@
     {
       "name": "SunlitSilicaGlassStonecut",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica_glass_stonecut",
@@ -1366,7 +1366,7 @@
     {
       "name": "SunlitSilicaGlassSmelt",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica_glass_smelt",
@@ -1380,7 +1380,7 @@
     {
       "name": "CrimsonSprigs",
       "type": "plant",
-      "sortid": 34,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_sprigs",
@@ -1400,19 +1400,19 @@
     {
       "name": "DeadPergalonSprigs",
       "type": "plant",
-      "sortid": 36,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dead_pergalon_sprigs",
+      "registry_name": "dead_crimson_sprigs",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/forge/biome_modifier/dead_pergalon_sprigs_biome_modifier.json",
-          "src/main/resources/assets/dim_progress/models/block/dead_pergalon_sprigs.json",
+          "src/main/resources/assets/dim_progress/blockstates/dead_crimson_sprigs.json",
           "src/main/java/net/therealflarf/dimprogress/block/DeadPergalonSprigsBlock.java",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/dead_pergalon_sprigs.json",
-          "src/main/resources/assets/dim_progress/models/item/dead_pergalon_sprigs.json",
-          "src/main/resources/assets/dim_progress/blockstates/dead_pergalon_sprigs.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/dead_pergalon_sprigs.json"
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dead_crimson_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/item/dead_crimson_sprigs.json",
+          "src/main/resources/assets/dim_progress/models/block/dead_crimson_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dead_crimson_sprigs.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dead_crimson_sprigs_biome_modifier.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1420,7 +1420,7 @@
     {
       "name": "VDirt",
       "type": "tag",
-      "sortid": 178,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_dirt",
@@ -1434,7 +1434,7 @@
     {
       "name": "VSand",
       "type": "tag",
-      "sortid": 179,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_sand",
@@ -1448,7 +1448,7 @@
     {
       "name": "CrimsonPlains",
       "type": "biome",
-      "sortid": 180,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_plains",
@@ -1462,7 +1462,7 @@
     {
       "name": "Pergalon",
       "type": "dimension",
-      "sortid": 125,
+      "sortid": 148,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pergalon",
@@ -1484,7 +1484,7 @@
     {
       "name": "PergalonPortalCharge",
       "type": "item",
-      "sortid": 117,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pergalon_portal_charge",
@@ -1499,7 +1499,7 @@
     {
       "name": "Basic",
       "type": "biome",
-      "sortid": 181,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "basic",
@@ -1513,7 +1513,7 @@
     {
       "name": "WorldgenTest",
       "type": "dimension",
-      "sortid": 118,
+      "sortid": 146,
       "compiles": true,
       "locked_code": true,
       "registry_name": "worldgen_test",
@@ -1537,7 +1537,7 @@
     {
       "name": "MagmaticDesert",
       "type": "biome",
-      "sortid": 182,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmatic_desert",
@@ -1551,7 +1551,7 @@
     {
       "name": "Nyctecium",
       "type": "block",
-      "sortid": 41,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctecium",
@@ -1568,7 +1568,7 @@
     {
       "name": "EmberseedWoodlands",
       "type": "biome",
-      "sortid": 183,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_woodlands",
@@ -1582,19 +1582,19 @@
     {
       "name": "GrovileSprigs",
       "type": "plant",
-      "sortid": 38,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grovile_sprigs",
+      "registry_name": "dark_crimson_sprigs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/grovile_sprigs.json",
-          "src/main/resources/data/dim_progress/forge/biome_modifier/grovile_sprigs_biome_modifier.json",
-          "src/main/resources/assets/dim_progress/models/item/grovile_sprigs.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dark_crimson_sprigs_biome_modifier.json",
+          "src/main/resources/assets/dim_progress/models/block/dark_crimson_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dark_crimson_sprigs.json",
           "src/main/java/net/therealflarf/dimprogress/block/GrovileSprigsBlock.java",
-          "src/main/resources/assets/dim_progress/blockstates/grovile_sprigs.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/grovile_sprigs.json",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/grovile_sprigs.json"
+          "src/main/resources/assets/dim_progress/models/item/dark_crimson_sprigs.json",
+          "src/main/resources/assets/dim_progress/blockstates/dark_crimson_sprigs.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dark_crimson_sprigs.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1602,16 +1602,16 @@
     {
       "name": "GrovileCrimsoilGrass",
       "type": "block",
-      "sortid": 39,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grovile_crimsoil_grass",
+      "registry_name": "dark_crimson_crimsoil_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/blockstates/grovile_crimsoil_grass.json",
-          "src/main/resources/assets/dim_progress/models/item/grovile_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/models/block/dark_crimson_crimsoil_grass.json",
           "src/main/java/net/therealflarf/dimprogress/block/GrovileCrimsoilGrassBlock.java",
-          "src/main/resources/assets/dim_progress/models/block/grovile_crimsoil_grass.json"
+          "src/main/resources/assets/dim_progress/models/item/dark_crimson_crimsoil_grass.json",
+          "src/main/resources/assets/dim_progress/blockstates/dark_crimson_crimsoil_grass.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1619,7 +1619,7 @@
     {
       "name": "MagmactusEntityCollidesInTheBlock",
       "type": "procedure",
-      "sortid": 184,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmactus_entity_collides_in_the_block",
@@ -1643,7 +1643,7 @@
     {
       "name": "SunburstSavanna",
       "type": "biome",
-      "sortid": 185,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunburst_savanna",
@@ -1657,7 +1657,7 @@
     {
       "name": "NyctophobicCoppice",
       "type": "biome",
-      "sortid": 186,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice",
@@ -1671,7 +1671,7 @@
     {
       "name": "BloodredBog",
       "type": "biome",
-      "sortid": 187,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodred_bog",
@@ -1685,7 +1685,7 @@
     {
       "name": "Magmactus",
       "type": "block",
-      "sortid": 28,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmactus",
@@ -1702,7 +1702,7 @@
     {
       "name": "NycticSprigs",
       "type": "plant",
-      "sortid": 40,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctic_sprigs",
@@ -1722,7 +1722,7 @@
     {
       "name": "MagmaticDesertMagmactusGenerator",
       "type": "feature",
-      "sortid": 188,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmatic_desert_magmactus_generator",
@@ -1738,7 +1738,7 @@
     {
       "name": "MagmaticDesertLavaPatches",
       "type": "feature",
-      "sortid": 189,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmatic_desert_lava_patches",
@@ -1754,7 +1754,7 @@
     {
       "name": "MagmaticDesertFelsandstonePatch",
       "type": "feature",
-      "sortid": 190,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmatic_desert_felsandstone_patch",
@@ -1770,7 +1770,7 @@
     {
       "name": "InfiniburnOverworld",
       "type": "tag",
-      "sortid": 191,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infiniburn_overworld",
@@ -1784,7 +1784,7 @@
     {
       "name": "MagmaticDesertFirePatch",
       "type": "feature",
-      "sortid": 192,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmatic_desert_fire_patch",
@@ -1800,7 +1800,7 @@
     {
       "name": "CrimsonMud",
       "type": "block",
-      "sortid": 33,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_mud",
@@ -1817,7 +1817,7 @@
     {
       "name": "FirebloomSmelt",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "firebloom_smelt",
@@ -1831,7 +1831,7 @@
     {
       "name": "EmberseedLeaves",
       "type": "block",
-      "sortid": 43,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_leaves",
@@ -1848,7 +1848,7 @@
     {
       "name": "VLogsBlock",
       "type": "tag",
-      "sortid": 194,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_logs_block",
@@ -1862,7 +1862,7 @@
     {
       "name": "MagmaticDesertMagmaPatch",
       "type": "feature",
-      "sortid": 195,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmatic_desert_magma_patch",
@@ -1878,7 +1878,7 @@
     {
       "name": "PyrindLog",
       "type": "block",
-      "sortid": 45,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_log",
@@ -1895,7 +1895,7 @@
     {
       "name": "PyrindPlanks",
       "type": "block",
-      "sortid": 79,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_planks",
@@ -1912,7 +1912,7 @@
     {
       "name": "PyrindStairs",
       "type": "block",
-      "sortid": 80,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_stairs",
@@ -1931,7 +1931,7 @@
     {
       "name": "PyrindSlab",
       "type": "block",
-      "sortid": 81,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_slab",
@@ -1950,7 +1950,7 @@
     {
       "name": "PyrindPlanksCraft",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_planks_craft",
@@ -1964,7 +1964,7 @@
     {
       "name": "PyrindStairsCraft",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_stairs_craft",
@@ -1978,7 +1978,7 @@
     {
       "name": "PyrindSlabCraft",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_slab_craft",
@@ -1992,7 +1992,7 @@
     {
       "name": "PyrindFence",
       "type": "block",
-      "sortid": 82,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_fence",
@@ -2011,7 +2011,7 @@
     {
       "name": "PyrindFenceGate",
       "type": "block",
-      "sortid": 83,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_fence_gate",
@@ -2031,7 +2031,7 @@
     {
       "name": "PyrindFenceCraft",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_fence_craft",
@@ -2045,7 +2045,7 @@
     {
       "name": "PyrindFenceGateCraft",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_fence_gate_craft",
@@ -2059,7 +2059,7 @@
     {
       "name": "PyrindPressurePlate",
       "type": "block",
-      "sortid": 84,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_pressure_plate",
@@ -2077,7 +2077,7 @@
     {
       "name": "PyrindButton",
       "type": "block",
-      "sortid": 85,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_button",
@@ -2096,7 +2096,7 @@
     {
       "name": "PyrindPressurePlateCraft",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_pressure_plate_craft",
@@ -2110,7 +2110,7 @@
     {
       "name": "PyrindButtonCraft",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_button_craft",
@@ -2124,7 +2124,7 @@
     {
       "name": "PyrindLeaves",
       "type": "block",
-      "sortid": 46,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_leaves",
@@ -2141,7 +2141,7 @@
     {
       "name": "ProceduralDungeonGenTest",
       "type": "dimension",
-      "sortid": 119,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "procedural_dungeon_gen_test",
@@ -2165,7 +2165,7 @@
     {
       "name": "DTPlaceRandomHallway",
       "type": "procedure",
-      "sortid": 203,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dt_place_random_hallway",
@@ -2201,7 +2201,7 @@
     {
       "name": "DTHallwayPlacement",
       "type": "livingentity",
-      "sortid": 126,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dt_hallway_placement",
@@ -2217,7 +2217,7 @@
     {
       "name": "PergalonPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pergalon_player_enters_dimension",
@@ -2249,7 +2249,7 @@
     {
       "name": "CrimsonCrimsoilGrassDrops",
       "type": "loottable",
-      "sortid": 205,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_crimsoil_grass_drops",
@@ -2263,7 +2263,7 @@
     {
       "name": "DeadCrimsoilGrassDrops",
       "type": "loottable",
-      "sortid": 206,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_crimsoil_grass_drops",
@@ -2277,7 +2277,7 @@
     {
       "name": "NycteciumDrops",
       "type": "loottable",
-      "sortid": 207,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctecium_drops",
@@ -2291,7 +2291,7 @@
     {
       "name": "GrovileCrimsoilGrassDrops",
       "type": "loottable",
-      "sortid": 208,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grovile_crimsoil_grass_drops",
@@ -2305,7 +2305,7 @@
     {
       "name": "BloodredBogMudPatch",
       "type": "feature",
-      "sortid": 209,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodred_bog_mud_patch",
@@ -2321,7 +2321,7 @@
     {
       "name": "BloodredBogWaterPools",
       "type": "feature",
-      "sortid": 210,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodred_bog_water_pools",
@@ -2337,7 +2337,7 @@
     {
       "name": "ClotbarkLog",
       "type": "block",
-      "sortid": 48,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_log",
@@ -2354,7 +2354,7 @@
     {
       "name": "ClotbarkPlanks",
       "type": "block",
-      "sortid": 88,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_planks",
@@ -2371,7 +2371,7 @@
     {
       "name": "ClotbarkStairs",
       "type": "block",
-      "sortid": 89,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_stairs",
@@ -2390,7 +2390,7 @@
     {
       "name": "ClotbarkSlab",
       "type": "block",
-      "sortid": 90,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_slab",
@@ -2409,7 +2409,7 @@
     {
       "name": "ClotbarkPlanksCraft",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_planks_craft",
@@ -2423,7 +2423,7 @@
     {
       "name": "ClotbarkStairsCraft",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_stairs_craft",
@@ -2437,7 +2437,7 @@
     {
       "name": "ClotbarkSlabCraft",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_slab_craft",
@@ -2451,7 +2451,7 @@
     {
       "name": "ClotbarkFence",
       "type": "block",
-      "sortid": 91,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_fence",
@@ -2470,7 +2470,7 @@
     {
       "name": "ClotbarkFenceGate",
       "type": "block",
-      "sortid": 92,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_fence_gate",
@@ -2490,7 +2490,7 @@
     {
       "name": "ClotbarkPressurePlate",
       "type": "block",
-      "sortid": 93,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_pressure_plate",
@@ -2508,7 +2508,7 @@
     {
       "name": "ClotbarkButton",
       "type": "block",
-      "sortid": 94,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_button",
@@ -2527,7 +2527,7 @@
     {
       "name": "ClotbarkLeaves",
       "type": "block",
-      "sortid": 49,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_leaves",
@@ -2544,7 +2544,7 @@
     {
       "name": "EmberseedDoor",
       "type": "block",
-      "sortid": 78,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_door",
@@ -2568,7 +2568,7 @@
     {
       "name": "PyrindDoor",
       "type": "block",
-      "sortid": 86,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_door",
@@ -2592,7 +2592,7 @@
     {
       "name": "ClotbarkDoor",
       "type": "block",
-      "sortid": 95,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_door",
@@ -2616,7 +2616,7 @@
     {
       "name": "EmberseedTrapdoor",
       "type": "block",
-      "sortid": 77,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_trapdoor",
@@ -2635,7 +2635,7 @@
     {
       "name": "PyrindTrapdoor",
       "type": "block",
-      "sortid": 87,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_trapdoor",
@@ -2654,7 +2654,7 @@
     {
       "name": "ClotbarkTrapdoor",
       "type": "block",
-      "sortid": 96,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_trapdoor",
@@ -2673,7 +2673,7 @@
     {
       "name": "Heckrock",
       "type": "block",
-      "sortid": 19,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heckrock",
@@ -2690,7 +2690,7 @@
     {
       "name": "PolishedHeckrock",
       "type": "block",
-      "sortid": 104,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock",
@@ -2707,7 +2707,7 @@
     {
       "name": "PolishedHeckrockCraft",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_craft",
@@ -2721,7 +2721,7 @@
     {
       "name": "HeckrockBlocks",
       "type": "tag",
-      "sortid": 215,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heckrock_blocks",
@@ -2735,7 +2735,7 @@
     {
       "name": "PolishedHeckrockStonecut",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_stonecut",
@@ -2749,7 +2749,7 @@
     {
       "name": "PolishedHeckrockSlab",
       "type": "block",
-      "sortid": 105,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_slab",
@@ -2768,7 +2768,7 @@
     {
       "name": "PolishedHeckrockSlabCraft",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_slab_craft",
@@ -2782,7 +2782,7 @@
     {
       "name": "PolishedHeckrockBricks",
       "type": "block",
-      "sortid": 106,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_bricks",
@@ -2799,7 +2799,7 @@
     {
       "name": "PolishedHeckrockBrickStairs",
       "type": "block",
-      "sortid": 107,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_stairs",
@@ -2818,7 +2818,7 @@
     {
       "name": "PolishedHeckrockBrickSlab",
       "type": "block",
-      "sortid": 108,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_slab",
@@ -2837,7 +2837,7 @@
     {
       "name": "PolishedHeckrockBrickWall",
       "type": "block",
-      "sortid": 109,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_wall",
@@ -2857,7 +2857,7 @@
     {
       "name": "PolishedHeckrockTiles",
       "type": "block",
-      "sortid": 110,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tiles",
@@ -2874,7 +2874,7 @@
     {
       "name": "PolishedHeckrockTileStairs",
       "type": "block",
-      "sortid": 111,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tile_stairs",
@@ -2893,7 +2893,7 @@
     {
       "name": "PolishedHeckrockTileSlab",
       "type": "block",
-      "sortid": 112,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tile_slab",
@@ -2912,7 +2912,7 @@
     {
       "name": "PolishedHeckrockBricksCraft",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_bricks_craft",
@@ -2926,7 +2926,7 @@
     {
       "name": "PolishedHeckrockBrickStairsCraft",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_stairs_craft",
@@ -2940,7 +2940,7 @@
     {
       "name": "PolishedHeckrockBrickSlabCraft",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_slab_craft",
@@ -2954,7 +2954,7 @@
     {
       "name": "PolishedHeckrockBrickWallCraft",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_wall_craft",
@@ -2968,7 +2968,7 @@
     {
       "name": "PolishedHeckrockTilesCraft",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tiles_craft",
@@ -2982,7 +2982,7 @@
     {
       "name": "PolishedHeckrockTileStairsCraft",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tile_stairs_craft",
@@ -2996,7 +2996,7 @@
     {
       "name": "PolishedHeckrockTileSlabCraft",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tile_slab_craft",
@@ -3010,7 +3010,7 @@
     {
       "name": "PolishedHeckrockSlabStonecut",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_slab_stonecut",
@@ -3024,7 +3024,7 @@
     {
       "name": "PolishedHeckrockBricksStonecut",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_bricks_stonecut",
@@ -3038,7 +3038,7 @@
     {
       "name": "PolishedHeckrockBrickStairsStonecut",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_stairs_stonecut",
@@ -3052,7 +3052,7 @@
     {
       "name": "PolishedHeckrockBrickSlabStonecut",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_slab_stonecut",
@@ -3066,7 +3066,7 @@
     {
       "name": "PolishedHeckrockBrickWallStonecut",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_brick_wall_stonecut",
@@ -3080,7 +3080,7 @@
     {
       "name": "PolishedHeckrockTilesStonecut",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tiles_stonecut",
@@ -3094,7 +3094,7 @@
     {
       "name": "PolishedHeckrockTileStairsStonecut",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tile_stairs_stonecut",
@@ -3108,7 +3108,7 @@
     {
       "name": "PolishedHeckrockTileSlabStonecut",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_heckrock_tile_slab_stonecut",
@@ -3122,7 +3122,7 @@
     {
       "name": "EmberseedDoorCraft",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_door_craft",
@@ -3136,7 +3136,7 @@
     {
       "name": "EmberseedTrapdoorCraft",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_trapdoor_craft",
@@ -3150,7 +3150,7 @@
     {
       "name": "PyrindDoorCraft",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_door_craft",
@@ -3164,7 +3164,7 @@
     {
       "name": "PyrindTrapdoorCraft",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_trapdoor_craft",
@@ -3178,7 +3178,7 @@
     {
       "name": "ClotbarkDoorCraft",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_door_craft",
@@ -3192,7 +3192,7 @@
     {
       "name": "ClotbarkTrapdoorCraft",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_trapdoor_craft",
@@ -3206,7 +3206,7 @@
     {
       "name": "ClotbarkFenceCraft",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_fence_craft",
@@ -3220,7 +3220,7 @@
     {
       "name": "ClotbarkFenceGateCraft",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_fence_gate_craft",
@@ -3234,7 +3234,7 @@
     {
       "name": "ClotbarkPressurePlateCraft",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_pressure_plate_craft",
@@ -3248,7 +3248,7 @@
     {
       "name": "ClotbarkButtonCraft",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_button_craft",
@@ -3262,7 +3262,7 @@
     {
       "name": "PergalonNegativeHeckrockPlacement",
       "type": "feature",
-      "sortid": 243,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pergalon_negative_heckrock_placement",
@@ -3278,7 +3278,7 @@
     {
       "name": "VStoneToolMaterials",
       "type": "tag",
-      "sortid": 244,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_stone_tool_materials",
@@ -3292,7 +3292,7 @@
     {
       "name": "DreadstoneVenomiteOre",
       "type": "block",
-      "sortid": 18,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_venomite_ore",
@@ -3339,7 +3339,7 @@
     {
       "name": "DreadstoneVenomiteOreDrops",
       "type": "loottable",
-      "sortid": 245,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_venomite_ore_drops",
@@ -3351,40 +3351,9 @@
       "path": "~/Dimensions/Pergalon"
     },
     {
-      "name": "HeckrockVenomiteOre",
-      "type": "block",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heckrock_venomite_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/dim_progress/blockstates/heckrock_venomite_ore.json",
-          "src/main/resources/assets/dim_progress/models/block/heckrock_venomite_ore.json",
-          "src/main/java/net/therealflarf/dimprogress/block/HeckrockVenomiteOreBlock.java",
-          "src/main/resources/assets/dim_progress/models/item/heckrock_venomite_ore.json"
-        ]
-      },
-      "path": "~/Dimensions/Pergalon"
-    },
-    {
-      "name": "HeckrockVenomiteOreDrops",
-      "type": "loottable",
-      "sortid": 246,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heckrock_venomite_ore_drops",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dim_progress/loot_tables/blocks/heckrock_venomite_ore.json"
-        ]
-      },
-      "path": "~/Dimensions/Pergalon"
-    },
-    {
       "name": "PergalonVenomiteOreVein",
       "type": "feature",
-      "sortid": 247,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pergalon_venomite_ore_vein",
@@ -3400,7 +3369,7 @@
     {
       "name": "VenomiteSmelt",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_smelt",
@@ -3414,7 +3383,7 @@
     {
       "name": "VenomiteBlast",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_blast",
@@ -3428,7 +3397,7 @@
     {
       "name": "VenomiteBlock",
       "type": "block",
-      "sortid": 113,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_block",
@@ -3445,7 +3414,7 @@
     {
       "name": "VenomiteBlockCraft",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_block_craft",
@@ -3459,7 +3428,7 @@
     {
       "name": "RawVenomiteBlock",
       "type": "block",
-      "sortid": 114,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_venomite_block",
@@ -3476,7 +3445,7 @@
     {
       "name": "RawVenomiteBlockCraft",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_venomite_block_craft",
@@ -3490,7 +3459,7 @@
     {
       "name": "VenomiteBlockUncraft",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_block_uncraft",
@@ -3504,7 +3473,7 @@
     {
       "name": "RawVenomiteBlockUncraft",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_venomite_block_uncraft",
@@ -3518,7 +3487,7 @@
     {
       "name": "RuniconBlockUncraft",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runicon_block_uncraft",
@@ -3532,7 +3501,7 @@
     {
       "name": "VenomitePickaxe",
       "type": "tool",
-      "sortid": 121,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_pickaxe",
@@ -3547,7 +3516,7 @@
     {
       "name": "VenomiteAxe",
       "type": "tool",
-      "sortid": 120,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_axe",
@@ -3562,7 +3531,7 @@
     {
       "name": "VenomiteSword",
       "type": "tool",
-      "sortid": 124,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_sword",
@@ -3577,7 +3546,7 @@
     {
       "name": "VenomiteShovel",
       "type": "tool",
-      "sortid": 122,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_shovel",
@@ -3592,7 +3561,7 @@
     {
       "name": "VenomiteHoe",
       "type": "tool",
-      "sortid": 123,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_hoe",
@@ -3607,7 +3576,7 @@
     {
       "name": "VenomitePickaxeRecipe",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_pickaxe_recipe",
@@ -3621,7 +3590,7 @@
     {
       "name": "VenomiteAxeRecipe",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_axe_recipe",
@@ -3635,7 +3604,7 @@
     {
       "name": "VenomiteSwordRecipe",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_sword_recipe",
@@ -3649,7 +3618,7 @@
     {
       "name": "VenomiteShovelRecipe",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_shovel_recipe",
@@ -3663,7 +3632,7 @@
     {
       "name": "VenomiteHoeRecipe",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_hoe_recipe",
@@ -3677,7 +3646,7 @@
     {
       "name": "MoltenClay",
       "type": "block",
-      "sortid": 31,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_clay",
@@ -3709,7 +3678,7 @@
     {
       "name": "MoltenClayDrops",
       "type": "loottable",
-      "sortid": 260,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_clay_drops",
@@ -3738,7 +3707,7 @@
     {
       "name": "Tepidbricks",
       "type": "block",
-      "sortid": 115,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tepidbricks",
@@ -3755,7 +3724,7 @@
     {
       "name": "TepidbrickSmelt",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tepidbrick_smelt",
@@ -3769,7 +3738,7 @@
     {
       "name": "TepidbricksCraft",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tepidbricks_craft",
@@ -3783,7 +3752,7 @@
     {
       "name": "MoltenClaySmelt",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_clay_smelt",
@@ -3797,7 +3766,7 @@
     {
       "name": "MoltenClayRiverPatches",
       "type": "feature",
-      "sortid": 264,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_clay_river_patches",
@@ -3813,7 +3782,7 @@
     {
       "name": "UnderwaterCrimsonMudPlacement",
       "type": "feature",
-      "sortid": 265,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "underwater_crimson_mud_placement",
@@ -3829,7 +3798,7 @@
     {
       "name": "MoltenClayCraft",
       "type": "recipe",
-      "sortid": 266,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_clay_craft",
@@ -3843,7 +3812,7 @@
     {
       "name": "PergalonVenomiteOreVeinSmall",
       "type": "feature",
-      "sortid": 267,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pergalon_venomite_ore_vein_small",
@@ -3859,7 +3828,7 @@
     {
       "name": "SunlitSilicaPrismLargeFeature",
       "type": "feature",
-      "sortid": 268,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica_prism_large_feature",
@@ -3875,7 +3844,7 @@
     {
       "name": "SunlitSilicaPrismSmallFeature",
       "type": "feature",
-      "sortid": 269,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunlit_silica_prism_small_feature",
@@ -3891,7 +3860,7 @@
     {
       "name": "DimensionalProgressionStart",
       "type": "achievement",
-      "sortid": 270,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensional_progression_start",
@@ -3905,7 +3874,7 @@
     {
       "name": "DPObtainRunicon",
       "type": "achievement",
-      "sortid": 271,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_obtain_runicon",
@@ -3919,7 +3888,7 @@
     {
       "name": "DPObtainMoreRunicon",
       "type": "achievement",
-      "sortid": 272,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_obtain_more_runicon",
@@ -3933,7 +3902,7 @@
     {
       "name": "DPConstructPortalCore",
       "type": "achievement",
-      "sortid": 273,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_construct_portal_core",
@@ -3947,7 +3916,7 @@
     {
       "name": "DPOpenPortal",
       "type": "achievement",
-      "sortid": 274,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_open_portal",
@@ -3961,7 +3930,7 @@
     {
       "name": "DPEnterPergalon",
       "type": "achievement",
-      "sortid": 275,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_enter_pergalon",
@@ -3975,7 +3944,7 @@
     {
       "name": "LifeCrystalPropertyValueProvider",
       "type": "procedure",
-      "sortid": 276,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_crystal_property_value_provider",
@@ -4016,7 +3985,7 @@
     {
       "name": "LifeCrystalLivingEntityIsHitWithItem",
       "type": "procedure",
-      "sortid": 277,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_crystal_living_entity_is_hit_with_item",
@@ -4060,7 +4029,7 @@
     {
       "name": "LifeCrystalHasItemGlowingEffect",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_crystal_has_item_glowing_effect",
@@ -4081,7 +4050,7 @@
     {
       "name": "PlayerJoinsProcedures",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_joins_procedures",
@@ -4115,7 +4084,7 @@
     {
       "name": "LifeCrystalCraft",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "life_crystal_craft",
@@ -4129,7 +4098,7 @@
     {
       "name": "PergalonPortalChargeCraft",
       "type": "recipe",
-      "sortid": 281,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pergalon_portal_charge_craft",
@@ -4143,7 +4112,7 @@
     {
       "name": "DPObtainVenomite",
       "type": "achievement",
-      "sortid": 282,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_obtain_venomite",
@@ -4157,7 +4126,7 @@
     {
       "name": "VenomiteInflictPoison",
       "type": "procedure",
-      "sortid": 283,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "venomite_inflict_poison",
@@ -4177,7 +4146,7 @@
     {
       "name": "CrimsonPlainsEmberseeds",
       "type": "feature",
-      "sortid": 284,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_plains_emberseeds",
@@ -4193,7 +4162,7 @@
     {
       "name": "CrimsonPlainsPurpleZiolipPlacement",
       "type": "feature",
-      "sortid": 285,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_plains_purple_ziolip_placement",
@@ -4209,7 +4178,7 @@
     {
       "name": "CrimsonPlainsMagentaZiolipPlacement",
       "type": "feature",
-      "sortid": 286,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_plains_magenta_ziolip_placement",
@@ -4225,7 +4194,7 @@
     {
       "name": "CrimsonPlainsSunburstZiolipPlacement",
       "type": "feature",
-      "sortid": 287,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_plains_sunburst_ziolip_placement",
@@ -4241,7 +4210,7 @@
     {
       "name": "Voidenbells",
       "type": "plant",
-      "sortid": 25,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidenbells",
@@ -4259,7 +4228,7 @@
     {
       "name": "EmberseedWoodlandsVoidenbellPlacement",
       "type": "feature",
-      "sortid": 288,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_woodlands_voidenbell_placement",
@@ -4275,7 +4244,7 @@
     {
       "name": "EmberseedWoodlandsNormalEmberseeds",
       "type": "feature",
-      "sortid": 289,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_woodlands_normal_emberseeds",
@@ -4291,7 +4260,7 @@
     {
       "name": "EmberseedWoodlandsLargeEmberseeds",
       "type": "feature",
-      "sortid": 290,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_woodlands_large_emberseeds",
@@ -4307,7 +4276,7 @@
     {
       "name": "EmberseedWoodlandsBushes",
       "type": "feature",
-      "sortid": 291,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_woodlands_bushes",
@@ -4323,7 +4292,7 @@
     {
       "name": "EmberseedWoodlandsClotbarks",
       "type": "feature",
-      "sortid": 292,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_woodlands_clotbarks",
@@ -4339,7 +4308,7 @@
     {
       "name": "SunburstSavannaPyrinds",
       "type": "feature",
-      "sortid": 293,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunburst_savanna_pyrinds",
@@ -4355,7 +4324,7 @@
     {
       "name": "SunburstSavannaPyrindBushes",
       "type": "feature",
-      "sortid": 294,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunburst_savanna_pyrind_bushes",
@@ -4371,7 +4340,7 @@
     {
       "name": "BloodredBogBasicClotbarks",
       "type": "feature",
-      "sortid": 295,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodred_bog_basic_clotbarks",
@@ -4387,7 +4356,7 @@
     {
       "name": "BloodredBogLargeClotbarks",
       "type": "feature",
-      "sortid": 296,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodred_bog_large_clotbarks",
@@ -4403,7 +4372,7 @@
     {
       "name": "BloodredBogClotbarkBushes",
       "type": "feature",
-      "sortid": 297,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodred_bog_clotbark_bushes",
@@ -4419,7 +4388,7 @@
     {
       "name": "NyctophobicCoppiceNycteciumPatches",
       "type": "feature",
-      "sortid": 298,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice_nyctecium_patches",
@@ -4435,7 +4404,7 @@
     {
       "name": "NyctocapStem",
       "type": "block",
-      "sortid": 51,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_stem",
@@ -4452,7 +4421,7 @@
     {
       "name": "NyctocapPlanks",
       "type": "block",
-      "sortid": 97,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_planks",
@@ -4469,7 +4438,7 @@
     {
       "name": "NyctocapCap",
       "type": "block",
-      "sortid": 52,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_cap",
@@ -4486,7 +4455,7 @@
     {
       "name": "NyctocapMushroom",
       "type": "plant",
-      "sortid": 53,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_mushroom",
@@ -4503,7 +4472,7 @@
     {
       "name": "NyctophobicCoppiceNyctocapPlacement",
       "type": "feature",
-      "sortid": 299,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice_nyctocap_placement",
@@ -4519,7 +4488,7 @@
     {
       "name": "NyctophobicCoppiceNyctocaps",
       "type": "feature",
-      "sortid": 300,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice_nyctocaps",
@@ -4535,7 +4504,7 @@
     {
       "name": "NyctophobicCoppiceClotbarkTrees",
       "type": "feature",
-      "sortid": 301,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice_clotbark_trees",
@@ -4551,7 +4520,7 @@
     {
       "name": "NyctophobicCoppiceLargeClotbarkTrees",
       "type": "feature",
-      "sortid": 302,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice_large_clotbark_trees",
@@ -4567,7 +4536,7 @@
     {
       "name": "TealZiolip",
       "type": "plant",
-      "sortid": 26,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_ziolip",
@@ -4584,7 +4553,7 @@
     {
       "name": "NyctophopicCoppiceTealZiolipPlacement",
       "type": "feature",
-      "sortid": 303,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophopic_coppice_teal_ziolip_placement",
@@ -4600,7 +4569,7 @@
     {
       "name": "NyctophobicCoppiceMoreClotbarkTrees",
       "type": "feature",
-      "sortid": 304,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctophobic_coppice_more_clotbark_trees",
@@ -4616,7 +4585,7 @@
     {
       "name": "NyctocapPlanksCraft",
       "type": "recipe",
-      "sortid": 305,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_planks_craft",
@@ -4630,7 +4599,7 @@
     {
       "name": "NyctocapStairs",
       "type": "block",
-      "sortid": 98,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_stairs",
@@ -4649,7 +4618,7 @@
     {
       "name": "NyctocapSlab",
       "type": "block",
-      "sortid": 99,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_slab",
@@ -4668,7 +4637,7 @@
     {
       "name": "NyctocapStairsCraft",
       "type": "recipe",
-      "sortid": 306,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_stairs_craft",
@@ -4682,7 +4651,7 @@
     {
       "name": "NyctocapSlabCraft",
       "type": "recipe",
-      "sortid": 307,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctocap_slab_craft",
@@ -4714,7 +4683,7 @@
     {
       "name": "DarkGrainStage2",
       "type": "plant",
-      "sortid": 308,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_grain_stage_2",
@@ -4732,7 +4701,7 @@
     {
       "name": "DarkGrainStage3",
       "type": "plant",
-      "sortid": 309,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_grain_stage_3",
@@ -4764,7 +4733,7 @@
     {
       "name": "DarkGrainStage3Drops",
       "type": "loottable",
-      "sortid": 310,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_grain_stage_3_drops",
@@ -4778,7 +4747,7 @@
     {
       "name": "TealZiolipToDye",
       "type": "recipe",
-      "sortid": 311,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "teal_ziolip_to_dye",
@@ -4807,7 +4776,7 @@
     {
       "name": "DarkLoafCraft",
       "type": "recipe",
-      "sortid": 312,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_loaf_craft",
@@ -4836,7 +4805,7 @@
     {
       "name": "DarkToastCampfire",
       "type": "recipe",
-      "sortid": 313,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_toast_campfire",
@@ -4850,7 +4819,7 @@
     {
       "name": "DarkGrainUpdateTick",
       "type": "procedure",
-      "sortid": 314,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_grain_update_tick",
@@ -4882,7 +4851,7 @@
     {
       "name": "DarkGrainStage2UpdateTick",
       "type": "procedure",
-      "sortid": 315,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_grain_stage_2_update_tick",
@@ -4914,7 +4883,7 @@
     {
       "name": "CrimsonSprigsDrops",
       "type": "loottable",
-      "sortid": 316,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_sprigs_drops",
@@ -4928,7 +4897,7 @@
     {
       "name": "DeadPergalonSprigsDrops",
       "type": "loottable",
-      "sortid": 317,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_pergalon_sprigs_drops",
@@ -4942,7 +4911,7 @@
     {
       "name": "GrovileSprigsDrops",
       "type": "loottable",
-      "sortid": 318,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grovile_sprigs_drops",
@@ -4956,7 +4925,7 @@
     {
       "name": "NycticSprigsDrops",
       "type": "loottable",
-      "sortid": 319,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyctic_sprigs_drops",
@@ -4970,7 +4939,7 @@
     {
       "name": "EmberseedSaplingUpdateTick",
       "type": "procedure",
-      "sortid": 320,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_sapling_update_tick",
@@ -5002,7 +4971,7 @@
     {
       "name": "EmberseedSapling",
       "type": "plant",
-      "sortid": 44,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_sapling",
@@ -5019,7 +4988,7 @@
     {
       "name": "PyrindSapling",
       "type": "plant",
-      "sortid": 47,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_sapling",
@@ -5036,7 +5005,7 @@
     {
       "name": "PyrindSaplingUpdateTick",
       "type": "procedure",
-      "sortid": 321,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_sapling_update_tick",
@@ -5068,7 +5037,7 @@
     {
       "name": "ClotbarkSapling",
       "type": "plant",
-      "sortid": 50,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_sapling",
@@ -5085,7 +5054,7 @@
     {
       "name": "ClotbarkSaplingUpdateTick",
       "type": "procedure",
-      "sortid": 322,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_sapling_update_tick",
@@ -5117,7 +5086,7 @@
     {
       "name": "ClotbarkSaplingBonemeal",
       "type": "procedure",
-      "sortid": 323,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_sapling_bonemeal",
@@ -5157,7 +5126,7 @@
     {
       "name": "EmberseedSaplingBonemeal",
       "type": "procedure",
-      "sortid": 324,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_sapling_bonemeal",
@@ -5197,7 +5166,7 @@
     {
       "name": "PyrindSaplingBonemeal",
       "type": "procedure",
-      "sortid": 325,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_sapling_bonemeal",
@@ -5237,7 +5206,7 @@
     {
       "name": "EmberseedLeavesDrops",
       "type": "loottable",
-      "sortid": 326,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_leaves_drops",
@@ -5251,7 +5220,7 @@
     {
       "name": "PyrindLeavesDrops",
       "type": "loottable",
-      "sortid": 327,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_leaves_drops",
@@ -5265,7 +5234,7 @@
     {
       "name": "ClotbarkLeavesDrops",
       "type": "loottable",
-      "sortid": 328,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_leaves_drops",
@@ -5279,7 +5248,7 @@
     {
       "name": "EmberseedSaplingPlantRightClicked",
       "type": "procedure",
-      "sortid": 329,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emberseed_sapling_plant_right_clicked",
@@ -5315,7 +5284,7 @@
     {
       "name": "PyrindSaplingPlantRightClicked",
       "type": "procedure",
-      "sortid": 330,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pyrind_sapling_plant_right_clicked",
@@ -5351,7 +5320,7 @@
     {
       "name": "ClotbarkSaplingPlantRightClicked",
       "type": "procedure",
-      "sortid": 331,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clotbark_sapling_plant_right_clicked",
@@ -5387,7 +5356,7 @@
     {
       "name": "LogToCharcoal",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_to_charcoal",
@@ -5401,7 +5370,7 @@
     {
       "name": "DPCraftingStones",
       "type": "tag",
-      "sortid": 333,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_crafting_stones",
@@ -5415,7 +5384,7 @@
     {
       "name": "DPCraftingStonesFurnace",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_crafting_stones_furnace",
@@ -5429,7 +5398,7 @@
     {
       "name": "DPCraftingStonesPiston",
       "type": "recipe",
-      "sortid": 335,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_crafting_stones_piston",
@@ -5443,7 +5412,7 @@
     {
       "name": "DPIronAlternatives",
       "type": "tag",
-      "sortid": 336,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_iron_alternatives",
@@ -5457,7 +5426,7 @@
     {
       "name": "DPTerracottas",
       "type": "tag",
-      "sortid": 337,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_terracottas",
@@ -5471,7 +5440,7 @@
     {
       "name": "TerracottaRecolorOrange",
       "type": "recipe",
-      "sortid": 338,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terracotta_recolor_orange",
@@ -5485,7 +5454,7 @@
     {
       "name": "TerracottaRecolorMagenta",
       "type": "recipe",
-      "sortid": 339,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terracotta_recolor_magenta",
@@ -5499,7 +5468,7 @@
     {
       "name": "TerracottaRecolorPurple",
       "type": "recipe",
-      "sortid": 340,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terracotta_recolor_purple",
@@ -5513,7 +5482,7 @@
     {
       "name": "TerracottaRecolorLightBlue",
       "type": "recipe",
-      "sortid": 341,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terracotta_recolor_light_blue",
@@ -5527,7 +5496,7 @@
     {
       "name": "VoidenbellsToDye",
       "type": "recipe",
-      "sortid": 342,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidenbells_to_dye",
@@ -5541,7 +5510,7 @@
     {
       "name": "RunicDreadstonePortalCore",
       "type": "block",
-      "sortid": 59,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_portal_core",
@@ -5558,7 +5527,7 @@
     {
       "name": "RunicDreadstonePillar",
       "type": "block",
-      "sortid": 60,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_pillar",
@@ -5575,7 +5544,7 @@
     {
       "name": "RunicDreadstoneRing",
       "type": "block",
-      "sortid": 61,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_ring",
@@ -5592,7 +5561,7 @@
     {
       "name": "Cottonweave",
       "type": "livingentity",
-      "sortid": 14,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cottonweave",
@@ -5608,7 +5577,7 @@
     {
       "name": "Shearing",
       "type": "damagetype",
-      "sortid": 343,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shearing",
@@ -5622,7 +5591,7 @@
     {
       "name": "CottonweaveRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 344,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cottonweave_right_clicked_on_entity",
@@ -5666,7 +5635,7 @@
     {
       "name": "RiftrockCobble",
       "type": "block",
-      "sortid": 16,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_cobble",
@@ -5683,7 +5652,7 @@
     {
       "name": "PolishedRiftrock",
       "type": "block",
-      "sortid": 62,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_riftrock",
@@ -5700,7 +5669,7 @@
     {
       "name": "RiftrockBricks",
       "type": "block",
-      "sortid": 63,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_bricks",
@@ -5717,7 +5686,7 @@
     {
       "name": "PolishedRiftrockCraft",
       "type": "recipe",
-      "sortid": 345,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_riftrock_craft",
@@ -5731,7 +5700,7 @@
     {
       "name": "RiftrockBricksCraft",
       "type": "recipe",
-      "sortid": 346,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_bricks_craft",
@@ -5745,7 +5714,7 @@
     {
       "name": "LargeRuniconCluster",
       "type": "block",
-      "sortid": 55,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_runicon_cluster",
@@ -5762,7 +5731,7 @@
     {
       "name": "LargeRuniconClusterCraft",
       "type": "recipe",
-      "sortid": 347,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_runicon_cluster_craft",
@@ -5776,7 +5745,7 @@
     {
       "name": "LargeRuniconClusterDrops",
       "type": "loottable",
-      "sortid": 348,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_runicon_cluster_drops",
@@ -5790,7 +5759,7 @@
     {
       "name": "RunicPowerOverlayTextProvider",
       "type": "procedure",
-      "sortid": 349,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_power_overlay_text_provider",
@@ -5811,7 +5780,7 @@
     {
       "name": "RunicPowerOverlay",
       "type": "overlay",
-      "sortid": 350,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_power_overlay",
@@ -5825,7 +5794,7 @@
     {
       "name": "PlayerEveryTick",
       "type": "procedure",
-      "sortid": 351,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_every_tick",
@@ -5844,7 +5813,7 @@
     {
       "name": "DrainRunicPowerRightclicked",
       "type": "procedure",
-      "sortid": 352,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drain_runic_power_rightclicked",
@@ -5863,7 +5832,7 @@
     {
       "name": "DrainRunicPower",
       "type": "item",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drain_runic_power",
@@ -5877,7 +5846,7 @@
     {
       "name": "RunicRift",
       "type": "biome",
-      "sortid": 353,
+      "sortid": 377,
       "compiles": true,
       "locked_code": true,
       "registry_name": "runic_rift",
@@ -5891,7 +5860,7 @@
     {
       "name": "RunicDeepslateRing",
       "type": "block",
-      "sortid": 354,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_ring",
@@ -5908,7 +5877,7 @@
     {
       "name": "RunicDeepslatePillar",
       "type": "block",
-      "sortid": 355,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_pillar",
@@ -5925,7 +5894,7 @@
     {
       "name": "RunicDeepslatePortalCore",
       "type": "block",
-      "sortid": 356,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_portal_core",
@@ -5942,7 +5911,7 @@
     {
       "name": "RunicDeepslateRingCraft",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_ring_craft",
@@ -5956,7 +5925,7 @@
     {
       "name": "RunicDeepslatePillarCraft",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_pillar_craft",
@@ -5970,7 +5939,7 @@
     {
       "name": "RunicDeepslateRingCraftExtra",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_ring_craft_extra",
@@ -5984,7 +5953,7 @@
     {
       "name": "RunicDeepslatePillarCraftExtra",
       "type": "recipe",
-      "sortid": 360,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_pillar_craft_extra",
@@ -5998,7 +5967,7 @@
     {
       "name": "RunicDeepslatePortalCoreCraft",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_deepslate_portal_core_craft",
@@ -6012,7 +5981,7 @@
     {
       "name": "RunicDreadstoneRingCraft",
       "type": "recipe",
-      "sortid": 362,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_ring_craft",
@@ -6026,7 +5995,7 @@
     {
       "name": "RunicDreadstonePillarCraft",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_pillar_craft",
@@ -6040,7 +6009,7 @@
     {
       "name": "RunicDreadstoneRingCraftExtra",
       "type": "recipe",
-      "sortid": 364,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_ring_craft_extra",
@@ -6054,7 +6023,7 @@
     {
       "name": "RunicDreadstonePillarCraftExtra",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_pillar_craft_extra",
@@ -6068,7 +6037,7 @@
     {
       "name": "RunicDreadstonePortalCoreCraft",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_dreadstone_portal_core_craft",
@@ -6082,7 +6051,7 @@
     {
       "name": "RiftrockBrickStairs",
       "type": "block",
-      "sortid": 367,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_brick_stairs",
@@ -6101,7 +6070,7 @@
     {
       "name": "RiftrockBrickStairsCraft",
       "type": "recipe",
-      "sortid": 368,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_brick_stairs_craft",
@@ -6115,7 +6084,7 @@
     {
       "name": "RiftrockBrickSlab",
       "type": "block",
-      "sortid": 369,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_brick_slab",
@@ -6134,7 +6103,7 @@
     {
       "name": "RiftrockBrickSlabCraft",
       "type": "recipe",
-      "sortid": 370,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riftrock_brick_slab_craft",
@@ -6148,7 +6117,7 @@
     {
       "name": "RuneCandle",
       "type": "block",
-      "sortid": 371,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_candle",
@@ -6165,7 +6134,7 @@
     {
       "name": "RuneCandleCraft",
       "type": "recipe",
-      "sortid": 372,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rune_candle_craft",
@@ -6179,7 +6148,7 @@
     {
       "name": "RunicRiftGateRedstoneOn",
       "type": "procedure",
-      "sortid": 373,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_rift_gate_redstone_on",
@@ -6211,7 +6180,7 @@
     {
       "name": "RunicRiftGate",
       "type": "animatedblock",
-      "sortid": 374,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_rift_gate",
@@ -6234,7 +6203,7 @@
     {
       "name": "RunicRiftStructurePlacer",
       "type": "livingentity",
-      "sortid": 375,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_rift_structure_placer",
@@ -6250,7 +6219,7 @@
     {
       "name": "RunicRiftStructurePlacerOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 376,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runic_rift_structure_placer_on_entity_tick_update",
@@ -6286,7 +6255,7 @@
     {
       "name": "LargeRuniconClusterOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 377,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_runicon_cluster_on_block_right_clicked",
@@ -6323,7 +6292,7 @@
     {
       "name": "Interspace",
       "type": "dimension",
-      "sortid": 378,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "interspace",
@@ -6345,7 +6314,7 @@
     {
       "name": "DreadstoneDreadgemOre",
       "type": "block",
-      "sortid": 379,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadstone_dreadgem_ore",
@@ -6362,7 +6331,7 @@
     {
       "name": "Dreadgem",
       "type": "item",
-      "sortid": 380,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadgem",
@@ -6377,7 +6346,7 @@
     {
       "name": "DreadgemSwordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 381,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadgem_sword_living_entity_is_hit_with_tool",
@@ -6401,7 +6370,7 @@
     {
       "name": "DreadgemSword",
       "type": "tool",
-      "sortid": 382,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreadgem_sword",
@@ -6416,7 +6385,7 @@
     {
       "name": "MagmactusBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 383,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmactus_block_valid_placement_condition",
@@ -6449,7 +6418,7 @@
     {
       "name": "MagmactusPlaceable",
       "type": "tag",
-      "sortid": 384,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmactus_placeable",
@@ -6463,7 +6432,7 @@
     {
       "name": "MagmactusUpdateTick",
       "type": "procedure",
-      "sortid": 385,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmactus_update_tick",
@@ -6495,7 +6464,7 @@
     {
       "name": "VFences",
       "type": "tag",
-      "sortid": 387,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_fences",
@@ -6509,7 +6478,7 @@
     {
       "name": "VWalls",
       "type": "tag",
-      "sortid": 388,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "v_walls",
@@ -6523,7 +6492,7 @@
     {
       "name": "Magnian",
       "type": "animatedentity",
-      "sortid": 389,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magnian",
@@ -6533,6 +6502,1322 @@
           "src/main/resources/assets/dim_progress/models/item/magnian_spawn_egg.json",
           "src/main/java/net/therealflarf/dimprogress/entity/model/MagnianModel.java",
           "src/main/java/net/therealflarf/dimprogress/entity/MagnianEntity.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ForgeAnvil",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_anvil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/forge_anvil.json",
+          "src/main/resources/assets/dim_progress/models/block/forge_anvil.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ForgeAnvilBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/forge_anvil.json"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "DPUtilities",
+      "type": "tab",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_utilities",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gameplay/CTabs"
+    },
+    {
+      "name": "ForgeAnvilUI",
+      "type": "gui",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_anvil_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/client/gui/ForgeAnvilUIScreen.java",
+          "src/main/java/net/therealflarf/dimprogress/world/inventory/ForgeAnvilUIMenu.java"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "ForgeAnvilRecipeType",
+      "type": "jeirecipetype",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_anvil_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/jei_recipes/ForgeAnvilRecipeTypeRecipeCategory.java",
+          "src/main/java/net/therealflarf/dimprogress/jei_recipes/ForgeAnvilRecipeTypeRecipe.java"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "DreadgemSwordForging",
+      "type": "jeirecipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_sword_forging",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadgem_sword_forging.json"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "PergalonBeach",
+      "type": "biome",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_beach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/pergalon_beach.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrackedPolishedHeckrockBricks",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_heckrock_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/cracked_polished_heckrock_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/cracked_polished_heckrock_bricks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/CrackedPolishedHeckrockBricksBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/cracked_polished_heckrock_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrackedPolishedHeckrockBricksSmelt",
+      "type": "recipe",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_heckrock_bricks_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cracked_polished_heckrock_bricks_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ChiseledPolishedHeckrock",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_heckrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/chiseled_polished_heckrock.json",
+          "src/main/resources/assets/dim_progress/models/block/chiseled_polished_heckrock.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ChiseledPolishedHeckrockBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/chiseled_polished_heckrock.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ChiseledPolishedHeckrockCraft",
+      "type": "recipe",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_heckrock_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/chiseled_polished_heckrock_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ChiseledPolishedHeckrockStonecut",
+      "type": "recipe",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_heckrock_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/chiseled_polished_heckrock_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VioletSea",
+      "type": "biome",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_sea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/violet_sea.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepths",
+      "type": "biome",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/corrupted_depths.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkCrimsonPlains",
+      "type": "biome",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_crimson_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/dark_crimson_plains.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenWoodlands",
+      "type": "biome",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_woodlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/vaespen_woodlands.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenLog",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/vaespen_log.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenLogBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_log.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_log.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPlanks",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/vaespen_planks.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_planks.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenPlanksBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPlanksCraft",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenStairs",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_stairs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenSlab",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/vaespen_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenSlabBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_slab_top.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenStairsCraft",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenSlabCraft",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenDoor",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_door.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenDoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_right_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_left_open.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_door.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_left.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_right.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_left.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_right.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenTrapdoor",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenTrapdoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_trapdoor_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_trapdoor_top.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_trapdoor.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_trapdoor.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenDoorCraft",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_door_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPressurePlate",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/vaespen_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_pressure_plate_down.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenPressurePlateBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_pressure_plate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenButton",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/vaespen_button_pressed.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_button.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_button.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_button.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_button_inventory.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenButtonBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenButtonCraft",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_button_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_button_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenFence",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/vaespen_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_inventory.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenFenceBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_post.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenFenceGate",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate_wall_open.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenFenceGateBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate_open.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_fence_gate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenFenceCraft",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_fence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_fence_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaepsenFenceGate",
+      "type": "recipe",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaepsen_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaepsen_fence_gate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenLeaves",
+      "type": "block",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/vaespen_leaves.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_leaves.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenLeavesDrops",
+      "type": "loottable",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_leaves_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/vaespen_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenWoodlandsVaespens",
+      "type": "feature",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_woodlands_vaespens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/vaespen_woodlands_vaespens.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/vaespen_woodlands_vaespens_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/vaespen_woodlands_vaespens.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlandsVaespens",
+      "type": "feature",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_vaespens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_vaespens_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_vaespens.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_vaespens.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkCrimsonPlainsVaespens",
+      "type": "feature",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_crimson_plains_vaespens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dark_crimson_plains_vaespens.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dark_crimson_plains_vaespens_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dark_crimson_plains_vaespens.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkCrimsonPlainsTealZiolipPlacement",
+      "type": "feature",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_crimson_plains_teal_ziolip_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dark_crimson_plains_teal_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dark_crimson_plains_teal_ziolip_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dark_crimson_plains_teal_ziolip_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VioletSeaKelpPlacement",
+      "type": "feature",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_sea_kelp_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/violet_sea_kelp_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/violet_sea_kelp_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/violet_sea_kelp_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonBeachPyrinds",
+      "type": "feature",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_beach_pyrinds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_beach_pyrinds.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_beach_pyrinds_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_beach_pyrinds.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonBeachDeadGrassPlacement",
+      "type": "feature",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_beach_dead_grass_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_beach_dead_grass_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_beach_dead_grass_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_beach_dead_grass_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepthsSculkPatches",
+      "type": "feature",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_sculk_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_sculk_patches.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_sculk_patches.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_sculk_patches_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TaintedDreadstone",
+      "type": "block",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_dreadstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/tainted_dreadstone.json",
+          "src/main/resources/assets/dim_progress/blockstates/tainted_dreadstone.json",
+          "src/main/resources/assets/dim_progress/models/block/tainted_dreadstone.json",
+          "src/main/java/net/therealflarf/dimprogress/block/TaintedDreadstoneBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkLeaves",
+      "type": "block",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_leaves.json",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_leaves.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkLog",
+      "type": "block",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkLogBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_log.json",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_log.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_log.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkPlanks",
+      "type": "block",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/blightbark_planks.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_planks.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkPlanksBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkPlanksCraft",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/blightbark_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkStairs",
+      "type": "block",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_stairs_inner.json",
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_stairs_outer.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkSlab",
+      "type": "block",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/blightbark_slab_top.json",
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_slab_full.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkStairsCraft",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/blightbark_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkSlabCraft",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/blightbark_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepthsHangingLeaves",
+      "type": "feature",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_leaves_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_leaves.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepthsBlightbarkPillars",
+      "type": "feature",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_blightbarks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_blightbarks.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_blightbarks_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_blightbarks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "GlowingBlightbarkLeaves",
+      "type": "block",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_blightbark_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/GlowingBlightbarkLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/glowing_blightbark_leaves.json",
+          "src/main/resources/assets/dim_progress/blockstates/glowing_blightbark_leaves.json",
+          "src/main/resources/assets/dim_progress/models/item/glowing_blightbark_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VioletSeaSeagrassPlacement",
+      "type": "feature",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_sea_seagrass_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/violet_sea_seagrass_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/violet_sea_seagrass_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/violet_sea_seagrass_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VSculkReplaceable",
+      "type": "tag",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_sculk_replaceable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/sculk_replaceable.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "ObsidianBricks",
+      "type": "block",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/obsidian_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_bricks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBricksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBricksCraft",
+      "type": "recipe",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_bricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBrickStairs",
+      "type": "block",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_stairs_inner.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBrickStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_brick_stairs.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBrickSlab",
+      "type": "block",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBrickSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_slab_full.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_brick_slab.json",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_brick_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBrickWall",
+      "type": "block",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall_side_tall.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall_inventory.json",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_brick_wall.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_brick_wall.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBrickWallBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall_post.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ObsidianBrickWallCraft",
+      "type": "recipe",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_brick_wall_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "CorruptedDepthsRuinPlacement",
+      "type": "feature",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_ruin_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_ruin_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_ruin_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_ruin_placement.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstonePastineOre",
+      "type": "block",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_pastine_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_pastine_ore.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstonePastineOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_pastine_ore.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_pastine_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawPastine",
+      "type": "item",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pastine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/RawPastineItem.java",
+          "src/main/resources/assets/dim_progress/models/item/raw_pastine.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstonePastineOreDrops",
+      "type": "loottable",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_pastine_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/dreadstone_pastine_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineIngot",
+      "type": "item",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/PastineIngotItem.java",
+          "src/main/resources/assets/dim_progress/models/item/pastine_ingot.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineSmelt",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pastine_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineBlast",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pastine_blast.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadgemBlock",
+      "type": "block",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/dreadgem_block.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadgem_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadgemBlockBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dreadgem_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineBlock",
+      "type": "block",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/PastineBlockBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/pastine_block.json",
+          "src/main/resources/assets/dim_progress/blockstates/pastine_block.json",
+          "src/main/resources/assets/dim_progress/models/item/pastine_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawPastineBlock",
+      "type": "block",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pastine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/raw_pastine_block.json",
+          "src/main/resources/assets/dim_progress/models/block/raw_pastine_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RawPastineBlockBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/raw_pastine_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadgemBlockCraft",
+      "type": "recipe",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadgem_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineBlockCraft",
+      "type": "recipe",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pastine_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawPastineBlockCraft",
+      "type": "recipe",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pastine_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/raw_pastine_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonDreadgemOreVein",
+      "type": "feature",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_dreadgem_ore_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_dreadgem_ore_vein.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_dreadgem_ore_vein_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_dreadgem_ore_vein.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonDreadgemOreExtra",
+      "type": "feature",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_dreadgem_ore_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_dreadgem_ore_extra.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_dreadgem_ore_extra.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_dreadgem_ore_extra_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonPastineOreVein",
+      "type": "feature",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_pastine_ore_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_pastine_ore_vein.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_pastine_ore_vein_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_pastine_ore_vein.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonPastineOreExtra",
+      "type": "feature",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_pastine_ore_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_pastine_ore_extra.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_pastine_ore_extra_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_pastine_ore_extra.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -6658,192 +7943,250 @@
       ],
       "category": "hostile",
       "subtitle": "Magnian Breathes"
+    },
+    {
+      "name": "music.pergalon.generic",
+      "files": [
+        "underworld",
+        "lost",
+        "long_forgotten",
+        "foreign_astronomy"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "music.intro.pergalon",
+      "files": [
+        "underworld"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.dim_progress.clotbark_button": "Clotbark Button",
-      "block.dim_progress.sunlit_silica": "Sunlit Silica",
-      "subtitles.ambience.runic_rift.loop": "",
       "subtitles.pergalon_ambient": "",
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
-      "advancements.dp_open_portal.title": "Stepping Outside for a Bit",
+      "block.dim_progress.glowing_blightbark_leaves": "Glowing Blightbark Leaves",
       "death.attack.shearing.player": "%1$s was sheared to death while attempting to escape %2$s",
       "block.dim_progress.tepidbricks": "Tepidbricks",
       "subtitles.pergalon_introduction": "",
-      "item.dim_progress.venomite_ingot": "Venomite Ingot",
-      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
-      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "block.dim_progress.magmactus": "Magmactus",
+      "biome.dim_progress.magmatic_desert": "Magmatic Desert",
       "advancements.dp_construct_portal_core.descr": "Craft together Runicon and Stone to create your portal\u0027s core",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
       "death.attack.shearing": "%1$s was sheared into oblivion",
       "subtitles.pergalon_portal_activate": "",
-      "item_group.dim_progress.dp_building": "DP: Building",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
-      "block.dim_progress.clotbark_slab": "Clotbark Slab",
-      "item.dim_progress.dark_grains": "Dark Grains",
       "biome.dim_progress.runic_rift": "Runic Rift",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
+      "block.dim_progress.blightbark_stairs": "Blightbark Stairs",
       "block.dim_progress.pyrind_planks": "Pyrind Planks",
-      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
-      "block.dim_progress.runic_deepslate_portal_core": "Runic Stone Portal Core",
       "block.dim_progress.pyrind_button": "Pyrind Button",
-      "item.dim_progress.dreadgem": "Dreadgem",
       "block.dim_progress.clotbark_stairs": "Clotbark Stairs",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
-      "block.dim_progress.dreadstone_dreadgem_ore": "Dreadstone Dreadgem Ore",
-      "block.dim_progress.heckrock_venomite_ore": "Heckrock Venomite Ore",
-      "advancements.dp_obtain_venomite.title": "It\u0027s Purple",
-      "block.dim_progress.pyrind_log": "Pyrind Log",
+      "block.dim_progress.raw_pastine_block": "Block of Raw Pastine",
       "block.dim_progress.polished_heckrock_tile_stairs": "Polished Heckrock Tile Stairs",
-      "block.dim_progress.emberseed_log": "Emberseed Log",
+      "block.dim_progress.pyrind_log": "Pyrind Log",
       "block.dim_progress.crimsoil": "Crimsoil",
       "block.dim_progress.nyctic_sprigs": "Nyctic Sprigs",
-      "item.dim_progress.venomite_axe": "Venomite Axe",
-      "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
       "item.dim_progress.raw_venomite": "Raw Venomite",
-      "block.dim_progress.riftrock_cobble": "Riftrock Cobble",
-      "block.dim_progress.teal_ziolip": "Teal Ziolip",
-      "block.dim_progress.runic_dreadstone_pillar": "Runic Dreadstone Pillar",
-      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
-      "item.dim_progress.life_crystal": "Life Crystal",
-      "subtitles.entity.magnian.idle": "Magnian Breathes",
+      "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
       "block.dim_progress.pyrind_door": "Pyrind Door",
       "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
-      "block.dim_progress.polished_heckrock_brick_slab": "Polished Heckrock Brick Slab",
-      "block.dim_progress.felsand": "Felsand",
-      "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
+      "biome.dim_progress.vaespen_woodlands": "Emberseed Woodlands",
       "advancements.dp_obtain_runicon.title": "Better Than Amethyst",
-      "item.dim_progress.venomite_sword": "Venomite Sword",
-      "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
-      "item.dim_progress.venomite_pickaxe": "Venomite Pickaxe",
-      "block.dim_progress.heckrock": "Heckrock",
       "block.dim_progress.runic_deepslate_ring": "Runic Deepslate Ring",
-      "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
-      "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
+      "block.dim_progress.vaespen_fence": "Vaespen Fence",
       "advancements.dimensional_progression_start.descr": "Welcome to Dimensional Progression. To view the mod\u0027s progression, open the advancements menu (default keybind \u0027L\u0027)",
-      "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
-      "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
-      "block.dim_progress.emberseed_door": "Emberseed Door",
-      "block.dim_progress.nyctocap_slab": "Nyctocap Slab",
+      "block.dim_progress.pastine_block": "Block of Pastine",
+      "block.dim_progress.vaespen_log": "Vaespen Log",
       "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
       "block.dim_progress.clotbark_sapling": "Clotbark Sapling",
       "block.dim_progress.dreadstone": "Dreadstone",
-      "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
       "subtitles.music.runic_rift": "",
+      "item.dim_progress.raw_pastine": "Raw Pastine",
       "item.dim_progress.venomite_hoe": "Venomite Hoe",
-      "advancements.dp_obtain_venomite.descr": "Obtain a Venomite Ingot",
       "block.dim_progress.pyrind_sapling": "Pyrind Sapling",
-      "block.dim_progress.polished_heckrock": "Polished Heckrock",
-      "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
+      "block.dim_progress.vaespen_stairs": "Vaespen Stairs",
+      "block.dim_progress.vaespen_button": "Vaespen Button",
+      "block.dim_progress.blightbark_slab": "Blightbark Slab",
       "biome.dim_progress.bloodred_bog": "Bloodred Bog",
-      "block.dim_progress.nyctocap_planks": "Nyctocap Planks",
-      "biome.dim_progress.nyctophobic_coppice": "Nyctophobic Coppice",
+      "block.dim_progress.tainted_dreadstone": "Tainted Dreadstone",
+      "biome.dim_progress.pergalon_beach": "Pergalon Beach",
       "item.dim_progress.dark_toast": "Dark Toast",
       "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
-      "subtitles.pergalon.portal_activate": "TheRealFlarf - Discomfort",
-      "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
-      "block.dim_progress.crystal_glass": "Crystal Glass",
       "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
-      "block.dim_progress.clotbark_fence_gate": "Clotbark Fence Gate",
       "block.dim_progress.polished_heckrock_bricks": "Polished Heckrock Bricks",
+      "gui.dim_progress.forge_anvil_ui.label_forging": "Forging",
       "block.dim_progress.emberseed_fence": "Emberseed Fence",
       "item.dim_progress.runic_gemstone": "Runic Gemstone",
       "subtitles.entity.magnian.hurt": "Magnian Hurts",
       "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
-      "biome.dim_progress.crimson_plains": "Crimson Plains",
-      "advancements.dp_open_portal.descr": "Open your first Runic Portal",
       "death.attack.shearing.item": "%1$s sheared to death by %2$s using %3$s",
-      "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
+      "advancements.dp_open_portal.descr": "Open your first Runic Portal",
       "item.dim_progress.venomite_shovel": "Venomite Shovel",
-      "item_group.dim_progress.dp_natural": "DP: Natural",
+      "block.dim_progress.dark_crimson_crimsoil_grass": "Dark Crimson Crimsoil Grass",
       "block.dim_progress.venomite_block": "Block of Venomite",
-      "block.dim_progress.runic_stone_portal_core": "Runic Stone Portal Core",
       "block.dim_progress.polished_heckrock_slab": "Polished Heckrock Slab",
+      "advancements.dp_enter_pergalon.descr": "Enter Pergalon by activating your Runic Portal with a Pergalon Portal Charge",
+      "advancements.dp_obtain_more_runicon.descr": "Obtain 64 Blocks of Runicon. You really didn\u0027t need to get that much...",
+      "block.dim_progress.raw_venomite_block": "Block of Raw Venomite",
+      "advancements.dimensional_progression_start.title": "Dimensional Progression",
+      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
+      "block.dim_progress.firebloom": "Firebloom",
+      "block.dim_progress.polished_riftrock": "Polished Riftrock",
+      "block.dim_progress.riftrock_bricks": "Riftrock Bricks",
+      "block.dim_progress.riftrock_brick_slab": "Riftrock Brick Slab",
+      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
+      "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
+      "block.dim_progress.runicon_block": "Block of Runicon",
+      "block.dim_progress.felsandstone": "Felsandstone",
+      "block.dim_progress.blightbark_planks": "Blightbark Planks",
+      "item.dim_progress.infused_vitality_crystal": "Infused Vitality Crystal",
+      "subtitles.music.pergalon.portal_activate": "TheRealFlarf - Discomfort",
+      "block.dim_progress.clotbark_leaves": "Clotbark Leaves",
+      "item_group.dim_progress.dp_utilities": "DP: Utilities",
+      "block.dim_progress.riftrock_brick_stairs": "Riftrock Brick Stairs",
+      "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
+      "block.dim_progress.polished_heckrock_brick_wall": "Polished Heckrock Brick Wall",
+      "block.dim_progress.runic_deepslate_pillar": "Runic Deepslate Pillar",
+      "block.dim_progress.vaespen_pressure_plate": "Vaespen Pressure Plate",
+      "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
+      "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
+      "block.dim_progress.cracked_polished_heckrock_bricks": "Cracked Polished Heckrock Bricks",
+      "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
+      "block.dim_progress.nyctocap_stem": "Nyctocap Stem",
+      "block.dim_progress.clotbark_fence": "Clotbark Fence",
+      "block.dim_progress.polished_heckrock_tiles": "Polished Heckrock Tiles",
+      "block.dim_progress.purple_ziolip": "Purple Ziolip",
+      "block.dim_progress.nyctocap_mushroom": "Nyctocap Mushroom",
+      "block.dim_progress.large_runicon_cluster": "Large Runicon Cluster",
+      "item.dim_progress.runicon_shard": "Runicon Shard",
+      "block.dim_progress.vaespen_leaves": "Vaespen Leaves",
+      "entity.dim_progress.runic_rift_structure_placer": "Runic Rift Structure Placer",
+      "block.dim_progress.emberseed_button": "Emberseed Button",
+      "advancements.dp_construct_portal_core.title": "The Centerpiece",
+      "block.dim_progress.obsidian_brick_slab": "Obsidian Brick Slab",
+      "block.dim_progress.crimson_mud": "Crimson Mud",
+      "item.dim_progress.dreadgem_sword": "Dreadgem Sword",
+      "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
+      "subtitles.entity.magnian.death": "Magnian Dies",
+      "item.dim_progress.tepidbrick": "Tepidbrick",
+      "block.dim_progress.nyctecium": "Nyctecium",
+      "block.dim_progress.dark_grain_stage_2": "Dark Grain",
+      "block.dim_progress.clotbark_log": "Clotbark Log",
+      "block.dim_progress.dark_grain_stage_3": "Dark Grain (Fully Grown)",
+      "block.dim_progress.forge_anvil": "Forge Anvil",
+      "subtitles.music.intro.pergalon": "",
+      "block.dim_progress.sunlit_silica": "Sunlit Silica",
+      "subtitles.ambience.runic_rift.loop": "",
+      "advancements.dp_open_portal.title": "Stepping Outside for a Bit",
+      "block.dim_progress.blightbark_leaves": "Blightbark Leaves",
+      "block.dim_progress.dead_crimson_sprigs": "Dead Crimson Sprigs",
+      "item.dim_progress.venomite_ingot": "Venomite Ingot",
+      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "block.dim_progress.vaespen_slab": "Vaespen Slab",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "block.dim_progress.clotbark_slab": "Clotbark Slab",
+      "item.dim_progress.dark_grains": "Dark Grains",
+      "block.dim_progress.obsidian_bricks": "Obsidian Bricks",
+      "block.dim_progress.vaespen_fence_gate": "Vaespen Fence Gate",
+      "block.dim_progress.vaespen_trapdoor": "Vaespen Trapdoor",
+      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
+      "block.dim_progress.runic_deepslate_portal_core": "Runic Stone Portal Core",
+      "item.dim_progress.dreadgem": "Dreadgem",
+      "block.dim_progress.obsidian_brick_wall": "Obsidian Brick Wall",
+      "block.dim_progress.dreadstone_dreadgem_ore": "Dreadstone Dreadgem Ore",
+      "advancements.dp_obtain_venomite.title": "It\u0027s Purple",
+      "block.dim_progress.emberseed_log": "Emberseed Log",
+      "item.dim_progress.venomite_axe": "Venomite Axe",
+      "block.dim_progress.riftrock_cobble": "Riftrock Cobble",
+      "block.dim_progress.teal_ziolip": "Teal Ziolip",
+      "block.dim_progress.runic_dreadstone_pillar": "Runic Dreadstone Pillar",
+      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
+      "biome.dim_progress.dark_crimson_plains": "Dark Crimson Plains",
+      "biome.dim_progress.violet_sea": "Violet Sea",
+      "item.dim_progress.life_crystal": "Life Crystal",
+      "subtitles.entity.magnian.idle": "Magnian Breathes",
+      "block.dim_progress.polished_heckrock_brick_slab": "Polished Heckrock Brick Slab",
+      "block.dim_progress.felsand": "Felsand",
+      "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
+      "item.dim_progress.venomite_sword": "Venomite Sword",
+      "block.dim_progress.cut_felsandstone_bricks": "Cut Felsandstone Bricks",
+      "item.dim_progress.venomite_pickaxe": "Venomite Pickaxe",
+      "block.dim_progress.heckrock": "Heckrock",
+      "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
+      "block.dim_progress.dreadgem_block": "Block of Dreadgem",
+      "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
+      "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
+      "block.dim_progress.emberseed_door": "Emberseed Door",
+      "block.dim_progress.nyctocap_slab": "Nyctocap Slab",
+      "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
+      "advancements.dp_obtain_venomite.descr": "Obtain a Venomite Ingot",
+      "block.dim_progress.polished_heckrock": "Polished Heckrock",
+      "block.dim_progress.nyctocap_planks": "Nyctocap Planks",
+      "biome.dim_progress.nyctophobic_coppice": "Nyctophobic Coppice",
+      "subtitles.pergalon.portal_activate": "TheRealFlarf - Discomfort",
+      "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
+      "block.dim_progress.crystal_glass": "Crystal Glass",
+      "block.dim_progress.clotbark_fence_gate": "Clotbark Fence Gate",
+      "biome.dim_progress.crimson_plains": "Crimson Plains",
+      "item_group.dim_progress.dp_natural": "DP: Natural",
+      "block.dim_progress.runic_stone_portal_core": "Runic Stone Portal Core",
       "entity.dim_progress.cottonweave": "Cottonweave",
       "entity.dim_progress.magnian": "Magnian",
       "block.dim_progress.voidenbells": "Voidenbells",
       "block.dim_progress.molten_clay": "Molten Clay",
       "item.dim_progress.cottonweave_spawn_egg": "Cottonweave Spawn Egg",
+      "item.dim_progress.pastine_ingot": "Pastine Ingot",
       "block.dim_progress.clotbark_door": "Clotbark Door",
       "block.dim_progress.runic_dreadstone_ring": "Runic Dreadstone Ring",
-      "advancements.dp_enter_pergalon.descr": "Enter Pergalon by activating your Runic Portal with a Pergalon Portal Charge",
+      "subtitles.music.pergalon.generic": "",
+      "biome.dim_progress.corrupted_depths": "Corrupted Depths",
       "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "block.dim_progress.clotbark_trapdoor": "Clotbark Trapdoor",
-      "advancements.dp_obtain_more_runicon.descr": "Obtain 64 Blocks of Runicon. You really didn\u0027t need to get that much...",
-      "block.dim_progress.raw_venomite_block": "Block of Raw Venomite",
-      "advancements.dimensional_progression_start.title": "Dimensional Progression",
-      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
+      "block.dim_progress.blightbark_log": "Blightbark Log",
       "biome.dim_progress.basic": "Basic",
       "block.dim_progress.polished_heckrock_brick_stairs": "Polished Heckrock Brick Stairs",
+      "block.dim_progress.obsidian_brick_stairs": "Obsidian Brick Stairs",
       "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
-      "block.dim_progress.firebloom": "Firebloom",
-      "block.dim_progress.polished_riftrock": "Polished Riftrock",
       "block.dim_progress.rune_candle": "Rune Candle",
-      "block.dim_progress.riftrock_bricks": "Riftrock Bricks",
       "block.dim_progress.polished_heckrock_tile_slab": "Polished Heckrock Tile Slab",
-      "block.dim_progress.riftrock_brick_slab": "Riftrock Brick Slab",
-      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
       "block.dim_progress.runic_dreadstone_portal_core": "Runic Dreadstone Portal Core",
-      "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
-      "block.dim_progress.runicon_block": "Block of Runicon",
-      "block.dim_progress.felsandstone": "Felsandstone",
       "block.dim_progress.pyrind_slab": "Pyrind Slab",
       "block.dim_progress.pyrind_fence": "Pyrind Fence",
-      "item.dim_progress.infused_vitality_crystal": "Infused Vitality Crystal",
-      "subtitles.music.pergalon.portal_activate": "TheRealFlarf - Discomfort",
-      "block.dim_progress.clotbark_leaves": "Clotbark Leaves",
-      "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
-      "advancements.dp_obtain_runicon.descr": "Obtain Runicon Shards, the start of your journey.",
       "block.dim_progress.emberseed_sapling": "Emberseed Sapling",
-      "block.dim_progress.riftrock_brick_stairs": "Riftrock Brick Stairs",
+      "advancements.dp_obtain_runicon.descr": "Obtain Runicon Shards, the start of your journey.",
       "block.dim_progress.clotbark_planks": "Clotbark Planks",
-      "block.dim_progress.polished_heckrock_brick_wall": "Polished Heckrock Brick Wall",
-      "block.dim_progress.runic_deepslate_pillar": "Runic Deepslate Pillar",
+      "block.dim_progress.dreadstone_pastine_ore": "Dreadstone Pastine Ore",
       "block.dim_progress.nyctocap_stairs": "Nyctocap Stairs",
-      "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
-      "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
       "item.dim_progress.drain_runic_power": "Drain Runic Power",
-      "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
-      "block.dim_progress.nyctocap_stem": "Nyctocap Stem",
       "subtitles.runic_rift.music": "",
-      "block.dim_progress.clotbark_fence": "Clotbark Fence",
-      "block.dim_progress.polished_heckrock_tiles": "Polished Heckrock Tiles",
       "block.dim_progress.dreadstone_venomite_ore": "Dreadstone Venomite Ore",
       "advancements.dp_enter_pergalon.title": "The Reddest of Red",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
-      "block.dim_progress.purple_ziolip": "Purple Ziolip",
-      "block.dim_progress.nyctocap_mushroom": "Nyctocap Mushroom",
-      "block.dim_progress.large_runicon_cluster": "Large Runicon Cluster",
-      "item.dim_progress.runicon_shard": "Runicon Shard",
+      "block.dim_progress.chiseled_polished_heckrock": "Chiseled Polished Heckrock",
+      "block.dim_progress.dark_crimson_sprigs": "Dark Crimson Sprigs",
       "item.dim_progress.dark_loaf": "Dark Loaf",
-      "block.dim_progress.emberseed_button": "Emberseed Button",
-      "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
-      "advancements.dp_construct_portal_core.title": "The Centerpiece",
       "item.dim_progress.runic_rift_structure_placer_spawn_egg": "Runic Rift Structure Placer Spawn Egg",
-      "entity.dim_progress.runic_rift_structure_placer": "Runic Rift Structure Placer",
+      "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
       "block.dim_progress.nyctocap_cap": "Nyctocap Cap",
-      "block.dim_progress.crimson_mud": "Crimson Mud",
-      "item.dim_progress.dreadgem_sword": "Dreadgem Sword",
       "item.dim_progress.molten_clay_ball": "Molten Clay Ball",
+      "block.dim_progress.vaespen_door": "Vaespen Door",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
-      "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
-      "subtitles.entity.magnian.death": "Magnian Dies",
       "block.dim_progress.pyrind_trapdoor": "Pyrind Trapdoor",
-      "item.dim_progress.tepidbrick": "Tepidbrick",
       "advancements.dp_obtain_more_runicon.title": "Mildly Overkill",
+      "block.dim_progress.vaespen_planks": "Vaespen Planks",
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",
-      "block.dim_progress.nyctecium": "Nyctecium",
       "block.dim_progress.cut_felsandstone": "Cut Felsandstone",
-      "block.dim_progress.dark_grain_stage_2": "Dark Grain",
-      "block.dim_progress.clotbark_log": "Clotbark Log",
       "block.dim_progress.dark_grain": "Dark Seeds",
-      "block.dim_progress.dark_grain_stage_3": "Dark Grain (Fully Grown)",
       "block.dim_progress.runic_rift_gate": "Runic Rift Gate",
       "item.dim_progress.magnian_spawn_egg": "Magnian Spawn Egg"
     }
@@ -6868,6 +8211,10 @@
           },
           {
             "name": "Advancements",
+            "children": []
+          },
+          {
+            "name": "UtilityBlocks",
             "children": []
           }
         ]
@@ -6938,9 +8285,9 @@
     "modid": "dim_progress",
     "modName": "Dimensional Progression",
     "version": "1.0.0",
-    "author": "flarf, MCreator",
+    "author": "TheRealFlarf",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -6948,7 +8295,8 @@
     "dependants": [],
     "mcreatorDependencies": [
       "curios_api",
-      "geckolib"
+      "geckolib",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

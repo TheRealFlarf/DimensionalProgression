@@ -17,7 +17,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "dim_progress:grovile_sprigs"
+          "Name": "dim_progress:dark_crimson_sprigs"
         }
       }
     }

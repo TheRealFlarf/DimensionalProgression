@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "dim_progress:block/grovile_sprigs",
-    "particle": "dim_progress:block/grovile_sprigs"
-  },
-  "render_type": "cutout"
-}

@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class PolishedHeckrockTilesBlock extends Block {
 	public PolishedHeckrockTilesBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.POLISHED_DEEPSLATE).strength(2.2f, 8f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.NETHER_BRICKS).strength(2.2f, 8f).requiresCorrectToolForDrops());
 	}
 
 	@Override

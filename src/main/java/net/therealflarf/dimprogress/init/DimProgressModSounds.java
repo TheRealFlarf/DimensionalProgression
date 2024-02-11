@@ -25,4 +25,6 @@ public class DimProgressModSounds {
 	public static final RegistryObject<SoundEvent> ENTITY_MAGNIAN_HURT = REGISTRY.register("entity.magnian.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("dim_progress", "entity.magnian.hurt")));
 	public static final RegistryObject<SoundEvent> ENTITY_MAGNIAN_DEATH = REGISTRY.register("entity.magnian.death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("dim_progress", "entity.magnian.death")));
 	public static final RegistryObject<SoundEvent> ENTITY_MAGNIAN_IDLE = REGISTRY.register("entity.magnian.idle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("dim_progress", "entity.magnian.idle")));
+	public static final RegistryObject<SoundEvent> MUSIC_PERGALON_GENERIC = REGISTRY.register("music.pergalon.generic", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("dim_progress", "music.pergalon.generic")));
+	public static final RegistryObject<SoundEvent> MUSIC_INTRO_PERGALON = REGISTRY.register("music.intro.pergalon", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("dim_progress", "music.intro.pergalon")));
 }

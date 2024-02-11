@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlightbarkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlightbarkPlanks"
+      },
+      {
+        "value": "CUSTOM:BlightbarkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlightbarkPlanks"
+      },
+      {
+        "value": "CUSTOM:BlightbarkPlanks"
+      },
+      {
+        "value": "CUSTOM:BlightbarkPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlightbarkStairs"
+    },
+    "name": "blightbark_stairs_craft",
+    "namespace": "mod"
+  }
+}

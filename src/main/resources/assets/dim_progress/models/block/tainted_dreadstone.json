@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/tainted_dreadstone",
+    "particle": "dim_progress:block/tainted_dreadstone"
+  },
+  "render_type": "solid"
+}

@@ -80,7 +80,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dim_progress:grovile_sprigs",
+          "name": "dim_progress:dark_crimson_sprigs",
           "weight": 1,
           "conditions": [
             {

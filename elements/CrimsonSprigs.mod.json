@@ -98,6 +98,9 @@
       },
       {
         "value": "CUSTOM:EmberseedWoodlands"
+      },
+      {
+        "value": "CUSTOM:VaespenWoodlands"
       }
     ],
     "generationType": "Grass",

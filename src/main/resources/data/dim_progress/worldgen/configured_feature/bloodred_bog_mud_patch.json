@@ -7,7 +7,7 @@
       {
         "target": {
           "predicate_type": "block_match",
-          "block": "dim_progress:grovile_crimsoil_grass"
+          "block": "dim_progress:dark_crimson_crimsoil_grass"
         },
         "state": {
           "Name": "dim_progress:crimson_mud"

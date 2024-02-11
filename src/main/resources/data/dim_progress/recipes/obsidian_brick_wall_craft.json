@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:obsidian_bricks"
+    }
+  },
+  "result": {
+    "item": "dim_progress:obsidian_brick_wall",
+    "count": 6
+  }
+}

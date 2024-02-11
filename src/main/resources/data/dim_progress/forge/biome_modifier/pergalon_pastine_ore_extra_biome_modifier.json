@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:corrupted_depths",
+  "features": "dim_progress:pergalon_pastine_ore_extra",
+  "step": "underground_ores"
+}

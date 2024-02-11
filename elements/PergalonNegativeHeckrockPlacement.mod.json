@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "feature",
   "definition": {
-    "generationStep": "UNDERGROUND_STRUCTURES",
+    "generationStep": "UNDERGROUND_DECORATION",
     "restrictionBiomes": [
       {
         "value": "CUSTOM:CrimsonPlains"
@@ -21,8 +21,23 @@
       },
       {
         "value": "CUSTOM:SunburstSavanna"
+      },
+      {
+        "value": "CUSTOM:CorruptedDepths"
+      },
+      {
+        "value": "CUSTOM:DarkCrimsonPlains"
+      },
+      {
+        "value": "CUSTOM:PergalonBeach"
+      },
+      {
+        "value": "CUSTOM:VaespenWoodlands"
+      },
+      {
+        "value": "CUSTOM:VioletSea"
       }
     ],
-    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_ore\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"size\">63</field><field name=\"discardOnAirChance\">0</field><value name=\"target0\"><block type=\"ore_target\"><value name=\"target\"><block type=\"rule_test_block_match\"><field name=\"block\">CUSTOM:Dreadstone</field></block></value><value name=\"state\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Heckrock</field></block></value></block></value></block></value><next><block type=\"placement_count_on_every_layer\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">4</field></block></value><next><block type=\"placement_height_uniform\"><comment pinned=\"false\" h=\"84\" w=\"208\">We then set the height of the feature. This ore feature generates with a uniform distribution between 0 and 160</comment><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-64</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">0</field></block></value><next><block type=\"placement_biome_filter\"><comment pinned=\"false\" h=\"85\" w=\"210\">Finally, we check that the feature isn't outside of the biome. This placement modifier should always be the last one.</comment></block></next></block></next></block></next></block></xml>"
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_ore\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"1\"></mutation><field name=\"size\">63</field><field name=\"discardOnAirChance\">0</field><value name=\"target0\"><block type=\"ore_target\"><value name=\"target\"><block type=\"rule_test_block_match\"><field name=\"block\">CUSTOM:Dreadstone</field></block></value><value name=\"state\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Heckrock</field></block></value></block></value></block></value><next><block type=\"placement_count_on_every_layer\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">10</field></block></value><next><block type=\"placement_height_uniform\"><comment pinned=\"false\" h=\"84\" w=\"208\">We then set the height of the feature. This ore feature generates with a uniform distribution between 0 and 160</comment><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">-64</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">0</field></block></value><next><block type=\"placement_biome_filter\"><comment pinned=\"false\" h=\"85\" w=\"210\">Finally, we check that the feature isn't outside of the biome. This placement modifier should always be the last one.</comment></block></next></block></next></block></next></block></xml>"
   }
 }

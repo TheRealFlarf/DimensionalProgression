@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 98,
+    "y_spread": 4,
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          },
+          "direction": "up",
+          "layers": [
+            {
+              "height": {
+                "type": "uniform",
+                "value": {
+                  "min_inclusive": 3,
+                  "max_inclusive": 10
+                }
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "data": {
+                      "Name": "dim_progress:blightbark_leaves",
+                      "Properties": {
+                        "waterlogged": "false"
+                      }
+                    },
+                    "weight": 5
+                  },
+                  {
+                    "data": {
+                      "Name": "dim_progress:glowing_blightbark_leaves",
+                      "Properties": {
+                        "waterlogged": "false"
+                      }
+                    },
+                    "weight": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "prioritize_tip": false
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 2
+        }
+      ]
+    }
+  }
+}

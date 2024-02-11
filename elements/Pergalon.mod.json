@@ -20,6 +20,18 @@
       },
       {
         "value": "CUSTOM:SunburstSavanna"
+      },
+      {
+        "value": "CUSTOM:CorruptedDepths"
+      },
+      {
+        "value": "CUSTOM:DarkCrimsonPlains"
+      },
+      {
+        "value": "CUSTOM:PergalonBeach"
+      },
+      {
+        "value": "CUSTOM:VioletSea"
       }
     ],
     "worldGenType": "Normal world gen",

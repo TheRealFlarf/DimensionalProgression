@@ -56,7 +56,7 @@ public class GrovileSprigsBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(DimProgressModBlocks.CRIMSOIL.get()) || groundState.is(DimProgressModBlocks.GROVILE_CRIMSOIL_GRASS.get()) || groundState.is(DimProgressModBlocks.CRIMSON_MUD.get());
+		return groundState.is(DimProgressModBlocks.CRIMSOIL.get()) || groundState.is(DimProgressModBlocks.DARK_CRIMSON_CRIMSOIL_GRASS.get()) || groundState.is(DimProgressModBlocks.CRIMSON_MUD.get());
 	}
 
 	@Override

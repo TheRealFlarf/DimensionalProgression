@@ -21,7 +21,7 @@ import java.util.Collections;
 
 public class PolishedHeckrockBrickSlabBlock extends SlabBlock {
 	public PolishedHeckrockBrickSlabBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.POLISHED_DEEPSLATE).strength(2.2f, 8f).requiresCorrectToolForDrops().dynamicShape());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.NETHER_BRICKS).strength(2.2f, 8f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

@@ -3,6 +3,7 @@
   "values": [
     "dim_progress:emberseed_log",
     "dim_progress:pyrind_log",
-    "dim_progress:clotbark_log"
+    "dim_progress:clotbark_log",
+    "dim_progress:vaespen_log"
   ]
 }

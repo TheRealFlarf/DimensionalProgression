@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "dim_progress:block/blightbark_planks",
+    "top": "dim_progress:block/blightbark_planks",
+    "side": "dim_progress:block/blightbark_planks"
+  },
+  "render_type": "solid"
+}
