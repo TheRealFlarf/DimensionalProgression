@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "dim_progress:obsidian_brick_stairs",
+    "count": 4
+  }
+}

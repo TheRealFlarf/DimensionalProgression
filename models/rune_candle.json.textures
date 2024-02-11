@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "runic_candlewick",
+        "1": "rune_candle_base"
+      },
+      "name": "default"
+    }
+  }
+}

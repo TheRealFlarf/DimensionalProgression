@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:pergalon_beach",
+  "features": "dim_progress:pergalon_beach_pyrinds",
+  "step": "surface_structures"
+}

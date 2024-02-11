@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "b": {
+      "item": "dim_progress:runicon_shard"
+    }
+  },
+  "result": {
+    "item": "dim_progress:deleted_mod_element",
+    "count": 6
+  }
+}

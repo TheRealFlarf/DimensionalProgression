@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "dim_progress:deleted_mod_element",
+    "count": 4
+  }
+}

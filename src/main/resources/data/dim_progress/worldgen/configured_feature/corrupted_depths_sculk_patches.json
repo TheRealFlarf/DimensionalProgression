@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "dim_progress:dreadstone"
+    },
+    "state": {
+      "Name": "dim_progress:tainted_dreadstone"
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 7,
+        "max_inclusive": 12
+      }
+    }
+  }
+}

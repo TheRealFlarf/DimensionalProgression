@@ -1454,12 +1454,7 @@
       "registry_name": "crimson_plains",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_plains_tree.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_plains_tree.json",
-          "src/main/resources/data/dim_progress/worldgen/biome/crimson_plains.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/CrimsonPlainsTrunkDecorator.java",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/CrimsonPlainsFruitDecorator.java",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/CrimsonPlainsLeaveDecorator.java"
+          "src/main/resources/data/dim_progress/worldgen/biome/crimson_plains.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1579,12 +1574,7 @@
       "registry_name": "emberseed_woodlands",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_tree.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/EmberseedWoodlandsLeaveDecorator.java",
-          "src/main/resources/data/dim_progress/worldgen/biome/emberseed_woodlands.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/EmberseedWoodlandsFruitDecorator.java",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_tree.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/EmberseedWoodlandsTrunkDecorator.java"
+          "src/main/resources/data/dim_progress/worldgen/biome/emberseed_woodlands.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1659,12 +1649,7 @@
       "registry_name": "sunburst_savanna",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/sunburst_savanna.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/SunburstSavannaTrunkDecorator.java",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunburst_savanna_tree.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/SunburstSavannaFruitDecorator.java",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/SunburstSavannaLeaveDecorator.java",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunburst_savanna_tree.json"
+          "src/main/resources/data/dim_progress/worldgen/biome/sunburst_savanna.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1678,12 +1663,7 @@
       "registry_name": "nyctophobic_coppice",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/biome/nyctophobic_coppice.json",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_tree.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/NyctophobicCoppiceTrunkDecorator.java",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/NyctophobicCoppiceFruitDecorator.java",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_tree.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/NyctophobicCoppiceLeaveDecorator.java"
+          "src/main/resources/data/dim_progress/worldgen/biome/nyctophobic_coppice.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -1697,12 +1677,7 @@
       "registry_name": "bloodred_bog",
       "metadata": {
         "files": [
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/BloodredBogTrunkDecorator.java",
-          "src/main/resources/data/dim_progress/worldgen/biome/bloodred_bog.json",
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_tree.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_tree.json",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/BloodredBogFruitDecorator.java",
-          "src/main/java/net/therealflarf/dimprogress/world/features/treedecorators/BloodredBogLeaveDecorator.java"
+          "src/main/resources/data/dim_progress/worldgen/biome/bloodred_bog.json"
         ]
       },
       "path": "~/Dimensions/Pergalon"
@@ -3323,8 +3298,8 @@
       "registry_name": "dreadstone_venomite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dim_progress/models/block/dreadstone_venomite_ore.json",
           "src/main/java/net/therealflarf/dimprogress/block/DreadstoneVenomiteOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_venomite_ore.json",
           "src/main/resources/assets/dim_progress/models/item/dreadstone_venomite_ore.json",
           "src/main/resources/assets/dim_progress/blockstates/dreadstone_venomite_ore.json"
         ]
@@ -3882,20 +3857,3964 @@
       "path": "~/Dimensions/Pergalon"
     },
     {
-      "name": "SunlitSilicaPrismLargeFeature",
-      "type": "feature",
-      "sortid": 245,
+      "name": "DarkLoaf",
+      "type": "item",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sunlit_silica_prism_large_feature",
+      "registry_name": "dark_loaf",
       "metadata": {
         "files": [
-          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunlit_silica_prism_large_feature.json",
-          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunlit_silica_prism_large_feature.json",
-          "src/main/resources/data/dim_progress/forge/biome_modifier/sunlit_silica_prism_large_feature_biome_modifier.json"
+          "src/main/java/net/therealflarf/dimprogress/item/DarkLoafItem.java",
+          "src/main/resources/assets/dim_progress/models/item/dark_loaf.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NycticSprigsDrops",
+      "type": "loottable",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctic_sprigs_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/nyctic_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPCraftingStonesFurnace",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_crafting_stones_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dp_crafting_stones_furnace.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "ObsidianBrickStairs",
+      "type": "block",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBrickStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_brick_stairs.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicDreadstoneRingCraftExtra",
+      "type": "recipe",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_ring_craft_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_dreadstone_ring_craft_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "DPObtainRunicon",
+      "type": "achievement",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_obtain_runicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dp_obtain_runicon.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "LargeRuniconCluster",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_runicon_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/large_runicon_cluster.json",
+          "src/main/resources/assets/dim_progress/blockstates/large_runicon_cluster.json",
+          "src/main/resources/assets/dim_progress/models/item/large_runicon_cluster.json",
+          "src/main/java/net/therealflarf/dimprogress/block/LargeRuniconClusterBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "DeadPergalonSprigsDrops",
+      "type": "loottable",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_pergalon_sprigs_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/dead_pergalon_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonSprigsDrops",
+      "type": "loottable",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_sprigs_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/crimson_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkGrainStage2UpdateTick",
+      "type": "procedure",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grain_stage_2_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/DarkGrainStage2UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ForgeAnvilRecipeType",
+      "type": "jeirecipetype",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_anvil_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/jei_recipes/ForgeAnvilRecipeTypeRecipe.java",
+          "src/main/java/net/therealflarf/dimprogress/jei_recipes/ForgeAnvilRecipeTypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "BlightbarkSlab",
+      "type": "block",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_slab_full.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_slab.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDreadstonePortalCore",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_portal_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/runic_dreadstone_portal_core.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicDreadstonePortalCoreBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/runic_dreadstone_portal_core.json",
+          "src/main/resources/assets/dim_progress/models/block/runic_dreadstone_portal_core.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RawPastineBlock",
+      "type": "block",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pastine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/raw_pastine_block.json",
+          "src/main/resources/assets/dim_progress/blockstates/raw_pastine_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RawPastineBlockBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/raw_pastine_block.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophopicCoppiceTealZiolipPlacement",
+      "type": "feature",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophopic_coppice_teal_ziolip_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophopic_coppice_teal_ziolip_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophopic_coppice_teal_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophopic_coppice_teal_ziolip_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineBlock",
+      "type": "block",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/pastine_block.json",
+          "src/main/resources/assets/dim_progress/models/block/pastine_block.json",
+          "src/main/resources/assets/dim_progress/models/item/pastine_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PastineBlockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BloodredBogClotbarkBushes",
+      "type": "feature",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodred_bog_clotbark_bushes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_clotbark_bushes.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/bloodred_bog_clotbark_bushes_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_clotbark_bushes.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenDoorCraft",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_door_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicRift",
+      "type": "biome",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "runic_rift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/runic_rift.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "DreadgemSword",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/DreadgemSwordItem.java",
+          "src/main/resources/assets/dim_progress/models/item/dreadgem_sword.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadgemSwordForging",
+      "type": "jeirecipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_sword_forging",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadgem_sword_forging.json"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "DarkGrainStage3Drops",
+      "type": "loottable",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grain_stage_3_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/dark_grain_stage_3.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkLeaves",
+      "type": "block",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/blightbark_leaves.json",
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_leaves.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPressurePlate",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenPressurePlateBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_pressure_plate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophobicCoppiceClotbarkTrees",
+      "type": "feature",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice_clotbark_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_clotbark_trees.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_clotbark_trees.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophobic_coppice_clotbark_trees_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepths",
+      "type": "biome",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/corrupted_depths.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Cottonweave",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cottonweave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/entity/CottonweaveEntity.java",
+          "src/main/java/net/therealflarf/dimprogress/client/renderer/CottonweaveRenderer.java",
+          "src/main/resources/assets/dim_progress/models/item/cottonweave_spawn_egg.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDeepslateRingCraft",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_ring_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_deepslate_ring_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "DPIronAlternatives",
+      "type": "tag",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_iron_alternatives",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/items/dp_iron_alternatives.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "Voidenbells",
+      "type": "plant",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidenbells",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/voidenbells_bottom.json",
+          "src/main/resources/assets/dim_progress/models/item/voidenbells.json",
+          "src/main/resources/assets/dim_progress/models/block/voidenbells.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VoidenbellsBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/voidenbells.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkToast",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_toast",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/dark_toast.json",
+          "src/main/java/net/therealflarf/dimprogress/item/DarkToastItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawPastine",
+      "type": "item",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pastine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/raw_pastine.json",
+          "src/main/java/net/therealflarf/dimprogress/item/RawPastineItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonDreadgemOreVein",
+      "type": "feature",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_dreadgem_ore_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_dreadgem_ore_vein.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_dreadgem_ore_vein_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_dreadgem_ore_vein.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DimensionalProgressionStart",
+      "type": "achievement",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensional_progression_start",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dimensional_progression_start.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "TerracottaRecolorMagenta",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_recolor_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/terracotta_recolor_magenta.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlandsLargeEmberseeds",
+      "type": "feature",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_large_emberseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_large_emberseeds.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_large_emberseeds.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_large_emberseeds_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenStairs",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_stairs_inner.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlandsVaespens",
+      "type": "feature",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_vaespens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_vaespens_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_vaespens.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_vaespens.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctocapSlab",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_slab_full.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_slab_top.json",
+          "src/main/resources/assets/dim_progress/blockstates/nyctocap_slab.json",
+          "src/main/java/net/therealflarf/dimprogress/block/NyctocapSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_slab.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctocap_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctocapPlanksCraft",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/nyctocap_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VioletSeaKelpPlacement",
+      "type": "feature",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_sea_kelp_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/violet_sea_kelp_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/violet_sea_kelp_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/violet_sea_kelp_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkSaplingBonemeal",
+      "type": "procedure",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_sapling_bonemeal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/ClotbarkSaplingBonemealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenLeavesDrops",
+      "type": "loottable",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_leaves_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/vaespen_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPlanksCraft",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindSaplingBonemeal",
+      "type": "procedure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_sapling_bonemeal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/PyrindSaplingBonemealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindLeavesDrops",
+      "type": "loottable",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_leaves_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/pyrind_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadgemBlockCraft",
+      "type": "recipe",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dreadgem_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkToastCampfire",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_toast_campfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dark_toast_campfire.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagmactusPlaceable",
+      "type": "tag",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmactus_placeable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/blocks/magmactus_placeable.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonPlainsSunburstZiolipPlacement",
+      "type": "feature",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_plains_sunburst_ziolip_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_plains_sunburst_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_plains_sunburst_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/crimson_plains_sunburst_ziolip_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RiftrockBrickStairs",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/riftrock_brick_stairs_inner.json",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/item/riftrock_brick_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_brick_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/blockstates/riftrock_brick_stairs.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RiftrockBrickStairsBlock.java"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "PolishedRiftrock",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_riftrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/polished_riftrock.json",
+          "src/main/resources/assets/dim_progress/blockstates/polished_riftrock.json",
+          "src/main/resources/assets/dim_progress/models/block/polished_riftrock.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PolishedRiftrockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "DarkCrimsonPlainsVaespens",
+      "type": "feature",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_crimson_plains_vaespens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dark_crimson_plains_vaespens.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dark_crimson_plains_vaespens_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dark_crimson_plains_vaespens.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Magnian",
+      "type": "animatedentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnian",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/entity/model/MagnianModel.java",
+          "src/main/java/net/therealflarf/dimprogress/entity/MagnianEntity.java",
+          "src/main/resources/assets/dim_progress/models/item/magnian_spawn_egg.json",
+          "src/main/java/net/therealflarf/dimprogress/client/renderer/MagnianRenderer.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineIngot",
+      "type": "item",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/pastine_ingot.json",
+          "src/main/java/net/therealflarf/dimprogress/item/PastineIngotItem.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstoneDreadgemOre",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_dreadgem_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_dreadgem_ore.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_dreadgem_ore.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstoneDreadgemOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_dreadgem_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BloodredBogBasicClotbarks",
+      "type": "feature",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodred_bog_basic_clotbarks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/bloodred_bog_basic_clotbarks_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_basic_clotbarks.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_basic_clotbarks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonPortalChargeCraft",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_portal_charge_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pergalon_portal_charge_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ChiseledPolishedHeckrockStonecut",
+      "type": "recipe",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_heckrock_stonecut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/chiseled_polished_heckrock_stonecut.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineBlast",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pastine_blast.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VWalls",
+      "type": "tag",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "CorruptedDepthsRuinPlacement",
+      "type": "feature",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_ruin_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_ruin_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_ruin_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_ruin_placement_biome_modifier.json"
         ],
         "has_nbt_structure": true
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TealZiolipToDye",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_ziolip_to_dye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/teal_ziolip_to_dye.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPCraftingStonesPiston",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_crafting_stones_piston",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dp_crafting_stones_piston.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "DPTerracottas",
+      "type": "tag",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_terracottas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/items/terracottas.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "VaespenButton",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/vaespen_button.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_button.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_button_inventory.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenButtonBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_button.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_button_pressed.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LargeRuniconClusterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_runicon_cluster_on_block_right_clicked",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/LargeRuniconClusterOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "RunicDeepslateRing",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/RunicDeepslateRingBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/runic_deepslate_ring.json",
+          "src/main/resources/assets/dim_progress/blockstates/runic_deepslate_ring.json",
+          "src/main/resources/assets/dim_progress/models/item/runic_deepslate_ring.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "EmberseedWoodlandsClotbarks",
+      "type": "feature",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_clotbarks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_clotbarks_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_clotbarks.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_clotbarks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophobicCoppiceNycteciumPatches",
+      "type": "feature",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice_nyctecium_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_nyctecium_patches.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_nyctecium_patches.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophobic_coppice_nyctecium_patches_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenDoor",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_door.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenDoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_left.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_right_open.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_door.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_left.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_left_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_right_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_bottom_right.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_door_top_right.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "MagmactusUpdateTick",
+      "type": "procedure",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmactus_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/MagmactusUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophobicCoppiceLargeClotbarkTrees",
+      "type": "feature",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice_large_clotbark_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_large_clotbark_trees.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophobic_coppice_large_clotbark_trees_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_large_clotbark_trees.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenFenceGate",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate_wall.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_fence_gate.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenFenceGateBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate_open.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDreadstonePillarCraftExtra",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_pillar_craft_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_dreadstone_pillar_craft_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "VioletSeaSeagrassPlacement",
+      "type": "feature",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_sea_seagrass_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/violet_sea_seagrass_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/violet_sea_seagrass_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/violet_sea_seagrass_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ObsidianBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "DarkGrainStage3",
+      "type": "plant",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grain_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/dark_grain_stage_3.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DarkGrainStage3Block.java",
+          "src/main/resources/assets/dim_progress/models/item/dark_grain_stage_3.json",
+          "src/main/resources/assets/dim_progress/blockstates/dark_grain_stage_3.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrackedPolishedHeckrockBricksSmelt",
+      "type": "recipe",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_heckrock_bricks_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/cracked_polished_heckrock_bricks_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepthsSculkPatches",
+      "type": "feature",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_sculk_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_sculk_patches.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_sculk_patches.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_sculk_patches_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VSculkReplaceable",
+      "type": "tag",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_sculk_replaceable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/sculk_replaceable.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "DreadgemBlock",
+      "type": "block",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/dreadgem_block.json",
+          "src/main/resources/assets/dim_progress/models/item/dreadgem_block.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadgem_block.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DreadgemBlockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkGrainStage2",
+      "type": "plant",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grain_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/entity/DarkGrainStage2BlockEntity.java",
+          "src/main/resources/assets/dim_progress/blockstates/dark_grain_stage_2.json",
+          "src/main/resources/assets/dim_progress/models/block/dark_grain_stage_2.json",
+          "src/main/resources/assets/dim_progress/models/item/dark_grain_stage_2.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DarkGrainStage2Block.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkCrimsonPlainsTealZiolipPlacement",
+      "type": "feature",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_crimson_plains_teal_ziolip_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/dark_crimson_plains_teal_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/dark_crimson_plains_teal_ziolip_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/dark_crimson_plains_teal_ziolip_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LifeCrystal",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/life_crystal.json",
+          "src/main/resources/assets/dim_progress/models/item/life_crystal_0.json",
+          "src/main/resources/assets/dim_progress/models/item/life_crystal_3.json",
+          "src/main/java/net/therealflarf/dimprogress/item/LifeCrystalItem.java",
+          "src/main/resources/assets/dim_progress/models/item/life_crystal_4.json",
+          "src/main/resources/assets/dim_progress/models/item/life_crystal_1.json",
+          "src/main/resources/assets/dim_progress/models/item/life_crystal_2.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "CrimsonPlainsEmberseeds",
+      "type": "feature",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_plains_emberseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_plains_emberseeds.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_plains_emberseeds.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/crimson_plains_emberseeds_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "InfusedLifeCrystal",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infused_vitality_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/InfusedLifeCrystalItem.java",
+          "src/main/resources/assets/dim_progress/models/item/infused_vitality_crystal.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "CrimsonPlainsPurpleZiolipPlacement",
+      "type": "feature",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_plains_purple_ziolip_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_plains_purple_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/crimson_plains_purple_ziolip_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_plains_purple_ziolip_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlandsVoidenbellPlacement",
+      "type": "feature",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_voidenbell_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_voidenbell_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_voidenbell_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_voidenbell_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctocapSlabCraft",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/nyctocap_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkSaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_sapling_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/ClotbarkSaplingPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CottonweaveRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cottonweave_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/CottonweaveRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VoidenbellsToDye",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidenbells_to_dye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/voidenbells_to_dye.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkLog",
+      "type": "block",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/blightbark_log.json",
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkLogBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_log.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_log.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LifeCrystalHasItemGlowingEffect",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_has_item_glowing_effect",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/LifeCrystalHasItemGlowingEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicRiftStructurePlacerOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_rift_structure_placer_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/RunicRiftStructurePlacerOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "VFences",
+      "type": "tag",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_fences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "VaespenPlanks",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenPlanksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_planks.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_planks.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkSapling",
+      "type": "plant",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/ClotbarkSaplingBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/clotbark_sapling.json",
+          "src/main/resources/assets/dim_progress/models/block/clotbark_sapling.json",
+          "src/main/resources/assets/dim_progress/blockstates/clotbark_sapling.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "GlowingBlightbarkLeaves",
+      "type": "block",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowing_blightbark_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/glowing_blightbark_leaves.json",
+          "src/main/resources/assets/dim_progress/blockstates/glowing_blightbark_leaves.json",
+          "src/main/java/net/therealflarf/dimprogress/block/GlowingBlightbarkLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/glowing_blightbark_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPEnterPergalon",
+      "type": "achievement",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_enter_pergalon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dp_enter_pergalon.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "DarkLoafCraft",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_loaf_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/dark_loaf_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_sapling_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/EmberseedSaplingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Shearing",
+      "type": "damagetype",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shearing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/damage_type/shearing.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDreadstonePillar",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/runic_dreadstone_pillar.json",
+          "src/main/resources/assets/dim_progress/blockstates/runic_dreadstone_pillar.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicDreadstonePillarBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/runic_dreadstone_pillar.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "PergalonDreadgemOreExtra",
+      "type": "feature",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_dreadgem_ore_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_dreadgem_ore_extra_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_dreadgem_ore_extra.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_dreadgem_ore_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonBeachDeadGrassPlacement",
+      "type": "feature",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_beach_dead_grass_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_beach_dead_grass_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_beach_dead_grass_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_beach_dead_grass_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPConstructPortalCore",
+      "type": "achievement",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_construct_portal_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dp_construct_portal_core.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "EmberseedSaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_sapling_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/EmberseedSaplingPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_sapling_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/ClotbarkSaplingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPUtilities",
+      "type": "tab",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_utilities",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Gameplay/CTabs"
+    },
+    {
+      "name": "SunburstSavannaPyrinds",
+      "type": "feature",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunburst_savanna_pyrinds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunburst_savanna_pyrinds.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/sunburst_savanna_pyrinds_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunburst_savanna_pyrinds.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDeepslatePortalCoreCraft",
+      "type": "recipe",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_portal_core_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_deepslate_portal_core_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicDeepslateRingCraftExtra",
+      "type": "recipe",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_ring_craft_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_deepslate_ring_craft_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "VaepsenFenceGate",
+      "type": "recipe",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaepsen_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaepsen_fence_gate.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDreadstoneRing",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/RunicDreadstoneRingBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/runic_dreadstone_ring.json",
+          "src/main/resources/assets/dim_progress/models/item/runic_dreadstone_ring.json",
+          "src/main/resources/assets/dim_progress/blockstates/runic_dreadstone_ring.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "Dreadgem",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/DreadgemItem.java",
+          "src/main/resources/assets/dim_progress/models/item/dreadgem.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RiftrockBrickStairsCraft",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_brick_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/riftrock_brick_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "NyctocapPlanks",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/NyctocapPlanksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/nyctocap_planks.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctocap_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkGrains",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grains",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/item/DarkGrainsItem.java",
+          "src/main/resources/assets/dim_progress/models/item/dark_grains.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenWoodlands",
+      "type": "biome",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_woodlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/vaespen_woodlands.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TerracottaRecolorPurple",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_recolor_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/terracotta_recolor_purple.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophobicCoppiceNyctocapPlacement",
+      "type": "feature",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice_nyctocap_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_nyctocap_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophobic_coppice_nyctocap_placement_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_nyctocap_placement.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PastineBlockCraft",
+      "type": "recipe",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pastine_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VioletSea",
+      "type": "biome",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet_sea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/violet_sea.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenSlab",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/vaespen_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_slab_full.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenSlabBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctophobicCoppiceMoreClotbarkTrees",
+      "type": "feature",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice_more_clotbark_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophobic_coppice_more_clotbark_trees_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_more_clotbark_trees.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_more_clotbark_trees.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RiftrockBrickSlab",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/RiftrockBrickSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_brick_slab_full.json",
+          "src/main/resources/assets/dim_progress/models/item/riftrock_brick_slab.json",
+          "src/main/resources/assets/dim_progress/blockstates/riftrock_brick_slab.json",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "ForgeAnvil",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_anvil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/forge_anvil.json",
+          "src/main/resources/assets/dim_progress/models/block/forge_anvil.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ForgeAnvilBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/forge_anvil.json"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "ObsidianBrickWall",
+      "type": "block",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_brick_wall.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBrickWallBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall_side_tall.json",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_brick_wall.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall_post.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_wall_inventory.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "TealZiolip",
+      "type": "plant",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_ziolip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/teal_ziolip.json",
+          "src/main/resources/assets/dim_progress/blockstates/teal_ziolip.json",
+          "src/main/java/net/therealflarf/dimprogress/block/TealZiolipBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/teal_ziolip.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicRiftGateRedstoneOn",
+      "type": "procedure",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_rift_gate_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/RunicRiftGateRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "PergalonBeachPyrinds",
+      "type": "feature",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_beach_pyrinds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_beach_pyrinds.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_beach_pyrinds_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_beach_pyrinds.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ObsidianBricksCraft",
+      "type": "recipe",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_bricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "VaespenFenceCraft",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_fence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_fence_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LargeRuniconClusterDrops",
+      "type": "loottable",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_runicon_cluster_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/large_runicon_cluster.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "RuneCandleCraft",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_candle_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/rune_candle_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "NyctophobicCoppiceNyctocaps",
+      "type": "feature",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctophobic_coppice_nyctocaps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/nyctophobic_coppice_nyctocaps.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/nyctophobic_coppice_nyctocaps.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/nyctophobic_coppice_nyctocaps_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctocapStem",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_stem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/NyctocapStemBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/nyctocap_stem.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctocap_stem.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_stem.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDreadstoneRingCraft",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_ring_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_dreadstone_ring_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "RunicDreadstonePillarCraft",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_pillar_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_dreadstone_pillar_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "PolishedRiftrockCraft",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_riftrock_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/polished_riftrock_craft.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "PlayerJoinsProcedures",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_joins_procedures",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/PlayerJoinsProceduresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
+    },
+    {
+      "name": "LifeCrystalPropertyValueProvider",
+      "type": "procedure",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/LifeCrystalPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "DPObtainVenomite",
+      "type": "achievement",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_obtain_venomite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dp_obtain_venomite.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "DarkGrain",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/dark_grain.json",
+          "src/main/java/net/therealflarf/dimprogress/block/entity/DarkGrainBlockEntity.java",
+          "src/main/resources/assets/dim_progress/models/item/dark_grain.json",
+          "src/main/java/net/therealflarf/dimprogress/block/DarkGrainBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/dark_grain.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CorruptedDepthsHangingLeaves",
+      "type": "feature",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_leaves_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_leaves.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ClotbarkLeavesDrops",
+      "type": "loottable",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clotbark_leaves_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/clotbark_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TerracottaRecolorLightBlue",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_recolor_light_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/terracotta_recolor_light_blue.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DrainRunicPower",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drain_runic_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/drain_runic_power.json",
+          "src/main/java/net/therealflarf/dimprogress/item/DrainRunicPowerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DreadgemSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadgem_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/DreadgemSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RuneCandle",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_candle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/rune_candle.json",
+          "src/main/resources/assets/dim_progress/models/item/rune_candle.json",
+          "src/main/resources/assets/dim_progress/models/block/rune_candle.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RuneCandleBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "RunicDeepslatePillarCraft",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_pillar_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_deepslate_pillar_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "ChiseledPolishedHeckrock",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_heckrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/chiseled_polished_heckrock.json",
+          "src/main/resources/assets/dim_progress/models/block/chiseled_polished_heckrock.json",
+          "src/main/resources/assets/dim_progress/blockstates/chiseled_polished_heckrock.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ChiseledPolishedHeckrockBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedSaplingBonemeal",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_sapling_bonemeal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/EmberseedSaplingBonemealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PlayerEveryTick",
+      "type": "procedure",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_every_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/PlayerEveryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmactusBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmactus_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/MagmactusBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ChiseledPolishedHeckrockCraft",
+      "type": "recipe",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_polished_heckrock_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/chiseled_polished_heckrock_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkStairs",
+      "type": "block",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_stairs_outer.json",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_stairs.json",
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_stairs_inner.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "TerracottaRecolorOrange",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_recolor_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/terracotta_recolor_orange.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LifeCrystalCraft",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/life_crystal_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "PyrindSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_sapling_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/PyrindSaplingUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonPastineOreVein",
+      "type": "feature",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_pastine_ore_vein",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_pastine_ore_vein.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_pastine_ore_vein_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_pastine_ore_vein.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "SunburstSavannaPyrindBushes",
+      "type": "feature",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunburst_savanna_pyrind_bushes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunburst_savanna_pyrind_bushes.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunburst_savanna_pyrind_bushes.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/sunburst_savanna_pyrind_bushes_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenWoodlandsVaespens",
+      "type": "feature",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_woodlands_vaespens",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/vaespen_woodlands_vaespens.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/vaespen_woodlands_vaespens_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/vaespen_woodlands_vaespens.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPObtainMoreRunicon",
+      "type": "achievement",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_obtain_more_runicon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dp_obtain_more_runicon.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "BlightbarkPlanksCraft",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/blightbark_planks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstonePastineOre",
+      "type": "block",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_pastine_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/DreadstonePastineOreBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/dreadstone_pastine_ore.json",
+          "src/main/resources/assets/dim_progress/models/block/dreadstone_pastine_ore.json",
+          "src/main/resources/assets/dim_progress/blockstates/dreadstone_pastine_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RiftrockBricksCraft",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_bricks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/riftrock_bricks_craft.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "RiftrockCobble",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_cobble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/riftrock_cobble.json",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_cobble.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RiftrockCobbleBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/riftrock_cobble.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "DrainRunicPowerRightclicked",
+      "type": "procedure",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drain_runic_power_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/DrainRunicPowerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrovileSprigsDrops",
+      "type": "loottable",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grovile_sprigs_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/grovile_sprigs.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlandsBushes",
+      "type": "feature",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_bushes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_bushes.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_bushes.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_bushes_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenFence",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/item/vaespen_fence.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_post.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_fence.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenFenceBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence_inventory.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_fence.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RawPastineBlockCraft",
+      "type": "recipe",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pastine_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/raw_pastine_block_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedWoodlandsNormalEmberseeds",
+      "type": "feature",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_woodlands_normal_emberseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/forge/biome_modifier/emberseed_woodlands_normal_emberseeds_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/emberseed_woodlands_normal_emberseeds.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/emberseed_woodlands_normal_emberseeds.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ObsidianBrickSlab",
+      "type": "block",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_slab_top.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_slab_full.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_brick_slab.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBrickSlabBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_brick_slab.json",
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_brick_slab.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "NyctocapCap",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_cap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/NyctocapCapBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/nyctocap_cap.json",
+          "src/main/resources/assets/dim_progress/blockstates/nyctocap_cap.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_cap.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "Interspace",
+      "type": "dimension",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interspace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/dimension_type/interspace.json",
+          "src/main/resources/data/dim_progress/dimension/interspace.json",
+          "src/main/java/net/therealflarf/dimprogress/world/dimension/InterspaceDimension.java",
+          "src/main/java/net/therealflarf/dimprogress/world/teleporter/InterspacePortalShape.java",
+          "src/main/resources/assets/dim_progress/models/block/interspace_portal_ew.json",
+          "src/main/java/net/therealflarf/dimprogress/block/InterspacePortalBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/interspace_portal_ns.json",
+          "src/main/java/net/therealflarf/dimprogress/world/teleporter/InterspaceTeleporter.java",
+          "src/main/resources/assets/dim_progress/blockstates/interspace_portal.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "DarkCrimsonPlains",
+      "type": "biome",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_crimson_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/dark_crimson_plains.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrackedPolishedHeckrockBricks",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_heckrock_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/CrackedPolishedHeckrockBricksBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/cracked_polished_heckrock_bricks.json",
+          "src/main/resources/assets/dim_progress/models/item/cracked_polished_heckrock_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/cracked_polished_heckrock_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PyrindSaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_sapling_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/PyrindSaplingPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ObsidianBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "EmberseedLeavesDrops",
+      "type": "loottable",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_leaves_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/emberseed_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonPastineOreExtra",
+      "type": "feature",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_pastine_ore_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/pergalon_pastine_ore_extra.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/pergalon_pastine_ore_extra_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/pergalon_pastine_ore_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicRiftStructurePlacer",
+      "type": "livingentity",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_rift_structure_placer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/entity/RunicRiftStructurePlacerEntity.java",
+          "src/main/java/net/therealflarf/dimprogress/client/renderer/RunicRiftStructurePlacerRenderer.java",
+          "src/main/resources/assets/dim_progress/models/item/runic_rift_structure_placer_spawn_egg.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "ObsidianBrickWallCraft",
+      "type": "recipe",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_brick_wall_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/obsidian_brick_wall_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "NyctocapStairsCraft",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/nyctocap_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDeepslatePillar",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/runic_deepslate_pillar.json",
+          "src/main/resources/assets/dim_progress/models/item/runic_deepslate_pillar.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicDeepslatePillarBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/runic_deepslate_pillar.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "BlightbarkSlabCraft",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/blightbark_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "EmberseedSapling",
+      "type": "plant",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberseed_sapling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/EmberseedSaplingBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/emberseed_sapling.json",
+          "src/main/resources/assets/dim_progress/blockstates/emberseed_sapling.json",
+          "src/main/resources/assets/dim_progress/models/block/emberseed_sapling.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPCraftingStones",
+      "type": "tag",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_crafting_stones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/tags/items/dp_crafting_stones.json"
+        ]
+      },
+      "path": "~/External"
+    },
+    {
+      "name": "VaespenButtonCraft",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_button_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_button_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "CrimsonPlainsMagentaZiolipPlacement",
+      "type": "feature",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_plains_magenta_ziolip_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/crimson_plains_magenta_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/crimson_plains_magenta_ziolip_placement.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/crimson_plains_magenta_ziolip_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "NyctocapStairs",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/nyctocap_stairs.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctocap_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_stairs.json",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_stairs_outer.json",
+          "src/main/java/net/therealflarf/dimprogress/block/NyctocapStairsBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_stairs_inner.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenSlabCraft",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicRiftGate",
+      "type": "animatedblock",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_rift_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/renderer/RunicRiftGateDisplayItemRenderer.java",
+          "src/main/resources/assets/dim_progress/models/custom/runic_rift_gate_particle.json",
+          "src/main/java/net/therealflarf/dimprogress/block/model/RunicRiftGateBlockModel.java",
+          "src/main/java/net/therealflarf/dimprogress/block/entity/RunicRiftGateTileEntity.java",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicRiftGateBlock.java",
+          "src/main/java/net/therealflarf/dimprogress/block/model/RunicRiftGateDisplayModel.java",
+          "src/main/resources/assets/dim_progress/blockstates/runic_rift_gate.json",
+          "src/main/java/net/therealflarf/dimprogress/block/display/RunicRiftGateDisplayItem.java",
+          "src/main/java/net/therealflarf/dimprogress/block/renderer/RunicRiftGateTileRenderer.java",
+          "src/main/resources/assets/dim_progress/models/item/runic_rift_gate.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "NyctocapMushroom",
+      "type": "plant",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyctocap_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/nyctocap_mushroom.json",
+          "src/main/java/net/therealflarf/dimprogress/block/NyctocapMushroomBlock.java",
+          "src/main/resources/assets/dim_progress/blockstates/nyctocap_mushroom.json",
+          "src/main/resources/assets/dim_progress/models/item/nyctocap_mushroom.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicPowerOverlay",
+      "type": "overlay",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_power_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/client/screens/RunicPowerOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Gameplay"
+    },
+    {
+      "name": "ForgeAnvilUI",
+      "type": "gui",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_anvil_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/world/inventory/ForgeAnvilUIMenu.java",
+          "src/main/java/net/therealflarf/dimprogress/client/gui/ForgeAnvilUIScreen.java"
+        ]
+      },
+      "path": "~/Gameplay/UtilityBlocks"
+    },
+    {
+      "name": "TaintedDreadstone",
+      "type": "block",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_dreadstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/TaintedDreadstoneBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/tainted_dreadstone.json",
+          "src/main/resources/assets/dim_progress/blockstates/tainted_dreadstone.json",
+          "src/main/resources/assets/dim_progress/models/item/tainted_dreadstone.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RiftrockBrickSlabCraft",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_brick_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/riftrock_brick_slab_craft.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "CorruptedDepthsBlightbarkPillars",
+      "type": "feature",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_depths_blightbarks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/corrupted_depths_blightbarks.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/corrupted_depths_blightbarks_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/corrupted_depths_blightbarks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VenomiteInflictPoison",
+      "type": "procedure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomite_inflict_poison",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/VenomiteInflictPoisonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RiftrockBricks",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riftrock_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/RiftrockBricksBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/riftrock_bricks.json",
+          "src/main/resources/assets/dim_progress/blockstates/riftrock_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/riftrock_bricks.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "RunicDeepslatePillarCraftExtra",
+      "type": "recipe",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_pillar_craft_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_deepslate_pillar_craft_extra.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "VaespenTrapdoor",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenTrapdoorBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_trapdoor_open.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_trapdoor.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_trapdoor.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_trapdoor_top.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicPowerOverlayTextProvider",
+      "type": "procedure",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_power_overlay_text_provider",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/RunicPowerOverlayTextProviderProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gameplay"
+    },
+    {
+      "name": "VaespenLeaves",
+      "type": "block",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenLeavesBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_leaves.json",
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_leaves.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_leaves.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DreadstonePastineOreDrops",
+      "type": "loottable",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadstone_pastine_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/loot_tables/blocks/dreadstone_pastine_ore.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DarkGrainUpdateTick",
+      "type": "procedure",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grain_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/DarkGrainUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LifeCrystalLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/therealflarf/dimprogress/procedures/LifeCrystalLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "PastineSmelt",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastine_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/pastine_smelt.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "DPOpenPortal",
+      "type": "achievement",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dp_open_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/advancements/dp_open_portal.json"
+        ]
+      },
+      "path": "~/Gameplay/Advancements"
+    },
+    {
+      "name": "RunicDeepslatePortalCore",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_deepslate_portal_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/runic_deepslate_portal_core.json",
+          "src/main/java/net/therealflarf/dimprogress/block/RunicDeepslatePortalCoreBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/runic_deepslate_portal_core.json",
+          "src/main/resources/assets/dim_progress/models/block/runic_deepslate_portal_core.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "VaespenLog",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/vaespen_log.json",
+          "src/main/resources/assets/dim_progress/models/block/vaespen_log.json",
+          "src/main/resources/assets/dim_progress/models/item/vaespen_log.json",
+          "src/main/java/net/therealflarf/dimprogress/block/VaespenLogBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BloodredBogLargeClotbarks",
+      "type": "feature",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodred_bog_large_clotbarks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/bloodred_bog_large_clotbarks.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/bloodred_bog_large_clotbarks_biome_modifier.json",
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/bloodred_bog_large_clotbarks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "PergalonBeach",
+      "type": "biome",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pergalon_beach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/biome/pergalon_beach.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "ObsidianBricks",
+      "type": "block",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/obsidian_bricks.json",
+          "src/main/resources/assets/dim_progress/models/item/obsidian_bricks.json",
+          "src/main/resources/assets/dim_progress/models/block/obsidian_bricks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/ObsidianBricksBlock.java"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "LargeRuniconClusterCraft",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_runicon_cluster_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/large_runicon_cluster_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld/Interspace"
+    },
+    {
+      "name": "PyrindSapling",
+      "type": "plant",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyrind_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/models/block/pyrind_sapling.json",
+          "src/main/java/net/therealflarf/dimprogress/block/PyrindSaplingBlock.java",
+          "src/main/resources/assets/dim_progress/models/item/pyrind_sapling.json",
+          "src/main/resources/assets/dim_progress/blockstates/pyrind_sapling.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "RunicDreadstonePortalCoreCraft",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runic_dreadstone_portal_core_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/runic_dreadstone_portal_core_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Overworld"
+    },
+    {
+      "name": "BlightbarkPlanks",
+      "type": "block",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dim_progress/blockstates/blightbark_planks.json",
+          "src/main/resources/assets/dim_progress/models/item/blightbark_planks.json",
+          "src/main/java/net/therealflarf/dimprogress/block/BlightbarkPlanksBlock.java",
+          "src/main/resources/assets/dim_progress/models/block/blightbark_planks.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "LogToCharcoal",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_to_charcoal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/log_to_charcoal.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "BlightbarkStairsCraft",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blightbark_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/blightbark_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
+    },
+    {
+      "name": "VaespenStairsCraft",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaespen_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/recipes/vaespen_stairs_craft.json"
+        ]
+      },
+      "path": "~/Dimensions/Pergalon"
     },
     {
       "name": "SunlitSilicaPrismSmallFeature",
@@ -3912,9 +7831,62 @@
         ],
         "has_nbt_structure": true
       }
+    },
+    {
+      "name": "SunlitSilicaPrismLargeFeature",
+      "type": "feature",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunlit_silica_prism_large_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dim_progress/worldgen/configured_feature/sunlit_silica_prism_large_feature.json",
+          "src/main/resources/data/dim_progress/worldgen/placed_feature/sunlit_silica_prism_large_feature.json",
+          "src/main/resources/data/dim_progress/forge/biome_modifier/sunlit_silica_prism_large_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "PlayerRunicPower",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerMaxRunicPower",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "isFirstJoin",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "RunicPowerOverlayProvidedText",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "PlayerRunicPowerRegenerationCooldown",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerRunicPowerRegenerationRate",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "portal_frame_activate",
@@ -3923,14 +7895,6 @@
       ],
       "category": "block",
       "subtitle": "Runic Portal Activates"
-    },
-    {
-      "name": "pergalon_portal_activate",
-      "files": [
-        "discomfort"
-      ],
-      "category": "music",
-      "subtitle": ""
     },
     {
       "name": "pergalon_introduction",
@@ -3950,44 +7914,167 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "ambience.runic_rift.loop",
+      "files": [
+        "runic_rift_ambient"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "music.pergalon.generic",
+      "files": [
+        "underworld",
+        "lost",
+        "long_forgotten",
+        "foreign_astronomy"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "music.intro.pergalon",
+      "files": [
+        "underworld"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.magnian.idle",
+      "files": [
+        "magnian_idle1",
+        "magnian_idle2",
+        "magnian_idle3",
+        "magnian_idle4"
+      ],
+      "category": "hostile",
+      "subtitle": "Magnian Breathes"
+    },
+    {
+      "name": "entity.magnian.hurt",
+      "files": [
+        "magnian_hurt1",
+        "magnian_hurt2",
+        "magnian_hurt3"
+      ],
+      "category": "hostile",
+      "subtitle": "Magnian Hurts"
+    },
+    {
+      "name": "music.pergalon.portal_activate",
+      "files": [
+        "discomfort"
+      ],
+      "category": "music",
+      "subtitle": "TheRealFlarf - Discomfort"
+    },
+    {
+      "name": "entity.magnian.death",
+      "files": [
+        "magnian_death1",
+        "magnian_death2",
+        "magnian_death3"
+      ],
+      "category": "hostile",
+      "subtitle": "Magnian Dies"
+    },
+    {
+      "name": "music.runic_rift",
+      "files": [
+        "downward_passage"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.dim_progress.clotbark_button": "Clotbark Button",
-      "block.dim_progress.sunlit_silica": "Sunlit Silica",
       "subtitles.pergalon_ambient": "",
       "block.dim_progress.dreadstone_bricks": "Dreadstone Bricks",
       "block.dim_progress.tepidbricks": "Tepidbricks",
       "subtitles.pergalon_introduction": "",
-      "item.dim_progress.venomite_ingot": "Venomite Ingot",
-      "block.dim_progress.magmactus": "Magmactus",
       "biome.dim_progress.magmatic_desert": "Magmatic Desert",
-      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "block.dim_progress.magmactus": "Magmactus",
       "block.dim_progress.emberseed_planks": "Emberseed Planks",
       "subtitles.pergalon_portal_activate": "",
-      "item_group.dim_progress.dp_building": "DP: Building",
       "item.dim_progress.nether_portal_charge": "Nether Portal Charge",
       "block.dim_progress.magenta_ziolip": "Magenta Ziolip",
-      "block.dim_progress.clotbark_slab": "Clotbark Slab",
+      "biome.dim_progress.runic_rift": "Runic Rift",
       "subtitles.portal_frame_activate": "Runic Portal Activates",
       "block.dim_progress.pyrind_planks": "Pyrind Planks",
-      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
       "block.dim_progress.pyrind_button": "Pyrind Button",
       "block.dim_progress.clotbark_stairs": "Clotbark Stairs",
       "block.dim_progress.emberseed_slab": "Emberseed Slab",
-      "block.dim_progress.heckrock_venomite_ore": "Heckrock Venomite Ore",
       "block.dim_progress.pyrind_log": "Pyrind Log",
       "block.dim_progress.polished_heckrock_tile_stairs": "Polished Heckrock Tile Stairs",
-      "block.dim_progress.emberseed_log": "Emberseed Log",
       "block.dim_progress.crimsoil": "Crimsoil",
       "block.dim_progress.nyctic_sprigs": "Nyctic Sprigs",
-      "item.dim_progress.venomite_axe": "Venomite Axe",
       "item.dim_progress.procedural_dungeon_gen_test": "Procedural Dungeon Gen Test Portal Igniter",
       "item.dim_progress.raw_venomite": "Raw Venomite",
-      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
       "block.dim_progress.pyrind_door": "Pyrind Door",
       "block.dim_progress.pyrind_pressure_plate": "Pyrind Pressure Plate",
+      "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
+      "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
+      "block.dim_progress.dreadstone": "Dreadstone",
+      "subtitles.music.runic_rift": "",
+      "item.dim_progress.venomite_hoe": "Venomite Hoe",
+      "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
+      "biome.dim_progress.bloodred_bog": "Bloodred Bog",
+      "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
+      "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
+      "block.dim_progress.polished_heckrock_bricks": "Polished Heckrock Bricks",
+      "block.dim_progress.emberseed_fence": "Emberseed Fence",
+      "item.dim_progress.runic_gemstone": "Runic Gemstone",
+      "subtitles.entity.magnian.hurt": "Magnian Hurts",
+      "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
+      "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
+      "item.dim_progress.venomite_shovel": "Venomite Shovel",
+      "block.dim_progress.dark_crimson_crimsoil_grass": "Dark Crimson Crimsoil Grass",
+      "block.dim_progress.venomite_block": "Block of Venomite",
+      "block.dim_progress.polished_heckrock_slab": "Polished Heckrock Slab",
+      "block.dim_progress.raw_venomite_block": "Block of Raw Venomite",
+      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
+      "block.dim_progress.firebloom": "Firebloom",
+      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
+      "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
+      "block.dim_progress.runicon_block": "Block of Runicon",
+      "block.dim_progress.felsandstone": "Felsandstone",
+      "subtitles.music.pergalon.portal_activate": "TheRealFlarf - Discomfort",
+      "block.dim_progress.clotbark_leaves": "Clotbark Leaves",
+      "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
+      "block.dim_progress.polished_heckrock_brick_wall": "Polished Heckrock Brick Wall",
+      "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
+      "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
+      "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
+      "block.dim_progress.polished_heckrock_tiles": "Polished Heckrock Tiles",
+      "block.dim_progress.clotbark_fence": "Clotbark Fence",
+      "block.dim_progress.purple_ziolip": "Purple Ziolip",
+      "item.dim_progress.runicon_shard": "Runicon Shard",
+      "block.dim_progress.emberseed_button": "Emberseed Button",
+      "block.dim_progress.crimson_mud": "Crimson Mud",
+      "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
+      "subtitles.entity.magnian.death": "Magnian Dies",
+      "item.dim_progress.tepidbrick": "Tepidbrick",
+      "block.dim_progress.nyctecium": "Nyctecium",
+      "block.dim_progress.clotbark_log": "Clotbark Log",
+      "subtitles.music.intro.pergalon": "",
+      "block.dim_progress.sunlit_silica": "Sunlit Silica",
+      "subtitles.ambience.runic_rift.loop": "",
+      "block.dim_progress.dead_crimson_sprigs": "Dead Crimson Sprigs",
+      "item.dim_progress.venomite_ingot": "Venomite Ingot",
+      "block.dim_progress.cracked_dreadstone_bricks": "Cracked Dreadstone Bricks",
+      "item_group.dim_progress.dp_building": "DP: Building",
+      "block.dim_progress.clotbark_slab": "Clotbark Slab",
+      "block.dim_progress.dreadstone_brick_slab": "Dreadstone Brick Slab",
+      "block.dim_progress.heckrock_venomite_ore": "Heckrock Venomite Ore",
+      "block.dim_progress.emberseed_log": "Emberseed Log",
+      "item.dim_progress.venomite_axe": "Venomite Axe",
+      "biome.dim_progress.sunburst_savanna": "Sunburst Savanna",
+      "subtitles.entity.magnian.idle": "Magnian Breathes",
       "block.dim_progress.polished_heckrock_brick_slab": "Polished Heckrock Brick Slab",
       "block.dim_progress.felsand": "Felsand",
       "block.dim_progress.crimson_sprigs": "Crimson Sprigs",
@@ -3997,78 +8084,43 @@
       "block.dim_progress.heckrock": "Heckrock",
       "block.dim_progress.pyrind_leaves": "Pyrind Leaves",
       "block.dim_progress.pyrind_fence_gate": "Pyrind Fence Gate",
-      "block.dim_progress.grovile_crimsoil_grass": "Grovile Crimsoil Grass",
       "block.dim_progress.emberseed_trapdoor": "Emberseed Trapdoor",
       "block.dim_progress.emberseed_door": "Emberseed Door",
-      "block.dim_progress.emberseed_pressure_plate": "Emberseed Pressure Plate",
-      "block.dim_progress.dreadstone": "Dreadstone",
       "block.dim_progress.emberseed_leaves": "Emberseed Leaves",
-      "item.dim_progress.venomite_hoe": "Venomite Hoe",
       "block.dim_progress.polished_heckrock": "Polished Heckrock",
-      "block.dim_progress.dead_pergalon_sprigs": "Dead Pergalon Sprigs",
-      "biome.dim_progress.bloodred_bog": "Bloodred Bog",
       "biome.dim_progress.nyctophobic_coppice": "Nyctophobic Coppice",
-      "block.dim_progress.cut_felsandstone_brick_stairs": "Cut Felsandstone Brick Stairs",
+      "subtitles.pergalon.portal_activate": "TheRealFlarf - Discomfort",
       "block.dim_progress.dead_crimsoil_grass": "Dead Crimsoil Grass",
       "block.dim_progress.crystal_glass": "Crystal Glass",
-      "block.dim_progress.cut_felsandstone_brick_slab": "Cut Felsandstone Brick Slab",
       "block.dim_progress.clotbark_fence_gate": "Clotbark Fence Gate",
-      "block.dim_progress.polished_heckrock_bricks": "Polished Heckrock Bricks",
-      "block.dim_progress.emberseed_fence": "Emberseed Fence",
-      "item.dim_progress.runic_gemstone": "Runic Gemstone",
-      "block.dim_progress.runic_stone_ring": "Runic Stone Ring",
       "biome.dim_progress.crimson_plains": "Crimson Plains",
-      "block.dim_progress.grovile_sprigs": "Grovile Sprigs",
-      "item.dim_progress.venomite_shovel": "Venomite Shovel",
       "item_group.dim_progress.dp_natural": "DP: Natural",
-      "block.dim_progress.venomite_block": "Block of Venomite",
       "block.dim_progress.runic_stone_portal_core": "Runic Stone Ring",
-      "block.dim_progress.polished_heckrock_slab": "Polished Heckrock Slab",
       "block.dim_progress.molten_clay": "Molten Clay",
       "block.dim_progress.clotbark_door": "Clotbark Door",
+      "subtitles.music.pergalon.generic": "",
       "item.dim_progress.dt_hallway_placement_spawn_egg": "DT Hallway Placement Spawn Egg",
       "block.dim_progress.clotbark_trapdoor": "Clotbark Trapdoor",
-      "block.dim_progress.raw_venomite_block": "Block of Raw Venomite",
-      "biome.dim_progress.emberseed_woodlands": "Emberseed Woodlands",
       "biome.dim_progress.basic": "Basic",
       "block.dim_progress.polished_heckrock_brick_stairs": "Polished Heckrock Brick Stairs",
       "block.dim_progress.sunlit_silica_glass": "Sunlit Silica Glass",
-      "block.dim_progress.firebloom": "Firebloom",
       "block.dim_progress.polished_heckrock_tile_slab": "Polished Heckrock Tile Slab",
-      "item_group.dim_progress.dp_tools": "DP: Tools and Weaponry",
-      "block.dim_progress.deepslate_runicon_ore": "Deepslate Runicon Ore",
-      "block.dim_progress.runicon_block": "Block of Runicon",
-      "block.dim_progress.felsandstone": "Felsandstone",
       "block.dim_progress.pyrind_slab": "Pyrind Slab",
       "block.dim_progress.pyrind_fence": "Pyrind Fence",
-      "block.dim_progress.clotbark_leaves": "Clotbark Leaves",
-      "block.dim_progress.crimson_crimsoil_grass": "Crimson Crimsoil Grass",
       "block.dim_progress.clotbark_planks": "Clotbark Planks",
-      "block.dim_progress.polished_heckrock_brick_wall": "Polished Heckrock Brick Wall",
-      "block.dim_progress.emberseed_fence_gate": "Emberseed Fence Gate",
       "item.dim_progress.pergalon_portal_charge": "Pergalon Portal Charge",
-      "block.dim_progress.pyrind_stairs": "Pyrind Stairs",
-      "block.dim_progress.emberseed_stairs": "Emberseed Stairs",
-      "block.dim_progress.clotbark_fence": "Clotbark Fence",
-      "block.dim_progress.polished_heckrock_tiles": "Polished Heckrock Tiles",
+      "subtitles.runic_rift.music": "",
       "block.dim_progress.dreadstone_venomite_ore": "Dreadstone Venomite Ore",
       "item_group.dim_progress.dp_misc": "DP: Miscellaneous",
-      "block.dim_progress.purple_ziolip": "Purple Ziolip",
-      "item.dim_progress.runicon_shard": "Runicon Shard",
-      "block.dim_progress.emberseed_button": "Emberseed Button",
+      "block.dim_progress.dark_crimson_sprigs": "Dark Crimson Sprigs",
       "block.dim_progress.clotbark_pressure_plate": "Clotbark Pressure Plate",
-      "block.dim_progress.crimson_mud": "Crimson Mud",
       "item.dim_progress.molten_clay_ball": "Molten Clay Ball",
       "block.dim_progress.runic_stone_pillar": "Runic Stone Pillar",
       "block.dim_progress.dreadstone_brick_stairs": "Dreadstone Brick Stairs",
-      "entity.dim_progress.dt_hallway_placement": "DT Hallway Placement",
       "block.dim_progress.pyrind_trapdoor": "Pyrind Trapdoor",
-      "item.dim_progress.tepidbrick": "Tepidbrick",
       "block.dim_progress.sunburst_ziolip": "Sunburst Ziolip",
       "item.dim_progress.worldgen_test": "Worldgen Test Portal Igniter",
-      "block.dim_progress.nyctecium": "Nyctecium",
-      "block.dim_progress.cut_felsandstone": "Cut Felsandstone",
-      "block.dim_progress.clotbark_log": "Clotbark Log"
+      "block.dim_progress.cut_felsandstone": "Cut Felsandstone"
     }
   },
   "foldersRoot": {
@@ -4086,7 +8138,15 @@
             "children": []
           },
           {
+            "name": "Advancements",
+            "children": []
+          },
+          {
             "name": "Multiblocks",
+            "children": []
+          },
+          {
+            "name": "UtilityBlocks",
             "children": []
           }
         ]
@@ -4142,7 +8202,12 @@
           },
           {
             "name": "Overworld",
-            "children": []
+            "children": [
+              {
+                "name": "Interspace",
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -4166,5 +8231,5 @@
     "modElementsPackage": "net.therealflarf.dimprogress",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202300336712
 }

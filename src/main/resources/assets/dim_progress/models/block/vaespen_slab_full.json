@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dim_progress:block/vaespen_planks",
+    "top": "dim_progress:block/vaespen_planks",
+    "side": "dim_progress:block/vaespen_planks"
+  },
+  "render_type": "solid"
+}

@@ -7,6 +7,12 @@
     "blocks": [
       {
         "value": "CUSTOM:RunicStonePillar"
+      },
+      {
+        "value": "CUSTOM:RunicDreadstonePillar"
+      },
+      {
+        "value": "CUSTOM:RunicDeepslatePillar"
       }
     ],
     "functions": [],

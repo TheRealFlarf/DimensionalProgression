@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:EmberseedFence"
+      },
+      {
+        "value": "CUSTOM:PyrindFence"
+      },
+      {
+        "value": "CUSTOM:ClotbarkFence"
+      },
+      {
+        "value": "CUSTOM:VaespenFence"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

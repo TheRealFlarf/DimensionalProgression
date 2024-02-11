@@ -39,17 +39,17 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:pergalon_ambient"
+      "value": "CUSTOM:music.pergalon.generic"
     },
     "moodSound": {
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CRIMSON_SPORE"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.1,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "spawnBiome": false,
@@ -75,7 +75,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 9,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 5,

@@ -1,0 +1,28 @@
+{
+  "feature": "dim_progress:nyctophobic_coppice_nyctocap_placement",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "dim_progress:nyctocap_mushroom"
+        }
+      }
+    }
+  ]
+}

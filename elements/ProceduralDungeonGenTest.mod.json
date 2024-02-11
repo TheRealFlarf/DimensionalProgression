@@ -41,7 +41,7 @@
       "fixedValue": []
     },
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:DPTools"
     },
     "texture": "overworld_portal_charge",
     "portalTexture": "0blank",

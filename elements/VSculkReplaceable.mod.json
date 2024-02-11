@@ -1,0 +1,49 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Dreadstone"
+      },
+      {
+        "value": "CUSTOM:Crimsoil"
+      },
+      {
+        "value": "CUSTOM:CrimsonCrimsoilGrass"
+      },
+      {
+        "value": "CUSTOM:DeadCrimsoilGrass"
+      },
+      {
+        "value": "CUSTOM:Felsand"
+      },
+      {
+        "value": "CUSTOM:Felsandstone"
+      },
+      {
+        "value": "CUSTOM:GrovileCrimsoilGrass"
+      },
+      {
+        "value": "CUSTOM:CrimsonMud"
+      },
+      {
+        "value": "CUSTOM:Heckrock"
+      },
+      {
+        "value": "CUSTOM:MoltenClay"
+      },
+      {
+        "value": "CUSTOM:TaintedDreadstone"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "sculk_replaceable",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "dim_progress:forge_anvil_recipe_type",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    {
+      "item": "dim_progress:deleted_mod_element"
+    },
+    {
+      "item": "dim_progress:deleted_mod_element"
+    },
+    {
+      "item": "dim_progress:deleted_mod_element"
+    },
+    {
+      "item": "dim_progress:deleted_mod_element"
+    }
+  ],
+  "output": {
+    "item": "dim_progress:dreadgem_sword",
+    "count": 1
+  }
+}

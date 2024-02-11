@@ -5,7 +5,7 @@
   "effects": {
     "ambient_sound": "ambient.nether_wastes.loop",
     "music": {
-      "sound": "dim_progress:pergalon_ambient",
+      "sound": "dim_progress:music.pergalon.generic",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": true
@@ -39,9 +39,9 @@
     [],
     [],
     [],
+    [],
     [
-      "dim_progress:crimson_plains_tree"
-    ],
-    []
+      "minecraft:freeze_top_layer"
+    ]
   ]
 }

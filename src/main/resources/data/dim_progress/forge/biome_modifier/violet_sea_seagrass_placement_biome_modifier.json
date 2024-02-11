@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:deleted_mod_element",
+  "features": "dim_progress:violet_sea_seagrass_placement",
+  "step": "surface_structures"
+}

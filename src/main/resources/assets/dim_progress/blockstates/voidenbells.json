@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "dim_progress:block/voidenbells"
+    },
+    "half=lower": {
+      "model": "dim_progress:block/voidenbells_bottom"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "dim_progress:crimson_crimsoil_grass"
+    },
+    "title": {
+      "translate": "advancements.dp_enter_pergalon.title"
+    },
+    "description": {
+      "translate": "advancements.dp_enter_pergalon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dp_enter_pergalon": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dim_progress:pergalon"
+      }
+    }
+  },
+  "parent": "dim_progress:deleted_mod_element"
+}

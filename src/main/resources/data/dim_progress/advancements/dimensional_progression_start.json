@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "dim_progress:textures/screens/riftrock_bricks.png",
+    "icon": {
+      "item": "dim_progress:runic_stone_portal_core"
+    },
+    "title": {
+      "translate": "advancements.dimensional_progression_start.title"
+    },
+    "description": {
+      "translate": "advancements.dimensional_progression_start.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dimensional_progression_start": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

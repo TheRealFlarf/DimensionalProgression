@@ -38,7 +38,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "dim_progress:grovile_crimsoil_grass",
+          "name": "dim_progress:dark_crimson_crimsoil_grass",
           "weight": 1,
           "conditions": [
             {

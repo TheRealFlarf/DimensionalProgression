@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:nyctocap_planks"
+    }
+  },
+  "result": {
+    "item": "dim_progress:deleted_mod_element",
+    "count": 4
+  }
+}

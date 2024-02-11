@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "dim_progress:block/vaespen_planks"
+  },
+  "render_type": "solid"
+}

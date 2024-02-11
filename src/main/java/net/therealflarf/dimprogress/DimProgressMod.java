@@ -19,9 +19,11 @@ import org.apache.logging.log4j.LogManager;
 import net.therealflarf.dimprogress.world.features.StructureFeature;
 import net.therealflarf.dimprogress.init.DimProgressModTabs;
 import net.therealflarf.dimprogress.init.DimProgressModSounds;
+import net.therealflarf.dimprogress.init.DimProgressModMenus;
 import net.therealflarf.dimprogress.init.DimProgressModItems;
 import net.therealflarf.dimprogress.init.DimProgressModEntities;
 import net.therealflarf.dimprogress.init.DimProgressModBlocks;
+import net.therealflarf.dimprogress.init.DimProgressModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -55,7 +57,7 @@ public class DimProgressMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		DimProgressModSounds.REGISTRY.register(bus);
 		DimProgressModBlocks.REGISTRY.register(bus);
-
+		DimProgressModBlockEntities.REGISTRY.register(bus);
 		DimProgressModItems.REGISTRY.register(bus);
 		DimProgressModEntities.REGISTRY.register(bus);
 
@@ -63,6 +65,7 @@ public class DimProgressMod {
 
 		StructureFeature.REGISTRY.register(bus);
 
+		DimProgressModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

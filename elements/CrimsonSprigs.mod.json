@@ -59,7 +59,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": "Blocks.AIR"
     },
@@ -84,6 +84,9 @@
       },
       {
         "value": "CUSTOM:CrimsonCrimsoilGrass"
+      },
+      {
+        "value": "CUSTOM:CrimsonMud"
       }
     ],
     "isBonemealable": false,
@@ -95,6 +98,9 @@
       },
       {
         "value": "CUSTOM:EmberseedWoodlands"
+      },
+      {
+        "value": "CUSTOM:VaespenWoodlands"
       }
     ],
     "generationType": "Grass",

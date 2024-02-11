@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/runic_dreadstone_portal_core",
+    "particle": "dim_progress:block/runic_dreadstone_portal_core"
+  },
+  "render_type": "solid"
+}

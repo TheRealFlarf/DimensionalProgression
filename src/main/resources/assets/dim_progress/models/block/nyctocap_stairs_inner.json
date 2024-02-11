@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dim_progress:block/nyctocap_planks",
+    "top": "dim_progress:block/nyctocap_planks",
+    "side": "dim_progress:block/nyctocap_planks"
+  },
+  "render_type": "solid"
+}

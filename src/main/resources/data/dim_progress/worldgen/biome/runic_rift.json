@@ -1,0 +1,45 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.3,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "dim_progress:ambience.runic_rift.loop",
+    "music": {
+      "sound": "dim_progress:music.runic_rift",
+      "min_delay": 0,
+      "max_delay": 0,
+      "replace_current_music": false
+    },
+    "foliage_color": -15488901,
+    "grass_color": -14893426,
+    "sky_color": -10614109,
+    "fog_color": -10614109,
+    "water_color": -12830105,
+    "water_fog_color": -14212254
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

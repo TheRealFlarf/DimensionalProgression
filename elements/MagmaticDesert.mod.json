@@ -39,15 +39,15 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:pergalon_ambient"
+      "value": "CUSTOM:music.pergalon.generic"
     },
     "moodSound": {
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ASH"
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.0,

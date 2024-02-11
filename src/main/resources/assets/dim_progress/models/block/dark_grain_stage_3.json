@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "dim_progress:block/dark_grain_stage_3",
+    "particle": "dim_progress:block/dark_grain_stage_3"
+  },
+  "render_type": "cutout"
+}

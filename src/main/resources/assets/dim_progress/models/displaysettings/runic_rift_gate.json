@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "runic_rift_gate2",
+		"particle": "runic_rift_gate2"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 0],
+			"to": [8, 32, 16],
+			"faces": {
+				"north": {"uv": [0, 6, 3, 12], "texture": "#0"},
+				"east": {"uv": [7, 6, 9, 12], "texture": "#0"},
+				"south": {"uv": [6, 0, 9, 6], "texture": "#0"},
+				"west": {"uv": [9, 0, 11, 6], "texture": "#0"},
+				"up": {"uv": [12, 12, 9, 10], "texture": "#0"},
+				"down": {"uv": [14, 0, 11, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, -16, 0],
+			"to": [32, 32, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 6], "texture": "#0"},
+				"east": {"uv": [3, 6, 5, 12], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 6], "texture": "#0"},
+				"west": {"uv": [5, 6, 7, 12], "texture": "#0"},
+				"up": {"uv": [12, 8, 9, 6], "texture": "#0"},
+				"down": {"uv": [12, 8, 9, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

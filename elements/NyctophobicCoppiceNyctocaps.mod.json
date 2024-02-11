@@ -1,0 +1,13 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:NyctophobicCoppice"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_tree_simple\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"type\">jungle bush</field><field name=\"base_height\">4</field><field name=\"height_variation_a\">2</field><field name=\"height_variation_b\">0</field><field name=\"force_dirt\">TRUE</field><field name=\"ignore_vines\">TRUE</field><value name=\"dirt\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Crimsoil</field></block></value><value name=\"trunk\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NyctocapStem</field></block></value><value name=\"foliage\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NyctocapCap</field></block></value><value name=\"root_placer\"><block type=\"root_placer_none\"></block></value></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">4</field><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">3</field></block></value><next><block type=\"placement_heightmap\"><field name=\"heightmap\">MOTION_BLOCKING</field><next><block type=\"placement_in_square\"><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:NyctocapMushroom</field></block></value></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

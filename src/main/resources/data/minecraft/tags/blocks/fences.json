@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dim_progress:emberseed_fence",
+    "dim_progress:pyrind_fence",
+    "dim_progress:clotbark_fence"
+  ]
+}

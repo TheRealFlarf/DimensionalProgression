@@ -4,7 +4,17 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RunicDreadstonePortalCore"
+      },
+      {
+        "value": "CUSTOM:RunicDeepslatePortalCore"
+      },
+      {
+        "value": "CUSTOM:RunicStonePortalCore"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],

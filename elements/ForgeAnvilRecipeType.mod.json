@@ -1,0 +1,61 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "forge_anvil_ui.png",
+    "width": 352,
+    "height": 332,
+    "icon": {
+      "value": "CUSTOM:ForgeAnvil"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:ForgeAnvil"
+    },
+    "enableCraftingtable": true,
+    "title": "Forging",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 79,
+        "y": 17,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 79,
+        "y": 53,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 16,
+        "y": 26,
+        "slotid": 2
+      },
+      {
+        "type": "INPUT",
+        "x": 34,
+        "y": 26,
+        "slotid": 3
+      },
+      {
+        "type": "INPUT",
+        "x": 16,
+        "y": 44,
+        "slotid": 4
+      },
+      {
+        "type": "INPUT",
+        "x": 34,
+        "y": 44,
+        "slotid": 5
+      },
+      {
+        "type": "OUTPUT",
+        "x": 133,
+        "y": 35,
+        "slotid": 6
+      }
+    ]
+  }
+}

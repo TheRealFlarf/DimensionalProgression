@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dim_progress:block/runic_dreadstone_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dim_progress:block/runic_dreadstone_pillar"
+    },
+    "axis=z": {
+      "model": "dim_progress:block/runic_dreadstone_pillar",
+      "x": 90
+    }
+  }
+}

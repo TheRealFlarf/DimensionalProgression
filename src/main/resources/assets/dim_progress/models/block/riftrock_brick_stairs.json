@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "dim_progress:block/riftrock_bricks",
+    "top": "dim_progress:block/riftrock_bricks",
+    "side": "dim_progress:block/riftrock_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "dim_progress:displaysettings/runic_rift_gate.item",
+  "textures": {
+    "particle": "dim_progress:block/runic_rift_gate"
+  }
+}

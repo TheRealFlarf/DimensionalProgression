@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:emberseed_woodlands",
+  "features": "dim_progress:emberseed_woodlands_large_emberseeds",
+  "step": "surface_structures"
+}

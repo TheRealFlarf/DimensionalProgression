@@ -1,0 +1,9 @@
+{
+  "parent": "dim_progress:custom/forge_anvil",
+  "textures": {
+    "all": "dim_progress:block/forge_anvil",
+    "particle": "dim_progress:block/forge_anvil",
+    "0": "dim_progress:block/forge_anvil"
+  },
+  "render_type": "cutout"
+}

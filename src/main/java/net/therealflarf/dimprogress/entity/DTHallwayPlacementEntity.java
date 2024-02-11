@@ -1,32 +1,16 @@
 
 package net.therealflarf.dimprogress.entity;
 
-import net.therealflarf.dimprogress.init.DimProgressModEntities;
-
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.ai.navigation.PathNavigation;
-import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
-import net.minecraft.world.entity.ai.control.FlyingMoveControl;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.PathfinderMob;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.nbt.Tag;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
+
+import javax.annotation.Nullable;
 
 public class DTHallwayPlacementEntity extends PathfinderMob {
+
 	public DTHallwayPlacementEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(DimProgressModEntities.DT_HALLWAY_PLACEMENT.get(), world);
 	}
@@ -36,10 +20,14 @@ public class DTHallwayPlacementEntity extends PathfinderMob {
 		setMaxUpStep(0f);
 		xpReward = 1;
 		setNoAi(true);
+
 		setCustomName(Component.literal("Hallway Placer"));
 		setCustomNameVisible(true);
+
 		setPersistenceRequired();
+
 		this.moveControl = new FlyingMoveControl(this, 10, true);
+
 	}
 
 	@Override
@@ -79,6 +67,7 @@ public class DTHallwayPlacementEntity extends PathfinderMob {
 
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
+
 		return false;
 	}
 
@@ -93,10 +82,12 @@ public class DTHallwayPlacementEntity extends PathfinderMob {
 
 	public void aiStep() {
 		super.aiStep();
+
 		this.setNoGravity(true);
 	}
 
 	public static void init() {
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -106,7 +97,10 @@ public class DTHallwayPlacementEntity extends PathfinderMob {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 1);
+
 		builder = builder.add(Attributes.FLYING_SPEED, 0);
+
 		return builder;
 	}
+
 }

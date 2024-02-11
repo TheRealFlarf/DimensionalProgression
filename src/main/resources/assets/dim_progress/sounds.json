@@ -8,14 +8,6 @@
       }
     ]
   },
-  "pergalon_portal_activate": {
-    "sounds": [
-      {
-        "name": "dim_progress:discomfort",
-        "stream": true
-      }
-    ]
-  },
   "pergalon_introduction": {
     "sounds": [
       {
@@ -40,6 +32,114 @@
       },
       {
         "name": "dim_progress:foreign_astronomy",
+        "stream": true
+      }
+    ]
+  },
+  "ambience.runic_rift.loop": {
+    "sounds": [
+      {
+        "name": "dim_progress:runic_rift_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "music.pergalon.generic": {
+    "sounds": [
+      {
+        "name": "dim_progress:underworld",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:lost",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:long_forgotten",
+        "stream": true
+      },
+      {
+        "name": "dim_progress:foreign_astronomy",
+        "stream": true
+      }
+    ]
+  },
+  "music.intro.pergalon": {
+    "sounds": [
+      {
+        "name": "dim_progress:underworld",
+        "stream": true
+      }
+    ]
+  },
+  "entity.magnian.idle": {
+    "subtitle": "subtitles.entity.magnian.idle",
+    "sounds": [
+      {
+        "name": "dim_progress:magnian_idle1",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_idle2",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_idle3",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_idle4",
+        "stream": false
+      }
+    ]
+  },
+  "entity.magnian.hurt": {
+    "subtitle": "subtitles.entity.magnian.hurt",
+    "sounds": [
+      {
+        "name": "dim_progress:magnian_hurt1",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_hurt2",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "music.pergalon.portal_activate": {
+    "subtitle": "subtitles.music.pergalon.portal_activate",
+    "sounds": [
+      {
+        "name": "dim_progress:discomfort",
+        "stream": true
+      }
+    ]
+  },
+  "entity.magnian.death": {
+    "subtitle": "subtitles.entity.magnian.death",
+    "sounds": [
+      {
+        "name": "dim_progress:magnian_death1",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_death2",
+        "stream": false
+      },
+      {
+        "name": "dim_progress:magnian_death3",
+        "stream": false
+      }
+    ]
+  },
+  "music.runic_rift": {
+    "sounds": [
+      {
+        "name": "dim_progress:downward_passage",
         "stream": true
       }
     ]

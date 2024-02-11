@@ -7,6 +7,12 @@
     "blocks": [
       {
         "value": "CUSTOM:RunicStoneRing"
+      },
+      {
+        "value": "CUSTOM:RunicDreadstoneRing"
+      },
+      {
+        "value": "CUSTOM:RunicDeepslateRing"
       }
     ],
     "functions": [],

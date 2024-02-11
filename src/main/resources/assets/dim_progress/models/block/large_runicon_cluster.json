@@ -1,0 +1,9 @@
+{
+  "parent": "dim_progress:custom/large_runicon_cluster",
+  "textures": {
+    "all": "dim_progress:block/large_runicon_crystal",
+    "particle": "dim_progress:block/runicon_block",
+    "0": "dim_progress:block/large_runicon_crystal"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/cobbled_riftrock",
+    "particle": "dim_progress:block/cobbled_riftrock"
+  },
+  "render_type": "solid"
+}

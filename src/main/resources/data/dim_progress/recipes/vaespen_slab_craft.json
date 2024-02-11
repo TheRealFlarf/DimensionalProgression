@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:vaespen_planks"
+    }
+  },
+  "result": {
+    "item": "dim_progress:vaespen_slab",
+    "count": 6
+  }
+}

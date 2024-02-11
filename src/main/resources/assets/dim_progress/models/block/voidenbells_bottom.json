@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dim_progress:block/voidenbells_top",
+    "particle": "dim_progress:block/voidenbells_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dim_progress:dark_crimson_plains",
+  "features": "dim_progress:dark_crimson_plains_teal_ziolip_placement",
+  "step": "surface_structures"
+}

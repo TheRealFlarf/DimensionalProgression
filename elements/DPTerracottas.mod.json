@@ -1,0 +1,67 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Blocks.HARDENED_CLAY"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#0"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#1"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#2"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#3"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#4"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#5"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#6"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#7"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#8"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#9"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#10"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#11"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#12"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#13"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#14"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#15"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "terracottas",
+    "namespace": "mod"
+  }
+}

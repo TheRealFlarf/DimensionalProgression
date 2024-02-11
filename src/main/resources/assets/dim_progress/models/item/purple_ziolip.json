@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dim_progress:block/purple_ziolip"
+    "layer0": "dim_progress:item/purple_ziolip"
   }
 }

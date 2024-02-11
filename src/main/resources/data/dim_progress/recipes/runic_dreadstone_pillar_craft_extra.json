@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "dim_progress:dreadstone"
+    },
+    "b": {
+      "item": "dim_progress:runicon_shard"
+    },
+    "c": {
+      "item": "dim_progress:runic_gemstone"
+    }
+  },
+  "result": {
+    "item": "dim_progress:deleted_mod_element",
+    "count": 16
+  }
+}

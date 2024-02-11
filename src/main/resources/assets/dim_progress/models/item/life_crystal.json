@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dim_progress:item/life_crystal_1"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "dim_progress:life_crystal_vitality": 0
+      },
+      "model": "dim_progress:item/life_crystal_0"
+    },
+    {
+      "predicate": {
+        "dim_progress:life_crystal_vitality": 2
+      },
+      "model": "dim_progress:item/life_crystal_1"
+    },
+    {
+      "predicate": {
+        "dim_progress:life_crystal_vitality": 4
+      },
+      "model": "dim_progress:item/life_crystal_2"
+    },
+    {
+      "predicate": {
+        "dim_progress:life_crystal_vitality": 6
+      },
+      "model": "dim_progress:item/life_crystal_3"
+    },
+    {
+      "predicate": {
+        "dim_progress:life_crystal_vitality": 8
+      },
+      "model": "dim_progress:item/life_crystal_4"
+    }
+  ]
+}

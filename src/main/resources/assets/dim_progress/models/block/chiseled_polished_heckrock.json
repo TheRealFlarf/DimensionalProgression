@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dim_progress:block/chiseled_polished_heckrock",
+    "particle": "dim_progress:block/chiseled_polished_heckrock"
+  },
+  "render_type": "solid"
+}

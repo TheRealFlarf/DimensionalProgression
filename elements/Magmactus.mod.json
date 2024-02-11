@@ -101,6 +101,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
+    "placingCondition": {
+      "name": "MagmactusBlockValidPlacementCondition"
+    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -119,6 +122,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "MagmactusUpdateTick"
+    },
     "onEntityCollides": {
       "name": "MagmactusEntityCollidesInTheBlock"
     },

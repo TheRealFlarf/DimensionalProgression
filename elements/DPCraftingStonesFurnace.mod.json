@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      },
+      {
+        "value": "TAG:dim_progress:dp_crafting_stones"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FURNACE"
+    },
+    "name": "dp_crafting_stones_furnace",
+    "namespace": "mod"
+  }
+}

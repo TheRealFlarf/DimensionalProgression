@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "DP: Utilities",
+    "icon": {
+      "value": "CUSTOM:RunicDeepslatePortalCore"
+    },
+    "showSearch": false
+  }
+}

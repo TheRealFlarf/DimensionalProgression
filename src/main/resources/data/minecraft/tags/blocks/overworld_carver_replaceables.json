@@ -7,6 +7,7 @@
     "dim_progress:grovile_crimsoil_grass",
     "dim_progress:felsand",
     "dim_progress:dead_crimsoil_grass",
-    "minecraft:stone"
+    "minecraft:stone",
+    "minecraft:air"
   ]
 }

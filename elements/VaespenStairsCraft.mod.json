@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:VaespenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VaespenPlanks"
+      },
+      {
+        "value": "CUSTOM:VaespenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VaespenPlanks"
+      },
+      {
+        "value": "CUSTOM:VaespenPlanks"
+      },
+      {
+        "value": "CUSTOM:VaespenPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VaespenStairs"
+    },
+    "name": "vaespen_stairs_craft",
+    "namespace": "mod"
+  }
+}

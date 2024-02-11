@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dim_progress:block/forge_anvil"
+    },
+    "facing=east": {
+      "model": "dim_progress:block/forge_anvil",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dim_progress:block/forge_anvil",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dim_progress:block/forge_anvil",
+      "y": 270
+    }
+  }
+}

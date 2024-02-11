@@ -3,7 +3,8 @@
   "biomes": [
     "dim_progress:bloodred_bog",
     "dim_progress:emberseed_woodlands",
-    "dim_progress:nyctophobic_coppice"
+    "dim_progress:nyctophobic_coppice",
+    "dim_progress:crimson_plains"
   ],
   "features": "dim_progress:pergalon_venomite_ore_vein_small",
   "step": "underground_structures"
