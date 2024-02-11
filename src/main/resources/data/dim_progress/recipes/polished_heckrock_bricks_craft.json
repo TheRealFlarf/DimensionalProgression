@@ -2,20 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "dim_progress:polished_heckrock"
-    },
-    "1": {
-      "item": "dim_progress:polished_heckrock"
-    },
-    "2": {
-      "item": "dim_progress:polished_heckrock"
-    },
-    "3": {
+    "a": {
       "item": "dim_progress:polished_heckrock"
     }
   },

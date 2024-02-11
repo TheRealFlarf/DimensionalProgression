@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:bloodred_bog_mud_patch",
+  "type": "minecraft:scattered_ore",
   "config": {
     "size": 64,
     "discard_chance_on_air_exposure": 0,

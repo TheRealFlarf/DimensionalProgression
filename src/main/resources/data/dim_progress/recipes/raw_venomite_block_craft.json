@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "1": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "2": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "3": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "4": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "5": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "6": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "7": {
-      "item": "dim_progress:raw_venomite"
-    },
-    "8": {
+    "a": {
       "item": "dim_progress:raw_venomite"
     }
   },

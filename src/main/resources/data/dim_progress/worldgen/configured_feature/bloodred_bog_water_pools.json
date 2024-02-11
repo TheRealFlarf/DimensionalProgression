@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:bloodred_bog_water_pools",
+  "type": "minecraft:delta_feature",
   "config": {
     "contents": {
       "Name": "minecraft:water",

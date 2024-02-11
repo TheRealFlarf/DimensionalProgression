@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:firebloom",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 38,
     "feature": {

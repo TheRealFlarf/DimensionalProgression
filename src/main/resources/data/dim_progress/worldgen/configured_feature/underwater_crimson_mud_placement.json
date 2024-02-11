@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:underwater_crimson_mud_placement",
+  "type": "minecraft:ore",
   "config": {
     "size": 63,
     "discard_chance_on_air_exposure": 0,

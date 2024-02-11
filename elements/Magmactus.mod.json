@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "magmactus",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Magmactus",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.6,
     "resistance": 1.0,
     "hasGravity": false,
@@ -123,7 +125,7 @@
     "onEntityWalksOn": {
       "name": "MagmactusEntityCollidesInTheBlock"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

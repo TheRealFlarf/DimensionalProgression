@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dim_progress:heckrock",
-    "dim_progress:dreadstone"
+    "dim_progress:dreadstone",
+    "dim_progress:heckrock"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:magmatic_desert_magma_patch",
+  "type": "minecraft:scattered_ore",
   "config": {
     "size": 27,
     "discard_chance_on_air_exposure": 0,

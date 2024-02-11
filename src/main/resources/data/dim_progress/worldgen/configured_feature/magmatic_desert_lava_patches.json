@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:magmatic_desert_lava_patches",
+  "type": "minecraft:delta_feature",
   "config": {
     "contents": {
       "Name": "minecraft:lava",

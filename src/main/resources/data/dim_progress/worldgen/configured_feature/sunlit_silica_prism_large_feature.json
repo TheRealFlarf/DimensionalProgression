@@ -1,0 +1,14 @@
+{
+  "type": "dim_progress:structure_feature",
+  "config": {
+    "structure": "dim_progress:sunlit_silica_prism_large",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

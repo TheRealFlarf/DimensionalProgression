@@ -1,8 +1,13 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "dim_progress:crimson_plains",
+    "dim_progress:bloodred_bog",
+    "dim_progress:emberseed_woodlands",
+    "dim_progress:magmatic_desert",
+    "dim_progress:nyctophobic_coppice",
+    "dim_progress:sunburst_savanna"
+  ],
   "features": "dim_progress:molten_clay_river_patches",
   "step": "surface_structures"
 }

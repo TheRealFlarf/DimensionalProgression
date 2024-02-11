@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:pergalon_negative_heckrock_placement",
+  "type": "minecraft:ore",
   "config": {
     "size": 63,
     "discard_chance_on_air_exposure": 0,

@@ -2,34 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "012",
-    "3 5",
-    "678"
+    "aba",
+    "b b",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "dim_progress:runicon_shard"
     },
-    "1": {
+    "b": {
       "item": "minecraft:stone"
-    },
-    "2": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "3": {
-      "item": "minecraft:stone"
-    },
-    "5": {
-      "item": "minecraft:stone"
-    },
-    "6": {
-      "item": "dim_progress:runicon_shard"
-    },
-    "7": {
-      "item": "minecraft:stone"
-    },
-    "8": {
-      "item": "dim_progress:runicon_shard"
     }
   },
   "result": {

@@ -1,5 +1,5 @@
 {
-  "type": "dim_progress:magmatic_desert_fire_patch",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 69,
     "feature": {

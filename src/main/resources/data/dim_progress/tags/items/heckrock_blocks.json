@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "dim_progress:heckrock",
-    "dim_progress:polished_heckrock_tiles",
     "dim_progress:polished_heckrock",
-    "dim_progress:polished_heckrock_bricks"
+    "dim_progress:polished_heckrock_bricks",
+    "dim_progress:polished_heckrock_tiles"
   ]
 }
